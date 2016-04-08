@@ -1,0 +1,50 @@
+/* If using Panels enable this in the info file */
+.panel-pane {}
+.pane-inner {}
+.pane-title {}
+.pane-content {}
+.panel-pane .feed {}
+.panel-pane .links {}
+.panel-pane .more-link {}
+
+/* space between articles for views ----------- */
+.views-row-x{
+	margin-bottom:15px;
+}
+.views-slideshow-cycle-main-frame-row-item{margin-bottom:0px;}
+
+.view-list-of-locations .views-row{
+	margin-bottom:0px;
+}
+
+/* width of four column panels default 960 ----------- */
+.four-column{
+    width:25%;
+}
+
+
+/* less than 480 ----------- */
+@media only screen
+and (max-width : 480px) {
+.four-column{
+    width:99.9%;
+}
+}
+
+/* 640 to 481 ----------- */
+@media only screen
+and (min-width : 481px) 
+and (max-width : 640px) {
+.four-column{
+    width:49.9%;
+}
+}
+
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 961px) {
+.four-column{
+    width:25%;
+}
+}

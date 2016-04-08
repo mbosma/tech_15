@@ -1,0 +1,683 @@
+/* html elements */
+
+html {
+	font-size: 1em;
+}
+body {
+	font-family: 'Open Sans', arial, "DejaVu Sans", sans-serif;
+	line-height: 1.3;
+	color:#444;
+	font-style: normal; 
+	font-weight: normal;  
+}
+
+h1 {
+  color:#555;
+  font-weight:100;
+  font-size: 2.2rem;
+  padding-top:20px;
+  padding-bottom:15px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover  {
+  text-decoration:none;
+}
+
+/*.section-profile h1 {
+  padding-bottom:0px;
+}*/
+
+h2 {
+	color:#555;
+	font-size: 1.6rem;
+	line-height:1.0;
+	font-weight: 400;
+	padding-top:15px;
+	padding-bottom:10px;
+}
+.sidebar h2 {
+	font-size: 1.4rem;
+	font-weight: 600;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+h3 {
+	font-size: 1.4rem;
+	font-weight: 600;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+h4 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+h5 {
+	font-size: 1rem;
+	font-weight: 800;
+	padding-top:10px;
+	padding-bottom:5px;
+	font-style:italic;
+}
+h6 {
+	font-size: 1rem;
+	font-weight: 800;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.page-title {
+  color:#555;
+  font-weight:100;
+  font-size:2rem;
+  padding-bottom:15px;
+  text-transform:none !important;
+  line-height:1.3em;
+}
+
+.page-title a:hover {
+  text-decoration: none !important;
+}
+
+h2, h3, h6, .menu-block-6 li.active-trail, .view-list-of-degrees-on-degree-page .views-field-field-degree-instance-for-image-, .uppercase-font {/*text-transform:uppercase !important;*/}
+
+a img {
+  border: none;
+}
+img {
+  max-width: 100%; /* flexible images - can cause issues in table cells where no width is set on the column, only in webkit and IE 7/8 */
+  height: auto;
+}
+
+/* Image Padding */
+
+.field-item img {
+	padding: 0px 10px 10px 10px;
+	text-align:right;
+}
+
+/* degree page list of degrees ||| for content icon images */
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .field-name-field-location-offering-icon img,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .field-name-field-location-offering-icon img,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .field-name-field-location-offering-icon img,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .field-name-field-location-offering-icon img  {float:left; margin:0px; padding:0px 1px 0px 1px;}
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .views-field-field-degree-instance-for-image- h3,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .views-field-field-degree-instance-for-image- h3,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .views-field-field-degree-instance-for-image- h3,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .views-field-field-degree-instance-for-image- h3,
+.view-list-of-degrees-on-degree-page.view-display-id-block_22 .views-field-field-degree-instance-for-image- h3  {padding-top:0px;}
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .views-field-field-degree-instance-for-image- a visited,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .views-field-field-degree-instance-for-image- a visited,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .views-field-field-degree-instance-for-image- a visited,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .views-field-field-degree-instance-for-image- a visited{color:#fff;}
+
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .views-field-field-degree-instance-for-image- a link,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .views-field-field-degree-instance-for-image- a link,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .views-field-field-degree-instance-for-image- a link,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .views-field-field-degree-instance-for-image- a link{color:#fff;}
+
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .views-field-field-degree-instance-for-image- a,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .views-field-field-degree-instance-for-image- a,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .views-field-field-degree-instance-for-image- a,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .views-field-field-degree-instance-for-image- a{color:#fff;}
+
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .field-content,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .field-content,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .field-content,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .field-content {/*color:#fff;*/}
+
+p {
+  margin: 0 0 0.5em;
+  padding: 0;
+}
+
+.tright {
+	text-align:right;
+}
+.tcenter {
+	text-align:center;
+}
+
+
+em,
+dfn {
+  font-style: italic;
+}
+ins {
+  border-bottom: none;
+  text-decoration: none;
+}
+pre,
+code,
+tt,
+samp,
+kbd,
+var {
+  font-size: 1em;
+  font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif; /* sans-serif Safari hack */
+}
+blockquote {
+  font-style: italic;
+}
+q { 
+    display: inline;
+}
+
+q:before { 
+  content: "\201C";
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em; 
+}
+
+q:after { 
+    content: close-quote;
+}
+blockquote {
+  margin: 0 0 1.5em;
+  padding: 0 0 0 3em;
+}
+blockquote:before,
+blockquote:after{
+  content: "";
+}
+blockquote p {
+  margin: 0;
+}
+strong,
+dfn,
+caption,
+th {
+  font-weight: 700;
+}
+
+/* Lists */
+
+ul,
+ol {
+  margin: 0 0 10px;
+  padding: 0;
+}
+.block-content  ul li , .field-items ul li {
+	margin-left:20px;
+}
+
+.CSS1Compact ul {
+  margin: 0 0  40px;
+  padding: 20px;
+}
+
+
+.item-list ul,
+.item-list ol {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+.item-list ul li {
+  margin: 0;
+  padding: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul,
+.block ul ul,
+.block ul ol,
+.block ol ol,
+.block ol ul,
+.item-list ul ul,
+.item-list ul ol,
+.item-list ol ol,
+.item-list ol ul {
+  margin-bottom: 0;
+}
+ul {
+  list-style-type: disc;
+}
+ul ul ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: decimal;
+}
+ol ol {
+  list-style-type: lower-alpha;
+}
+ol ol ol {
+  list-style-type: lower-roman;
+}
+ul ul,
+ul ul ul ul {
+  list-style-type: circle;
+}
+dt {
+  font-weight: 700;
+}
+dd {
+  margin: 0 0 1.5em 40px;
+}
+
+
+/* Fancy ol lists */
+
+ol{
+	counter-reset: li; /* Initiate a counter */
+	list-style: none; /* Remove default numbering */
+	*list-style: decimal; /* Keep using default numbering for IE6/7 */
+	padding: 0;
+	margin-bottom: 2em;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol{
+	margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+ol li{
+	position: relative;
+	display: block;
+	padding: .4em .4em .4em .8em;
+	*padding: .4em;
+	margin: .5em 0 .5em 2.5em;
+	background: #EEE;
+	color: #444;
+	text-decoration: none;
+	transition: all .3s ease-out;	
+}
+
+
+ol li:before{
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;	
+	left: -2.5em;
+	top: 50%;
+	margin-top: -1em;
+	background: #F4D073;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+ol li:after{
+	position: absolute;	
+	content: '';
+	border: .5em solid transparent;
+	left: -1em;
+	top: 50%;
+	margin-top: -.5em;
+	transition: all .3s ease-out;				
+}
+
+ol li:hover:after{
+	left: -.5em;
+	border-left-color: #F4D073;				
+}	
+
+
+
+/* Header summary text fix */
+#block-views-site-section-title-block-1 p {
+	color:#FFF;
+}
+
+div.views-slideshow-cycle-main-frame-row-item div.views-field-title span a:link {
+	color:#FFF;
+}
+
+div.views-slideshow-cycle-main-frame-row-item div.views-field-title span a:visited {
+	color:#FFF;
+}
+
+/* degree main image padding fix *** UPDATED 7-19-12 *** */
+.region #block-system-main .block-inner .block-content .field .field-items .field-item img {
+	float:left;
+	padding-left:0px;
+	margin-left:0px;
+}
+
+/* Quicktabs background color on degree pages *** UPDATED 7-19-12 *** */
+#quicktabs-container-degree_option_page_quick_tabs {
+	background-color:#f5f5f5;
+	padding-top:5px;
+	padding-bottom:5px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;	
+	border-bottom: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+
+/* Small Text *** UPDATED 10-2-12 *** */
+div .view-degree-potential-job-titles-view th, 
+div .view-degree-potential-job-titles-view .view-footer, 
+#block-views-related-degrees-er-block .views-field-title, 
+#block-views-related-degrees-er-block-1 .views-field-title,
+#block-views-related-degrees-er-block-2 .views-field-title,
+.view-degree-accreditation,
+.view-department-affiliation-er.view-header {
+	font-size:.6rem;
+}
+
+/* format numbered list in sidebar *** UPDATED 8-6-12 *** */
+.region-sidebar-second ol {
+	padding-left:20px;
+}
+
+.region-sidebar-second ol li {
+	padding-bottom:10px;
+}
+
+
+
+/* Selective, Elective, and Course page formatting */
+.page-type-course-selective-group .field-name-field-course-title,
+.page-type-course-elective-group .field-name-field-course-title,
+.page-type-course .field-name-field-course-title {
+	font-size:1.4em;
+	padding-bottom:5px;
+}
+
+.page-type-course-selective-group .field-label,
+.page-type-course-elective-group .field-label,
+.page-type-course .field-label {
+	font-size:1.1em;
+}
+
+
+/* User Profile page formatting */
+.section-profile .views-field-picture {
+	float:right;
+}
+	/* wraps contact info around profile picture */
+.section-profile #block-views-user-profile-block .attachment-after {
+	max-width:440px;
+	padding-bottom:10px;
+}
+	/* padding between research projects */
+.region-sidebar-second .view-id-user_profile .views-row {
+	padding-bottom:3px;
+}
+
+	/* Small text on profile page sidebar */
+.section-profile .region-sidebar-second .field-content {
+	font-size:.82em;
+}
+
+.section-profile .region-sidebar-second #block-views-user-profile-block-6 .field-content {
+	padding:0 0 2px 0;
+}
+
+#block-views-user-profile-block-6 h2 {
+	padding-bottom:2px;	
+}
+
+	/* space between blocks on profile page sidebar */
+.section-profile .region-sidebar-second .block-content {
+	padding-bottom:10px;
+	line-height:1.1;
+}
+
+
+/* BOTCH user faculty multiple user values (hide location and courses) */
+.page-type-facility .attachment td {
+	font-size:0px;
+	padding-bottom:-5px !important;
+}
+
+.page-type-facility .attachment .views-row-first td {
+	font-size:1em;	
+}
+
+.page-type-facility .attachment tr {
+	background:none;
+}
+
+.page-type-facility .attachment .views-field-field-faculty-contact {
+	font-size:1em;
+}
+
+.region-sidebar-second #block-views-research-projects-block-5 h2 {
+	font-size:36px;
+}
+
+/* YTD awarded on research/research-grants page */
+.region-sidebar-second #block-views-research-projects-block-5 span {
+	padding-top:0px;
+	margin-top:0px;
+}
+
+
+.view-pos-view-of-courses table .views-field-field-sem-1-course,
+.view-pos-view-of-courses table .views-field-field-semester-2-courses,
+.view-pos-view-of-courses table .views-field-field-semester-3-courses {
+	float:left;
+	width:24%;
+}
+
+.view-pos-view-of-courses table .views-field-field-sem-4-courses {
+	float:left;
+	clear:right;
+	width:24%;
+}
+
+.view-pos-view-of-courses table .views-field-field-semester-5-courses {
+	float:left;
+	clear:left;
+	width:24%;
+}
+
+.view-pos-view-of-courses table .views-field-field-semester-6-courses,
+.view-pos-view-of-courses table .views-field-field-semester-7-courses {
+	float:left;
+	width:24%;
+}
+
+.view-pos-view-of-courses table .views-field-field-semester-8-courses {
+	float:left;
+	width:24%;
+}
+
+/* Styling User Profile page
+.block-quicktabs {
+	padding-top:20px;	
+}*/
+
+#block-quicktabs-user-profile-cv-tabs .quicktabs-tabpage ul {
+	padding-left:20px;	
+}
+
+.block-quicktabs .quicktabs-tabpage .views-field-field-degree-study-abroad ul,
+.block-quicktabs .quicktabs-tabpage .views-field-field-degree-specializations1,
+.block-quicktabs .quicktabs-tabpage .views-field-field-degree-fees ul{
+	padding-left:20px;	
+}
+
+.sidebar-box ul, .view-id-right_sidebar_content_field_display ul {
+	padding-left:20px;
+}
+
+/* Make degree header images always 100% */
+
+.page-type-degree-option #content .field-type-image img {
+	min-width:100%;
+}
+
+
+/* Styling for Search Results pages */
+
+body.section-search .search-result {
+	clear:both;
+	margin-bottom:50px;
+}
+body.section-search ol li {
+	background:none;
+	list-style: none;
+	position:inherit;
+	margin:0;
+	padding:0;
+}
+
+body.section-search ol li:before, 
+body.section-search ol li:after {
+	display:none;
+}
+
+body.section-search .search-snippet-info {
+	padding:0;
+}
+body.section-search .search-result .profile {
+	margin:0;
+}
+body.section-search .search-result .title {
+	font-size:1.5em;
+}
+body.section-search .search-result .profile .field-name-field-position {
+	font-style:italic;
+	margin-top:-10px; 
+	margin-bottom: 10px;
+}
+body.section-search .search-result .profile .user-picture {
+	max-width:100px;
+	float:right;
+	clear:both;
+	margin:0;
+	margin-left:10px;
+	margin-top:-26px;
+}
+
+
+/*
+*
+*
+Colorful Boxes
+*
+*
+*/
+.colorful-box {
+	min-height:56px;
+	position:relative;
+}
+.colorful-box h4 {
+	position:absolute;
+	margin-bottom:0px;
+	bottom:0px;
+	left:6px;
+	color:#fff;
+}
+.box-light-green {
+	background-color:#b8b308;
+	border-bottom:12px solid #c6c239;
+}
+.box-dark-green {
+	background-color:#5c8727;
+	border-bottom:12px solid #7d9f52;
+}
+.box-grey {
+	background-color:#746c66;
+	border-bottom:12px solid #908985;
+}
+.box-light-grey {
+	background-color:#BAA892;
+	border-bottom:12px solid #dfdad4;
+}
+.box-old-gold {
+	background-color:#a3792c;
+	border-bottom:12px solid #b59456;
+}
+.box-blue {
+	background-color:#245083;
+	border-bottom:12px solid #7299C6;
+}
+.box-orange {
+	background-color:#C76C14;
+	border-bottom:12px solid #FF9B1A;
+}
+.box-teal {
+	background-color:#2EAFA4;
+	border-bottom:12px solid #8cdfd8;
+}
+.box-dark-orange {
+	background-color:#B95915;
+	border-bottom:12px solid #e8b082;
+}
+
+
+/*
+*
+*
+Button Boxes
+*
+*
+*/
+
+.button {
+	padding:12px;
+}
+.button h3 {
+	margin:0;
+	color:#333;
+	padding:0;
+}
+.explore a:hover{
+	text-decoration:none;
+}
+
+.button.light-gray {
+	background-color:#e5e5e5;
+}
+.button.light-gray:hover {
+	background-color:#dddddd;
+}
+
+/*Info Hover Information*/
+a.info {
+	position:relative;
+	z-index:24;
+	text-decoration:none
+}
+a.info:hover, a.info:focus, a.info:active {
+	z-index:25;
+}
+a.info span {
+	position: absolute;
+	left: -9000px;
+	width: 0;
+	overflow: hidden;
+}
+a.info:hover span, a.info:focus span, a.info:active span {
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  width: 160px;
+  border: 1px solid #cccccc;
+  background-color: #eeeeee;
+  color: #a3792c;
+  text-align: center;
+  padding: 3px;
+  margin-left: 10px;
+  font-size: .8rem;
+}
+
+
+#content .article-type-course h2 {
+	margin-top:0px;
+}

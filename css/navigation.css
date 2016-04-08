@@ -1,0 +1,665 @@
+/* CSS for major navigation elements such as menus, pager, superfish etc */
+
+a {text-decoration: none;}
+a:link    {color:#a3792c;}
+a:visited {color:#a3792c;}
+a:hover   {text-decoration:underline;}
+a:active  {}
+a.active  {}
+#content a:link    {color:#a3792c;}
+#content a:visited {color:#a3792c;}
+
+/**.field-items ul li {
+	margin-left:20px;
+	
+}**/
+
+h6 a{color:#fff;}
+h6 a:visited{color:#fff;}
+
+/* Global focus style for links. */
+a:active,
+a:focus {}
+
+
+/**
+ * Primary, Seondary and Menu bar menus, use one of the following id's for granular control:
+ * #menu-bar
+ * #primary-menu-bar
+ * #secondary-menu-bar
+ */
+ .region-leaderboardtopmenu{
+     padding:5px 0px 10px 0px;
+	 font-size:.9em;
+ }
+
+.region-leaderboardtopmenu a:visited,
+.region-leaderboardtopmenu a:link,
+.region-leaderboardbottommenu a:visited,
+.region-leaderboardbottommenu a:link{
+    color:#dddddd;
+}
+
+.region-global-menu-bar a:visited,
+.region-global-menu-bar a:link,
+.region-global-menu-bar {
+    color:#f9f9f9;
+}
+.region-global-menu-bar #superfish-4 a:visited,
+.region-global-menu-bar #superfish-4 a:link,
+.region-global-menu-bar #superfish-4 a {
+    color:#333333;
+}
+.region-global-menu-bar #superfish-4 a:hover{
+    color:#e3ae24;
+}
+
+
+.region-leaderboardtopmenu a:hover{
+    a:hover   {text-decoration:underline;}    
+}
+
+
+/*-------------------------------------------------------
+The following lines target the header block text 
+This is for the menu block used for path/titles
+-------------------------------------------------------*/
+/*1st path component (Category Heading)*/
+#block-menu-block-6 h2.block-title { font-size: 1em; line-height:1em; color:#666; padding-top:10px}
+body.page-node-6845 #block-menu-block-6 h2.block-title,
+body.page-node-6846 #block-menu-block-6 h2.block-title,
+body.page-node-6847 #block-menu-block-6 h2.block-title {
+	padding-top:70px
+}
+
+#block-menu-block-6 h2.block-title a { color:#666;}
+#block-menu-block-6 h2.block-title a:link { color:#666;}
+#block-menu-block-6 h2.block-title a:visited { color:#666;}
+/*2st path component (Main Section Heading)
+Limits display to ONLY the active menu trail item */
+.menu-block-6 li.leaf {display:none;}
+.menu-block-6 ul.menu li {margin:0px; padding:0px;}
+.menu-block-6 ul {margin:0px; padding:0px;}
+.menu-block-6 li.active-trail {display:block;}
+.menu-block-6 li.active-trail { font-size: 2.3em; line-height:1em; color:#E3AE24; padding-bottom:5px;}
+.menu-block-6 li.active-trail  a { color:#E3AE24;}
+.menu-block-6 li.active-trail  a:link { color:#E3AE24;}
+.menu-block-6 li.active-trail  a:visited { color:#E3AE24;}
+
+
+
+
+
+
+
+/* sub-site navigation wrapper  */
+#nav-wrapper{
+	background-color:#FFF;
+	border-bottom: 1px solid #eee;
+	height:36px;
+}
+
+#block-menu-block-2, #block-menu-block-3{
+	padding-top:3px;	
+}
+
+.nav nav {
+  margin: 0 10px;
+}
+.nav {
+  clear:both;
+  margin: 0;
+}
+.nav ul.menu {
+  margin: 0;
+}
+.nav li,
+.nav .menu li {
+  display: inline;
+  float: left;
+  list-style: none;
+}
+
+
+/* Menu bar block */
+.nav .block {
+  margin-bottom: 0;
+}
+
+/* Menus */
+
+/* Horizonal Menu styles */
+
+nav ul.menu li {
+  line-height:180%;
+}
+
+nav ul.menu li.leaf {
+  margin-right: 15px;
+  line-height:180%;
+}
+
+#footer-wrapper .menu li a:hover {
+  	line-height:180%;	
+}
+
+#footer-wrapper nav ul.menu li a:hover {
+	border-bottom:none !important;
+}
+
+#footer-wrapper .view-calendar a:hover, #footer-wrapper .view-article-feed-for-panel-pages a:hover {
+}
+
+nav ul.menu li.first {
+	margin-right: 20px;
+}
+
+.block .menu li.content {
+  padding: 0; /* this class can be a problem in some occurances, so mitigate risk */
+}
+
+/* Breadcrumbs - AT7 builds brumbcrumb trails as an ordered list. */
+#breadcrumb {
+  padding-bottom: 1em;
+}
+#breadcrumb ol {
+  margin: 0;
+  padding: 0;
+}
+#breadcrumb li {
+  list-style: none;
+  display: inline;
+}
+#breadcrumb a {}
+#breadcrumb a:link {}
+#breadcrumb a:visited {}
+#breadcrumb a:hover {}
+#breadcrumb a:focus {}
+#breadcrumb a:active {}
+
+/* Pager 
+ul.pager {
+  clear: both;
+  margin: 0;
+  text-align: center;
+}
+.item-list ul.pager li {
+  margin: 0;
+}
+ul.pager li {
+  background-image: none;
+  display: inline;
+  list-style-type: none;
+  padding: .5em;
+}
+ul.pager li.pager-current {
+  font-weight: 700;
+}
+.block ul.pager li {
+  margin: 0;
+}
+*/
+/* Theme the various states of pager links. */
+ul.pager li a:link    {}
+ul.pager li a:visited {}
+ul.pager li a:hover   {}
+
+/* Note: .pager-current is for the current page. */
+ul.pager li.pager-item     {}
+ul.pager li.first          {}
+ul.pager li.last           {}
+ul.pager li.pager-current  {}
+ul.pager li.pager-first    {}
+ul.pager li.pager-previous {}
+ul.pager li.pager-next     {}
+ul.pager li.pager-last     {}
+
+/*
+.pager li {
+  float:left;
+  padding: 0 14px !important;
+  min-height:34px !important;
+  height:34px !important;
+  line-height: 34px !important;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-left-width: 0;	
+  
+}
+
+.pager li:first-child {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+.pager li:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+pager li:hover {
+  color: #f5f5f5;
+  text-decoration: underline;
+}
+
+
+ */
+
+
+
+
+.item-list a {
+  color: #f17644;
+  text-decoration: none;
+}
+.item-lista:hover {
+  color: #f17644;
+  text-decoration: underline;
+}
+
+.item-list .pager ul {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  margin-left: 0;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.item-list .pager li {
+  display: inline;
+}
+
+.item-list .pager .pager-ellipsis {
+  display: none;
+}
+
+.item-list .pager a {
+  float: left;
+  padding: 0 12px;
+  line-height: 30px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-left-width: 0;
+}
+
+.item-list .pager-current {
+  float: left;
+  padding: 0 12px;
+  line-height: 30px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-left-width: 0;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+  padding-left:12px !important;
+  padding-right:12px !important;
+
+}
+
+.item-list .pager a:hover,
+.item-list .pager-current {
+  background-color: #f5f5f5;
+}
+}
+.item-list .pager .disabled span,
+.item-list .pager .disabled a,
+.item-list .pager .disabled a:hover {
+  color: #999999;
+  background-color: transparent;
+  cursor: default;
+}
+.item-list .pager li:first-child {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+.item-list .pager li:first-child a {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.item-list .pager li:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.item-list .pager li:last-child a {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+
+
+
+/* Superfish Skins */
+ul.sf-menu.sf-horizontal li a {
+	margin:5px 0px;
+}
+
+ul.sf-menu.sf-horizontal {
+  margin-top:4px;
+}
+
+ul.sf-menu li {
+	margin-right:5px;
+	margin-left:5px;
+}
+ul.sf-menu.sf-horizontal li{
+  margin-left:0px;
+  margin-right:20px;
+}
+
+
+ul.sf-menu li ul {
+  display: none; /* Prevent momentary display of sub menus */
+  padding:5px !important;
+  background:#FFF;
+  border-top:none;
+  border-left:2px solid #eee;
+  border-right:3px solid #eee;
+  border-bottom:3px solid #eee;
+  margin-top:-7px;
+  width:auto !important;
+}
+ul.sf-menu a {
+  padding:0;
+  text-decoration: none;
+}
+/*global hamburger superfish menu*/
+#global-menu-bar #superfish-4 #menu-230-4 ul {
+right:0;
+top:42px;
+width:200px !important;
+}
+
+/* Experimental Superfish multicolumn styling 
+
+ul.sf-menu li ul {
+	width:600px;
+	background-color:#596;
+}
+*/
+
+
+ul.sf-menu a:link,
+ul.sf-menu a:visited  {}
+
+ul.sf-menu li:hover,
+ul.sf-menu li.sfHover,
+ul.sf-menu a:focus,
+ul.sf-menu a:hover,
+ul.sf-menu a:active {
+  outline: 0;
+  color:#E3AE24;
+}
+
+/* Superfish blocks */
+.block-superfish .block-inner,
+.block-superfish .block-inner .content {
+  /*padding: 0;*/
+  margin: 0;
+}
+.block-superfish ul,
+.block-superfish ul ul,
+.block-superfish ul ul ul,
+.block-superfish ul ul ul ul,
+.block-superfish li {
+ /*margin: 0 !important;*/
+  padding: 0 !important;
+}
+.sf-menu ul {
+  position: absolute;
+  top: -99999em;
+  width: auto;
+}
+
+/* Vertical style */
+.sf-vertical,
+.sf-vertical li {
+  auto;
+}
+.sf-vertical li {}
+.sf-vertical li.last {}
+.sf-vertical li:hover ul,
+.sf-vertical li.sfHover ul {
+  left: 100%; /* match ul width */
+  top:  0;
+  margin: 0;
+  padding: 0;
+}
+.sf-vertical li a {
+  padding: 0 0px;
+}
+
+/* Navbar */
+.sf-navbar {
+  padding-bottom: 0 !important;
+}
+
+/* Sensible padding for the default style */
+.sf-menu.sf-style-default a {
+  padding: 0 10px;
+}
+
+/* Skip Navigation */
+#skip-link {
+  left: 50%;
+  margin-left: -6.5em;
+  margin-top: 0;
+  padding: 0 0.5em;
+  position: absolute;
+  width: auto;
+  z-index: 50;
+}
+#skip-link a,
+#skip-link a:link,
+#skip-link a:visited {
+  background: #444;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: block;
+  line-height: 2;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  -khtml-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-radius: 0 0 10px 10px;
+}
+#skip-link a:hover,
+#skip-link a:active,
+#skip-link a:focus {
+  outline: 0;
+}
+
+/* Tabs */
+#tasks {
+  margin-bottom: 1em;
+}
+ul.primary {
+  border-bottom-color:#ccc;
+  margin: 1.5em 0 0;
+  padding: 0 0 .2em .3em;
+}
+ul.primary li a {
+  background-color: #f5f5f5;
+  margin-right: .08em;
+  border-color: #ccc;
+  padding: .1em .75em .2em;
+}
+.local-tasks ul.primary li a:hover {
+  background-color: #f7f7f7;
+  border-color: #ddd;
+}
+.local-tasks ul.primary li.active a {
+  background-color: #fff;
+  border-bottom-color: #fff;
+}
+ul.secondary {
+  border-bottom: 1px solid #ccc;
+  margin: 1em 0 0;
+  padding: 0 .3em 1em;
+}
+ul.secondary li {
+  border-right: 0;
+  list-style: none;
+  padding: 0 2em 0 0;
+}
+ul.secondary li a:hover,
+ul.secondary li a.active {
+  border-bottom: none;
+  text-decoration: underline;
+}
+
+
+/* Sidebar Menu styles */
+
+.sidebar .menu-block-wrapper ul {
+	margin-left:-7px;
+}
+
+
+.sidebar ul {
+	font-size: 1em;
+	margin-left:-7px;	
+}
+/*
+.sidebar li {
+	list-style-image:none;
+	list-style-type:none;
+	border-bottom:1px solid #CCC;
+	padding:3px 0px 3px 0px;	
+}
+*/
+
+/*
+.menu-block-wrapper.menu-block-1.menu-name-menu-cot-sitewide-primary-menu.parent-mlid-0.menu-level-2 ul {
+	font-size: 1em;
+	margin-left:-5px;
+	
+}*/
+
+.sidebar .menu-block-wrapper li {
+	list-style-image:none;
+	list-style-type:none;
+	/*border-top:1px solid #CCC;*/
+	padding:3px 0px 3px 4px;
+}
+.sidebar .menu-block-wrapper li.expanded {
+	border-top:none;
+}
+.sidebar ul li {
+	margin-left:5px !important;
+}
+.sidebar .menu-block-wrapper li.active {
+	background-color:#f5f5f5;
+}
+.sidebar .menu-block-wrapper .expanded ul a {
+	padding-left:0px;
+	
+}
+
+.sidebar .menu-block-wrapper .expanded li {
+	font-weight:normal;
+	margin-top:0px;
+}
+.sidebar .menu-block-wrapper  li.leaf {
+	margin-top:0px;
+}
+.sidebar .menu-block-wrapper .expanded li{
+	list-style-image: url("images/small-arrow.png");
+	/*list-style-position:inside;*/
+}
+.sidebar .menu-block-wrapper .expanded ul{
+	margin-top:3px;
+	margin-left:10px;
+}
+
+.sidebar .menu-block-wrapper .last {
+	/*border-bottom:1px solid #CCC;
+	margin-bottom:15px;*/
+}
+
+/*
+.menu-block-wrapper.menu-block-1.menu-name-menu-cot-sitewide-primary-menu.parent-mlid-0.menu-level-2 ul li {
+	list-style-image:none;
+	list-style-type:none;
+	border-bottom:1px solid #CCC;
+	padding:3px 0px 3px 0px;
+	
+}*/
+
+/* OM Maximenu Menu positioining */
+.om-maximenu .om-maximenu-content {min-width:0px; border:5px solid #eaeaea;}
+.om-maximenu .om-maximenu-content h3 {font-size:1.6em;}
+#om-maximenu-leaderboard-master-menu li.leaf-degrees .om-maximenu-content { position:absolute; width:945px; left:-570px; font-size:.8em; }
+#om-maximenu-leaderboard-master-menu li.leaf-degrees .om-maximenu-content .more-link {text-align:left; margin-left:4px; margin-top:10px; font-weight:bold;}
+#om-maximenu-leaderboard-master-menu li.leaf-administration .om-maximenu-content { position:absolute; width:340px; left:-78px; font-size:.8em; }
+#om-maximenu-leaderboard-master-menu li.leaf-statewide-locations .om-maximenu-content { position:absolute; width:150px; left:0px; font-size:.8em; }
+#om-maximenu-leaderboard-master-menu .om-maximenu-content .block { float: left;}
+#om-maximenu-leaderboard-master-menu .om-maximenu-content .last { float: left; }
+#om-maximenu-leaderboard-master-menu .om-maximenu-content .views-row { margin-right:10px; padding:3px 3px 3px 3px;}
+#om-maximenu-leaderboard-master-menu .om-maximenu-content a:link    {color:#405375;}
+#om-maximenu-leaderboard-master-menu .om-maximenu-content a:visited {color:#405375;}
+#om-maximenu-leaderboard-master-menu .om-maximenu-content .block-menu-id-menu-org-units ul li.leaf {list-style-image: none; list-style-type:none; margin-left:3px; font-size:13px;}
+.block-views-id-114ffe9ead762bca06c8044a90df8b09 {min-height: 220px;}
+.block-views-id-5a2f8f907f88ebbe7afd116d5839dc6c,
+.block-views-id-114ffe9ead762bca06c8044a90df8b09,
+.block-views-id-625cf0fc222432cd4a0fcb040548d36f {width:33%;}
+
+/* Make sure Maximenu blocks are moved to the top in IE*/
+.om-maximenu-content {display:none\9 !important;}
+
+
+
+
+
+.block-menu-id-menu-org-units li a:link,
+.block-menu-id-menu-org-units li a:visited {
+	color:#405375 !important;
+}
+
+/*#om-maximenu-leaderboard-master-menu .om-maximenu-content .views-row:hover {background-color:#cccccc; }
+#om-maximenu-leaderboard-master-menu .om-maximenu-content .views-row-even {background-color:#f3f3f3; }
+#om-maximenu-leaderboard-master-menu .om-maximenu-content .views-row-odd {background-color:#fafafa; }
+*/
+
+
+
+
+/*div .view-degrees-page-list-of-degrees .views-row div {
+	line-height:.4em;
+	color:#F00;	
+}*/
+
+#block-quicktabs-mobile-accordion-menu .block-inner .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border-left:0;
+	border-right:0;
+	border-top:0;
+	border-bottom:2px solid #F4D073;
+}
+
+/* Make sidebar headings black*/
+.region-sidebar-second h2 a:link, .region-sidebar-second h2 a:visited, .region-sidebar-second h2 a:hover {
+	color:#555;
+}
+
