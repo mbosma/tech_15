@@ -1,0 +1,1134 @@
+
+
+/* controls all responsive styling across the site ------------------ */
+
+.flexible{
+	float:left;
+}
+
+
+
+/* -- Target IE versions outside of media queries --*/
+
+.three-column{
+	width:33.333333%;
+	width:33.2%\9;  /* -- IE 8 fix -- */
+	*width:33.2%;  /* -- IE 7 fix -- */
+	_width:33.2%;  /* -- IE 6 fix -- */
+}
+.two-of-three-column{
+	width:66.6%;
+}
+
+
+	/* -- Shows HOMEPAGE MOBILE MENU ON small SCREENS --*/
+	#mobile-nav-wrapper {
+		display:none;
+	}
+	#nav-wrapper {
+		display:block;
+	}
+
+
+/* --------------------------*/
+/* --------------------------*/
+/* ----- 481px or less ----- */
+/* -----iphone portrait------*/
+/* --------------------------*/
+
+@media only screen
+and (max-width : 481px) {
+#header-wrapper {
+	background-color:#f5f5f5;
+}
+.four-column{
+    width:100%;
+}
+.three-column{
+	width:100%;
+}
+.two-column{
+	width:100%;
+}
+.three-of-four-column{
+	width:100%;
+}
+.two-of-three-column{
+	width:100%;
+}
+
+
+/* -- ------------------------------ --*/
+/* -------- Sitewide styling --------- */
+/* -- ------------------------------ --*/
+
+
+/* -- Global menu styling for tech15--*/
+.left {float:left; top:0;}
+.right {float:right; top:0;}
+
+/* -- Shows HOMEPAGE MOBILE MENU ON small SCREENS --*/
+#mobile-nav-wrapper {
+	display:block;
+}
+#nav-wrapper {
+	display:none;
+}
+
+
+	/* -- Shows HOMEPAGE MOBILE MENU ON small SCREENS --*/
+	#secondary-content-wrapper {
+		display:block;
+	}
+	
+	
+	#leaderboard-wrapper {
+		background:none;
+	}
+	
+	/* -- Header styling --*/
+	
+		/* -- Makes background go full width behind header --*/
+	.region-leaderboard {
+		/*float:none;*/
+	}
+		
+	#leaderboard-wrapper {
+		background-image: url("images/leader-board-bkg-lines.png");
+		border-bottom:none;
+	}
+	
+		/* -- Hide leaderboard border --*/
+	#leaderboard-wrapper {
+		border-bottom:none;
+	}
+	
+	#leaderboard-wrapper .region-leaderboardsearchmenu {
+		float:right;
+	}
+		/* -- Hide Purdue link and login link --*/
+	.region-leaderboardtopmenu,
+	.region-leaderboardbottommenu {
+		display:none;
+	}
+	
+	.region-leaderboardbottommenu li {
+		float:left;
+		clear:both;
+	}
+	
+	
+		/* -- center apply now button --*/
+	#block-views-apply-now-button-block,
+	#block-block-30 {
+		width: 200px;
+		margin: 0px auto;
+		padding-bottom:10px;
+	}
+
+	
+	#header-wrapper #block-menu-block-6 h2 {
+		display:none;
+	}
+	
+	#header-wrapper #block-menu-block-6 a {
+		font-size:18px;
+		letter-spacing: -.5px;
+		line-height:1em !important;
+	}
+	
+	
+/*	 Mobile Menu styling 
+	
+	#block-quicktabs-mobile-accordion-menu .block-inner {
+		margin:0px;
+	}
+	
+	#block-quicktabs-mobile-accordion-menu {
+		padding-top:0px;
+	}
+	
+	#block-quicktabs-mobile-accordion-menu .block-inner .ui-corner-all {
+		border-radius:0px;
+		-webkit-border-radius:0px;
+		-moz-border-radius:0px;	
+	}
+	
+		accordion closed styling 
+	#block-quicktabs-mobile-accordion-menu .block-inner .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+		border:none;
+		border-bottom:2px solid #F4D073;
+		background:none;
+		background-color:#fff;
+		color:#fff;
+	}
+	
+	#quickset-mobile_accordion_menu .ui-accordion-content {
+		padding:.5em .1em;
+	}
+	
+	#quickset-mobile_accordion_menu .ui-accordion-content .quicktabs_main.quicktabs-style-basic,
+	#quickset-mobile_accordion_menu .ui-accordion-content .quicktabs_main.quicktabs-style-basic .block-inner {
+		padding:0px;
+		margin-left:0px;
+	}
+	
+		 menu list items 
+	#quickset-mobile_accordion_menu .ui-accordion-content #quicktabs-container-menu_tabs_for_mobile_menu ul li,
+	#quickset-mobile_accordion_menu .ui-accordion-content #quicktabs-container-menu_tabs_for_mobile_menu-2 ul li {
+		list-style:none;
+		list-style-type:none;
+		list-style-image:none;
+		border-bottom:1px solid #CCC;
+		width:95%;
+		font-size:15px;
+		padding-bottom:5px;
+		padding-top:5px;
+		padding-left:10px;
+		margin:0 0 0 0;
+		line-height:normal;
+	}
+*/	
+	
+
+
+/* -- ----------------------------- --*/
+/* ----- Front Homepage styling ----- */
+/* -- ----------------------------- --*/
+
+	.front .region-sidebar-second{
+		display:none;
+	}
+	
+	.front .kitchen-sink div {
+		width:95%;
+	}
+	
+		/* -- Hide fields for homepage only --*/
+	.front #block-views-slideshow-home-block,
+	.front .header-3col,
+	.front #footer-wrapper,
+	.front .region-leaderboardbottommenu{
+		display:none;
+	}
+	
+		/* -- Style homepage menu --*/
+	#block-menu-menu-mobile-homepage-menu ul{
+		width:100%;
+		margin:0;
+	}
+	
+	#block-menu-menu-mobile-homepage-menu .block-inner {
+		margin-left:0px;
+		padding-left:0px;	
+	}
+	
+	#block-menu-menu-mobile-homepage-menu ul li{
+		list-style:none;
+		list-style-type:none;
+		list-style-image:none;
+		border-bottom:1px solid #CCC;
+		width:100%;
+		font-size:15px;
+		padding-bottom:5px;
+		padding-top:5px;
+		padding-left:10px;
+		margin:0 0 0 0;
+	}
+	
+	#block-menu-menu-mobile-homepage-menu ul li a:link{
+		text-decoration:none;
+	}
+	
+	#block-menu-menu-mobile-homepage-menu ul li a:hover{
+		text-decoration:none;
+	}
+	
+		/* -- Style search bar on homepage --*/
+	.front #block-search-form input {
+		width:90%;
+	}
+	
+	.front #block-search-form #edit-actions {
+		display:none;
+	}
+	
+
+	
+/* -- --------------------- --*/
+/* -- Specific page styling --*/
+/* -- --------------------- --*/
+
+		/* -- Degrees page styling --*/
+	.section-degrees #block-quicktabs-degrees .views-field-field-degree-instances-with-same {
+		display:none;
+	}
+	
+	.section-degrees #block-quicktabs-degrees .views-field-field-degree-group-image,
+	.section-degrees #block-quicktabs-degree-option-page-quick-tabs {
+		display:none;	
+	}
+	
+	.section-degrees #block-quicktabs-degrees .views-row {
+		background:none;
+	}
+	
+	.section-degrees #block-quicktabs-degrees .views-row a {
+		color:#405375;
+	}
+	
+	.section-degrees #block-quicktabs-degrees .views-row .field-content {
+		color:#444;
+	}
+	
+	.section-degrees section#main-content {
+		padding-bottom:0px !important;
+	}
+	
+	.section-degrees .view-list-of-degrees-on-degree-page .degree-group {
+		min-height:inherit;	
+	}
+	
+			/* -- Make Related degrees full width --*/
+	.section-degrees #block-views-related-degrees-er-block img,
+	.section-degrees #block-views-related-degrees-er-block-1 img  {
+		width:480px !important;
+	}
+
+		/* -- Individual degree page --*/	
+	#quicktabs-degree_option_page_quick_tabs,
+	#block-views-degree-accreditation-block-1 {
+		display:none;	
+	}
+	
+		/* -- Individual department page --*/	
+	.page-type-department-option-landing-page #block-views-site-section-title-block-2,
+	.page-type-department-option-landing-page #block-views-14cbf74eebf9365ecbd89c89743905d8,
+	.page-type-department-option-landing-page .views-field-field-degree-instances-with-same {
+		display:none;	
+	}
+		
+	.view-pos-view-of-courses table .views-field-field-sem-1-course {
+		float:left;
+		width:49%;
+		clear:left;
+	}
+	
+	.view-pos-view-of-courses table .views-field-field-semester-2-courses {
+		float:left;
+		width:49%;
+		clear:right;
+	}
+	
+	.view-pos-view-of-courses table .views-field-field-semester-3-courses {
+		float:left;
+		width:49%;
+		clear:left;
+	}
+	
+	.view-pos-view-of-courses table .views-field-field-sem-4-courses {
+		float:left;
+		width:49%;
+		clear:right;
+	}
+	
+	.view-pos-view-of-courses table .views-field-field-semester-5-courses {
+		float:left;
+		width:49%;
+		clear:left;
+	}
+	
+	.view-pos-view-of-courses table .views-field-field-semester-6-courses {
+		float:left;
+		width:49%;
+		clear:right;
+	}
+	
+	.view-pos-view-of-courses table .views-field-field-semester-7-courses {
+		float:left;
+		width:49%;
+		clear:left;	
+	}
+	
+	.view-pos-view-of-courses table .views-field-field-semester-8-courses {
+		float:left;
+		width:49%;
+		clear:right;
+	}
+	
+		/* -- Department Directory -- */
+	.section-departments table .views-field-field-position {
+		display:none;	
+	}
+	
+		/* -- User Profile page --*/	
+	.section-profile .views-field-picture,
+	.section-profile #block-quicktabs-user-profile-cv-tabs {
+		display:none;	
+	}
+
+
+/* -- Adjust text size on current students page --*/
+
+.page-node-2712 .tutoring-box-list {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.page-node-2712 .date-display-single {
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.page-node-2712 .tutoring-box-list .row-first, .page-node-2712 .tutoring-box-list .row-last {
+	line-height: 14px;
+}
+
+
+.page-node-2712 .advising-box-list {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.page-node-2712 .resources-box-list-1 {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.page-node-2712 .resources-box-list-2 {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.page-node-2712 a .caption {
+	font-size: 16px;
+	line-height:14px;
+}
+
+	/* -- Adjust news titles on audience path news sections landing pages --*/
+.page-type-landing-page-for-other .view-article-feed-for-panel-pages .article-title {
+	width: 75%;
+}
+
+/* --------------------------*/
+/* New Majors pages styling for mobile (Nov. 2015) */
+/* --------------------------*/
+#block-block-135 .apply { /* hide apply button */
+	display:none;	
+}
+#block-block-135 .three-column {
+	padding-bottom:50px;
+}
+#block-block-135 .last {
+	padding-bottom:0px;
+}
+#block-views-dc0a062c0b2adf4a15ec61233c628826 {
+	display:none;
+}
+#block-block-136 .video {
+	padding-top:20px;
+}
+#block-block-137 .four-column {
+	width:49%;
+}
+#block-block-137 .block-inner {
+	padding: 0px;
+}
+#block-block-137 .four-column .block-inner {
+	padding: 0 5px 0 5px;
+}
+#block-block-141 .ribbon-bg:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  content: "";
+  border-left: none;
+  border-top: none;
+}
+.ribbon-bg { 
+	margin-top:20px;
+}
+.ribbon-bg h3 { 
+	text-align:center;
+}
+#block-block-141 .advisors {
+	display:none;
+}
+
+/* --------------------------*/
+/* NEW DEPARTMENT LANDING PAGES (Dec. 2015) */
+/* --------------------------*/
+.department-logo  {  /* padding for at logo */
+	padding-bottom:20px;
+}
+.audience-icon  { /* hide icon graphics in boxes */
+	display:none;
+}
+.audience-paths .two-column,
+.audience-paths .three-column {
+	width:100%;
+}
+.dept-alumni-quote { /* hide quote */
+	display:none;
+}
+.action-bar {
+  padding: 20px 0 20px 0;
+}
+.action-bar .four-column,
+.action-bar .three-column {
+  padding-bottom: 40px;
+}
+.action-bar .four-column.last,
+.action-bar .three-column.last {
+  padding-bottom: 0px;
+}
+.view-article-feed-for-panel-pages .article-title { /* fix news title width */
+	width:75%;
+}
+.view-article-feed-for-panel-pages.view-display-id-block_12 {
+	min-height:0px;
+}
+.calendar-day-icon span.fa-3x {
+	float:none;
+}
+.calendar-day-icon .views-row {
+	text-align:center;
+}
+.calendar-day-icon .event-title {
+	text-align:center;
+	width:100%;
+	margin-top:10px;
+	padding-left:0px;
+}
+		
+} /* ----- CLOSE 481px or less ----- */
+
+
+/* --------------------------*/
+/* --------------------------*/
+/* ---- 482px to 568px ----- */
+/* --------iphone 5----------*/
+/* --------------------------*/
+
+@media only screen
+and (min-width : 482px)
+and (max-width : 568px) {
+
+/* -- --------------- --*/
+/* -- General styling --*/
+/* -- --------------- --*/
+
+	.four-column{
+		width:49.9%;
+	}
+	.three-column{
+		width:49.9%;
+	}
+	.two-column{
+		width:49.9%;
+	}
+	.three-of-four-column{
+		width:49.9%;
+	}
+	.two-of-three-column{
+		width:49.9%;
+	}
+	
+
+/* -- ---------------- --*/
+/* -- Homepage Styling --*/
+/* -- ---------------- --*/
+
+	.front #block-views-slideshow-home-block {
+		display:none;		
+	}
+	
+		/* -- HIDES HOMEPAGE MOBILE MENU ON LARGER SCREENS --*/
+	.front #secondary-content-wrapper .menu {
+		display:none;
+	}
+
+		/* -- HIDES sidebar infographic --*/
+	.front #block-views-14cbf74eebf9365ecbd89c89743905d8 {
+		display:none;
+	}
+
+/* -- ------------------------------ --*/
+/* -------- Sitewide styling --------- */
+/* -- ------------------------------ --*/
+
+
+	
+	/* -- Get rid of some extra padding above the footer --*/
+	section#main-content {
+		padding-bottom:0px;
+	}
+	
+	/* -- Center Apply Now button --*/
+	#block-block-30 {
+		width: 200px;
+		margin: 0px auto;
+		padding-bottom:10px;
+	}
+	
+	
+	/* -- Deals with header background --*/
+	#leaderboard-wrapper {
+		background:none;
+	}
+	
+	/* -- Header styling --*/
+	
+		/* -- Makes background go full width behind header --*/
+	.region-leaderboard {
+		/*float:none;*/
+	}
+		
+	#leaderboard-wrapper {
+		background-image: url("images/leader-board-bkg-lines.png");
+		border-bottom:none;
+	}
+	
+		/* -- Hide leaderboard border --*/
+	#leaderboard-wrapper {
+		border-bottom:none;
+	}
+	
+	#leaderboard-wrapper .region-leaderboardsearchmenu {
+		float:right;
+	}
+		/* -- Hide Purdue link and login link --*/
+	.region-leaderboardtopmenu,
+	.region-leaderboardbottommenu {
+		display:none;
+	}
+	
+	.region-leaderboardbottommenu li {
+		float:left;
+		clear:both;
+	}
+	
+		/* -- center apply now button --*/
+	#block-views-apply-now-button-block {
+		width: 200px;
+		margin: 0px auto;
+		padding-bottom:10px;
+	}
+	
+
+	
+	#header-wrapper #block-menu-block-6 h2 {
+		display:none;
+	}
+	
+	#header-wrapper #block-menu-block-6 a {
+		font-size:18px;
+	}
+	
+	
+/* --      Mobile Menu styling 
+	
+	#block-quicktabs-mobile-accordion-menu .block-inner {
+		margin:0px;
+	}
+	
+	#block-quicktabs-mobile-accordion-menu {
+		padding-top:0px;
+	}
+	
+	#block-quicktabs-mobile-accordion-menu .block-inner .ui-corner-all {
+		border-radius:0px;
+		-webkit-border-radius:0px;
+		-moz-border-radius:0px;	
+	}
+	
+		 accordion closed styling 
+	#block-quicktabs-mobile-accordion-menu .block-inner .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+		border:none;
+		border-bottom:2px solid #F4D073;
+		background:none;
+		background-color:#fff;
+		color:#fff;
+	}
+	
+	#quickset-mobile_accordion_menu .ui-accordion-content {
+		padding:.5em .1em;
+	}
+	
+	#quickset-mobile_accordion_menu .ui-accordion-content .quicktabs_main.quicktabs-style-basic,
+	#quickset-mobile_accordion_menu .ui-accordion-content .quicktabs_main.quicktabs-style-basic .block-inner {
+		padding:0px;
+		margin-left:0px;
+	}
+	
+		 menu list items 
+	#quickset-mobile_accordion_menu .ui-accordion-content #quicktabs-container-menu_tabs_for_mobile_menu ul li,
+	#quickset-mobile_accordion_menu .ui-accordion-content #quicktabs-container-menu_tabs_for_mobile_menu-2 ul li {
+		list-style:none;
+		list-style-type:none;
+		list-style-image:none;
+		border-bottom:1px solid #CCC;
+		width:95%;
+		font-size:15px;
+		padding-bottom:5px;
+		padding-top:5px;
+		padding-left:10px;
+		margin:0 0 0 0;
+		line-height:normal;
+	}
+	
+--*/	
+	
+		/* -- Hide 3rd column for landing pages --*/
+	#content_3columnMcWidget-column3 {
+		display:none;
+	}
+	
+/* -- ------------------ --*/
+/* ----- Mobile Menu ----- */
+/* -- ------------------ --*/
+	
+	#block-menu-menu-mobile-homepage-menu ul{
+		width:100%;
+		margin:0;
+	}
+	
+	#block-menu-menu-mobile-homepage-menu .block-inner {
+		margin-left:0px;
+		padding-left:0px;	
+	}
+	
+	#block-menu-menu-mobile-homepage-menu ul li{
+		list-style:none;
+		list-style-type:none;
+		list-style-image:none;
+		border-bottom:1px solid #CCC;
+		width:100%;
+		font-size:15px;
+		padding-bottom:5px;
+		padding-top:5px;
+		padding-left:10px;
+		margin:0 0 0 0;
+	}
+	
+	#block-menu-menu-mobile-homepage-menu ul li a:link{
+		text-decoration:none;
+	}
+	
+	#block-menu-menu-mobile-homepage-menu ul li a:hover{
+		text-decoration:none;
+	}
+	
+/* -- ---------------------------- --*/
+/* ----- Specific Page styling ----- */
+/* -- ---------------------------- --*/
+
+	/* ----- DEGREES PAGE ----- */
+
+		/* ----- hide available at on degrees page ----- */
+	.page-node-14 .views-field-field-degree-instances-with-same {
+		background:none !important;
+		padding-left: 0px !important;
+		margin-left: 0px !important;
+	}
+	
+	/* ----- DEGREE PAGES ----- */
+	
+		/* ----- hide accreditation info ----- */
+	.section-degrees #block-views-degree-accreditation-block-1 {
+		display:none;
+	}
+	
+	.section-degrees #block-views-related-degrees-er-block {
+		width:49%;
+		float:left;
+	}
+
+	.section-degrees #block-views-related-degrees-er-block-1 {
+		width:49%;
+		float:left;
+	}
+
+	/* ----- DEPARTMENT PAGES ----- */
+
+		/* ----- hide promo slider, infographic ----- */
+	.page-type-department-option-landing-page #block-views-site-section-title-block-2,
+	#block-views-14cbf74eebf9365ecbd89c89743905d8 {
+		display:none;
+	}
+
+	/* -- Adjust text size on prospective students page --*/
+
+	a .caption {
+		font-size: 10px !important;
+		line-height: 11px !important;	
+	}
+
+
+	/* -- Adjust text size on current students page --*/
+
+.page-node-2712 .tutoring-box-list {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.page-node-2712 .date-display-single {
+	font-size: 10px;
+	line-height: 14px;
+}
+
+.page-node-2712 .tutoring-box-list .row-first, .page-node-2712 .tutoring-box-list .row-last {
+	line-height: 10px;
+}
+
+.page-node-2712 .advising-box-list {
+	font-size: 10px;
+	line-height: 22px;
+}
+
+.page-node-2712 .resources-box-list-1 {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.page-node-2712 .resources-box-list-2 {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+	/* -- Adjust news titles on audience path news sections landing pages --*/
+.page-type-landing-page-for-other .view-article-feed-for-panel-pages .article-title {
+	width: 65%;
+}
+
+
+
+/* --------------------------*/
+/* New Majors pages styling for mobile (Nov. 2015) */
+/* --------------------------*/
+#block-block-135 .apply { /* hide apply button */
+	display:none;	
+}
+#block-views-dc0a062c0b2adf4a15ec61233c628826 .degree-student-quote-photo {
+ width: 200px;
+ height: 200px;
+ top: 30px;
+}
+#block-block-141 .ribbon-bg:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  content: "";
+  border-left: none;
+  border-top: none;
+}
+#block-block-141 .ribbon-bg { /* remove yellow background on request info block */
+  padding: 0px;
+  background: none;
+	margin-top:0px;
+}
+#block-block-141 .advisors {
+	display:none;
+}
+
+/* --------------------------*/
+/* NEW DEPARTMENT LANDING PAGES (Dec. 2015) */
+/* --------------------------*/
+.audience-paths .two-column,
+.audience-paths .three-column {
+	width:100%;
+}
+.action-bar .four-column,
+.action-bar .three-column {
+	padding-bottom:20px;
+}
+.view-article-feed-for-panel-pages .article-title { /* fix news title width */
+	width:75%;
+}
+.calendar-day-icon .views-row-3 { /* hide 3rd news item (orphan) */
+	display:none;
+}
+.student-alumni-quote { /* hide alumni quote */
+	display:none;
+}
+
+}  /* ---- CLOSE 482px to 568px ----- */
+
+
+
+/* --------------------------*/
+/* --------------------------*/
+/* ---- 569px to 785px ----- */
+/* --------iphone 6----------*/
+/* --------------------------*/
+@media only screen
+and (min-width : 569px)
+and (max-width : 785px) {
+
+	/* -- Adjust text size on current students page --*/
+
+.page-node-2712 .tutoring-box-list {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.page-node-2712 .date-display-single {
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.page-node-2712 .tutoring-box-list .row-first, .page-node-2712 .tutoring-box-list .row-last {
+	line-height: 14px;
+}
+
+
+.page-node-2712 .advising-box-list {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.page-node-2712 .resources-box-list-1 {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.page-node-2712 .resources-box-list-2 {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.page-node-2712 a .caption {
+	font-size: 18px;
+}
+
+	/* -- Adjust news titles on audience path news sections landing pages --*/
+.page-type-landing-page-for-other .view-article-feed-for-panel-pages .article-title {
+	width: 65%;
+}
+
+
+/* --------------------------*/
+/* New Majors pages styling for mobile (Nov. 2015) */
+/* --------------------------*/
+#block-block-135 .apply { /* hide apply button */
+	display:none;	
+}
+#block-views-dc0a062c0b2adf4a15ec61233c628826 .degree-student-quote-photo {
+ width: 200px;
+ height: 200px;
+ top: 30px;
+}
+
+#block-block-137 .four-column .block-inner {
+	padding: 0 5px 0 5px;
+}
+#block-block-141 .ribbon-bg:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  content: "";
+  border-left: none;
+  border-top: none;
+}
+#block-block-141 .ribbon-bg { /* remove yellow background on request info block */
+  padding: 0px;
+  background: none;
+	margin-top:0px;
+}
+#block-block-141 .advisors {
+	display:none;
+}
+
+/* --------------------------*/
+/* NEW DEPARTMENT LANDING PAGES (Dec. 2015) */
+/* --------------------------*/
+.audience-paths .two-column,
+.audience-paths .three-column {
+	width:100%;
+}
+.calendar-day-icon .views-row-3 { /* hide 3rd news item (orphan) */
+	display:none;
+}
+
+}
+
+/* --------------------------*/
+/* --------------------------*/
+/* ---- 569px to 960px ----- */
+/* --------------------------*/
+/* --------------------------*/
+@media only screen
+and (min-width : 569px)
+and (max-width : 960px) {
+#header-wrapper {
+	background-color:#f5f5f5;
+}
+.four-column{
+    width:49.9%;
+}
+.three-column{
+	width:49.9%;
+}
+.two-column{
+	width:49.9%;
+}
+.three-of-four-column{
+	width:74.99%;
+}
+.two-of-three-column{
+	width:49.9%;
+}
+
+	/* -- HIDES HOMEPAGE MOBILE MENU ON LARGER SCREENS --*/
+#secondary-content-wrapper {
+	display:none;
+}
+
+	/* -- Adjust text size on prospective students page --*/
+
+a .caption {
+	font-size: 16px !important;
+	line-height: 20px !important;
+}
+
+	/* -- Adjust news titles on audience path news sections landing pages --*/
+.page-type-landing-page-for-other .view-article-feed-for-panel-pages .article-title {
+	width: 75%;
+}
+/* --------------------------*/
+/* NEW DEPARTMENT LANDING PAGES (Dec. 2015) */
+/* --------------------------*/
+.degree-student-quote-photo {
+    left: 56%;
+}
+
+}
+
+/* --------------------------*/
+/* --------------------------*/
+/* -------- 960px + -------- */
+/* --------------------------*/
+/* --------------------------*/
+@media only screen
+and (min-width : 961px) {
+#header-wrapper {max-height:313px;}
+
+.four-column{
+    width:24.99%;
+}
+.three-column{
+	width:33.333333%;
+	/*width:32%\9;   -- IE 8 fix -- */
+	*width:32%;  /* -- IE 7 fix -- */
+	_width:32%;  /* -- IE 6 fix -- */
+}
+.two-of-three-column{
+	width:66.6%;
+}
+.three-of-four-column{
+	width:74.99%;
+}
+
+.two-column{
+	width:49.99%;
+}
+	
+	/* -- HIDES HOMEPAGE MOBILE MENU ON LARGER SCREENS --*/
+#secondary-content-wrapper {
+	display:none;
+}
+
+#superfish-4 #menu-230-4 {margin-right:5px;}
+
+/*home page box styling for full width*/
+.front .employers-and-partners {
+	background:url("/sites/default/files/images/box-alumni-and-friends.png");
+	background-position: -30px;
+}
+.front .prospective-students {
+	background:url("/sites/default/files/images/box-prospective-student.png");
+}
+}
+
+
+/* --------------------------*/
+/* --------------------------*/
+/* ----- iPad Portrait ----- */
+/* --------------------------*/
+/* --------------------------*/
+@media only screen
+and (min-width : 767px)
+and (max-width : 769px) {
+
+
+	/* -- FORCES 100% WIDTH FOR SLIDER IMAGE ON HOMEPAGE --*/
+.page-node-740 .view-slideshow-home img {
+	width:100%;
+}
+
+	/* -- HIDE 3RD BOX ON HOMEPAGE --*/
+.page-node-740 #content_3columnMcWidget-column3 {
+	display:none;
+}
+
+	/* -- HIDE RIGHT SIDEBAR HOMEPAGE --*/
+.page-node-740 .region-sidebar-second {
+	display:none;
+}
+
+	/* -- HIDES HOMEPAGE MOBILE MENU ON LARGER SCREENS --*/
+#secondary-content-wrapper {
+	display:none;
+}
+
+/* -- AUDIENCE BOXES ON NEW DEPARTMENT PAGES --*/
+.audience  {
+	font-size: 1.4rem;
+}
+
+/* -- CALENDAR ICONS ON DEPARTMENT PAGES (calendar-block-4) --*/
+.calendar-day-icon .views-row-3 {
+	display:none;
+}
+
+}
+
+
+/* --------------------------*/
+/* --------------------------*/
+/* ----- below 640 ----- */
+/* --------------------------*/
+/* --------------------------*/
+@media only screen
+and (max-width : 640px){
+  .region-footer .flexible, .region-footer .tright, .region-footer .tleft{ 
+  	float:left; clear:both;
+ 	text-align:center;
+	border:none;
+	width:100%;
+	padding:0;
+	padding-bottom:15px;
+  }
+  #edit-search-block-form--2 {
+    width: 100px;
+  }
+}
+
+/* --------------------------*/
+/* --------------------------*/
+/* ----- below 375 ----- */
+/* --------------------------*/
+/* --------------------------*/
+
+@media only screen
+and (max-width : 374px){ 
+    .shrinking-text {
+        font-size:0.8rem;
+    }
+}

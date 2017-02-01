@@ -1,0 +1,303 @@
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope-element .isotope-filter {
+  display: none;
+}
+
+/**** Isotope Sorting ****/
+
+.isotope-element .isotope-sort {
+  display: none;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+
+
+/* disable CSS transitions for isotope-containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+          transition: none;
+}
+
+.isotope-element a,
+.isotope-element a code {
+  color: #fff !important;
+  text-decoration: none;
+  -moz-transition: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.isotope-element a:hover,
+.isotope-element a:hover code { 
+  color: #fff; 
+}
+
+.isotope-element a:active,
+.isotope-element a:active code {
+  color: #fff;
+}
+
+/**** Isotope styles ****/
+
+/* required for isotope-containers to inherit vertical size from window */
+html,
+body {
+  height: 100%;
+}
+
+.isotope-element {
+  width: 168px;
+  height: 168px;
+  margin: 10px 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background: #bebebe;
+  color: #fff;
+}
+
+.isotope-element img {
+  width: 168px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.variable-sizes .isotope-element.width2 { width: 230px; }
+
+.variable-sizes .isotope-element.height2 { height: 230px; }
+
+.variable-sizes .isotope-element.width2.height2 {
+  font-size: 2.0em;
+}
+
+.isotope-element.large,
+.variable-sizes .isotope-element.large,
+.variable-sizes .isotope-element.large.width2.height2 {
+  font-size: 3.0em;
+  width: 350px;
+  height: 350px;
+  z-index: 100;
+}
+
+.clickable .isotope-element:hover {
+  cursor: pointer;
+}
+
+.clickable .isotope-element:hover h3 {
+  text-shadow:
+    0 0 10px white,
+    0 0 10px white
+  ;
+}
+
+.clickable .isotope-element:hover h2 {
+  color: white;
+}
+
+/**** Subject Area Filters ****/
+
+.isotope-options {
+  background-color: #2eafa4; 
+  margin-bottom:10px;
+}
+
+.isotope-options ul {
+    list-style: none outside none;
+    margin: 0;
+	padding-top: 10px;	
+}
+
+.isotope-options li {
+	margin-left:0 !important;
+    display: block;
+    padding: 3px 5px;
+    text-align: center;
+    float: left;
+	margin-bottom:10px;
+}
+
+.isotope-options li a {
+  border-radius: 3px;
+  padding: 3px 10px;
+  color:#fff;
+}
+
+.isotope-options li a:hover {
+  background: #fff;
+  color:#2eafa4;
+  text-decoration:none;
+}
+
+.isotope-options li a.selected {
+  background: #fff;
+  color:#2eafa4;
+}
+
+
+/**Begin custom styling for degrees**/
+#isotope-container .isotope-element {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#isotope-container .isotope-element:hover {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+
+#isotope-container .isotope-element .field-content img {
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+#isotope-container .isotope-element .field-content:hover img {
+-moz-transform: scale(1.1,1.1);
+-ms-transform: scale(1.1,1.1);
+-o-transform: scale(1.1,1.1);
+-webkit-transform: scale(1.1,1.1);
+transform: scale(1.1,1.1);
+}
+
+
+
+
+#isotope-container .views-field-nothing {
+	padding:5px;
+	height:158px;
+	position: relative;
+	bottom: 90px;
+}
+
+#isotope-container .field-content a {
+	min-height:26px;
+	background-color:#333;
+	font-size:14px; 
+	line-height:24px;
+	box-shadow:  0px 0px 0px 5px #333;
+	text-transform:uppercase;
+	font-weight:500;
+}
+
+/*Height Adjustment for text items*/
+/*five line titles that need moved up 42 pixels to line up on bottom*/
+.isotope-element .Disaster-Restoration-Demolition-and-Reconstruction-Minor {
+	position: relative;
+	top: -42px;
+}
+
+/*four line titles that need moved up 21 pixels to line up on bottom*/
+.isotope-element .Disaster-Restoration-and-Reconstruction-Management,
+.isotope-element .Demolition-and-Restoration-Management-in-the-Built-Environment,
+.isotope-element .Automation-and-Systems-Integration-Engineering-Technology,
+.isotope-element .Construction-Graphics---Building-Information-Modeling-minor,
+.isotope-element .MS-in-Biotechnology-Innovation-Regulatory-Science {
+	position: relative;
+	top: -21px;
+}
+/*two line titles that need moved down 21 pixels to line up on bottom*/
+.isotope-element .Biotechnology-Minor,
+.isotope-element .Product-Lifecycle-Management-Minor,
+.isotope-element .Automation-and-Systems-Integration,
+.isotope-element .Aviation-Management,
+.isotope-element .Computer-Graphics-Technology,
+.isotope-element .Engineering-Technology,
+.isotope-element .Industrial-Distribution,
+.isotope-element .Industrial-Technology,
+.isotope-element .Industrial-Tech-Dist-Dual-Degree,
+.isotope-element .Network-Engineering,
+.isotope-element .Systems-Analysis-and-Design,
+.isotope-element .Technology-Leadership,
+.isotope-element .Technology-Systems-Management,
+.isotope-element .Aerospace-Financial-Analysis,
+.isotope-element .Airline-Management-and-Operations,
+.isotope-element .Audio-Engineering-Technology,
+.isotope-element .Energy-Engineering-Technology,
+.isotope-element .Organizational-Leadership,
+.isotope-element .Unmanned-Aerial-Systems,
+.isotope-element .Virtual-Product-Integration,
+.isotope-element .Web-Programming-and-Design,
+.isotope-element .MS-in-Engineering-Technology,
+.isotope-element .MS-in-Aviation-Management-Online,
+.isotope-element .MS-in-Biometrics-Online,
+.isotope-element .MS-in-IT-Project-Management-Online,
+.isotope-element .MS-in-Leadership-Weekend,
+.isotope-element .MS-in-Technology---EET,
+.isotope-element .MS-in-Technology---Leadership,
+.isotope-element .MS-in-Technology---MET,
+.isotope-element .Military-Science-and-Leadership-Minor,
+.isotope-element .Aerospace-Studies-Minor {
+	position: relative;
+	top: +24px;
+}
+/*One line titles that need moved down 42 pixels to line up on bottom*/
+.isotope-element .Mechatronics,
+.isotope-element .Professional-Flight,
+.isotope-element .Flight,
+.isotope-element .Robotics,
+.isotope-element .MS-in-TLI-Weekend,
+.isotope-element .PhD-in-Technology,
+.isotope-element .Naval-Science-Minor,
+.isotope-element .Animation,
+.isotope-element .PLM-Certificate,
+.isotope-element .Game-Studies  {
+	position: relative;
+	top: +42px;
+}
+
+
+
+/*redefine the background and box shadow on the span at the bottom for IE*/
+.isotope-element .field-content {
+	background:#333333;
+	box-shadow:  0px 0px 0px 5px #333;
+}

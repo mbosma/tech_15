@@ -1,0 +1,131 @@
+/* Tables */
+table {
+  border-spacing: 0;
+  border-color: #eee;
+  font-size: inherit;
+  font: 100%;
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+}
+table.sticky-header {
+  z-index: 10;
+}
+table,
+td,
+th {
+  vertical-align:top;
+}
+caption,
+th,
+td {
+  text-align:left;
+}
+thead th {
+  color: #494949;
+  font-weight: 600;
+}
+td,
+th {
+  border-bottom: none;
+  margin: 0;
+  padding: 5px 7px;
+}
+
+.page-type-facility .attachment td {
+  padding: 0px 7px !important;
+}
+
+tr.even,
+tr.odd {
+  border-bottom: none;
+}
+tr.odd,
+tr.info {
+  background-color:  #eeeeee;
+}
+tr.even {
+  background: none;
+}
+tr.drag {
+  background-color: #fffff0;
+}
+tr.drag-previous {
+  background-color: #ffd;
+}
+tr.odd td.active {
+  background-color: #eee;
+}
+tr.even td.active {
+  background-color: #f7f7f7;
+}
+td.region,
+td.module,
+td.container td.category {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  border-top: 20px solid #fff;
+  color: #222;
+  font-weight: 600;
+}
+tr:first-child td.region,
+tr:first-child td.module,
+tr:first-child td.container {
+  border-top-width: 0;
+}
+#forum tr td.forum {
+  background-image: url(images/forum-default.png);
+  background-position: 5px 5px;
+  padding-left: 30px;
+}
+#forum tr td.forum .name {
+  padding-left: 5px;
+}
+#forum div.indent {
+  margin-left: 7px;
+}
+table.bordered, table.bordered td, table.bordered th {
+  border:1px solid #bbb;
+}
+
+/**
+ * Webkit work-around. Uncomment and adjust if you have borders on td.
+ */
+/*
+tr td:last-child {
+  border-right: 1px solid #eee;
+}
+*/
+
+/* style directory table */
+
+.page-type-directory td.views-field-field-user-full-name {
+	width:28%;
+	
+}
+
+.page-type-directory td.views-field-field-position {
+	width:40%;
+	
+}
+
+.page-type-directory td.views-field-field-phone  {
+	width:28% !important;
+}
+
+.view-where-to-study-view-blocks td {border:1px solid #eeeeee;}
+.view-where-to-study-view-blocks .views-field {min-height:36px;}
+
+
+/*Table Striping*/
+.striped tr:nth-child(odd) {background: #eee;}
+.striped thead tr {background:#444 !important;}
+.striped thead th {color:#f7f7f7 !important;}
+
+.lined tr:nth-child(odd) {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+.lined td, .lined th {
+    padding:10px;
+}

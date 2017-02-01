@@ -1,0 +1,2234 @@
+/*-----------------------------------------------------------
+This CSS document sets Block positioning and sizing only.
+
+HTML elements and regions are a separate file!
+-------------------------------------------------------------*/
+
+.block-inner-inner {
+	padding:0 10px;
+}
+.full-width-container #block-system-main > div:first-child {
+  margin:0;
+}
+.block {
+  margin-bottom: 0px;
+}
+#admin-menu {
+  margin: 0 0px;
+}
+#admin-menu-wrapper {max-height:28px;}
+.block-inner {} /* set block background styles on .block-inner */
+.block-title {}
+.block-content {}
+
+.full-height-column {
+  padding-bottom: 5000px;
+  margin-bottom: -4980px;
+}
+.full-height-column-wrapper {
+  overflow:hidden;
+}
+
+
+/********************************************
+General margin and padding classes for block IDs
+/*******************************************/
+
+.margin-top-none {
+  margin-top: 10px;
+}
+.margin-top-small {
+  margin-top: 10px;
+}
+.margin-top-medium {
+  margin-top: 20px;
+}
+.margin-top-large {
+  margin-top: 40px;
+}
+.margin-bottom-none {
+  margin-bottom: 10px;
+}
+.margin-bottom-small {
+  margin-bottom: 10px;
+}
+.margin-bottom-medium {
+  margin-bottom: 20px;
+}
+.margin-bottom-large {
+  margin-bottom: 40px;
+}
+
+.padding-top-none {
+  padding-top: 10px;
+}
+.padding-top-small {
+  padding-top: 10px;
+}
+.padding-top-medium {
+  padding-top: 20px;
+}
+.padding-top-large {
+  padding-top: 40px;
+}
+.padding-bottom-none {
+  padding-bottom: 10px;
+}
+.padding-bottom-small {
+  padding-bottom: 10px;
+}
+.padding-bottom-medium {
+  padding-bottom: 20px;
+}
+.padding-bottom-large {
+  padding-bottom: 40px;
+}
+
+
+.padding-small {
+  padding:5px;
+}
+.padding-medium {
+  padding:10px;
+}
+.padding-large {
+  padding:15px;
+}
+
+
+/********************************************
+Purdue and Polytechnic Color Palates
+Boxes and Text colors
+/*******************************************/
+
+.bkg-secondary-color {color:#a3792c;}
+.bkg-boiler-black {  background-color: #000;}
+.bkg-campus-gold {  background-color: #B1810B;}
+.bkg-coal-gray {  background-color: #4D4038;}
+.bkg-moon-gray {  background-color: #BAA892;}
+.bkg-ever-true-blue {  background-color: #5B6870;}
+.bkg-slayter-sky-blue {  background-color: #7CA6C0;}
+.bkg-amelia-sky-blue {  background-color: #A3D6D7;}
+.bkg-land-grant-green {  background-color: #085C11;}
+.bkg-ross-ade-green {  background-color: #849E2A;}
+.bkg-celery-bog-green {  background-color: #C3BE0B;}
+.bkg-spring-fest-green {  background-color: #E9E45B;}
+.bkg-oaken-bucket-brown {  background-color: #6B4536;}
+.bkg-bell-tower-brick {  background-color: #C76C14;}
+.bkg-mackey-orange {  background-color: #FF9B1A;}
+.bkg-yellow-walk {  background-color: #FFD100;}
+.bkg-fountain-run-teal {  background-color: #2EAF9B;}
+.bkg-pappys-purple {  background-color: #AD1F65;}
+.bkg-polytechnic-dark-gray { background-color: #333333; }
+.bkg-polytechnic-dark-gray-a-70 { background-color: rgba(51, 51, 51, 0.7); }
+.bkg-polytechnic-dark-gray-a-85 { background-color: rgba(51, 51, 51, 0.85); }
+.bkg-polytechnic-light-gray { background-color: #eeeeee; }
+.bkg-polytechnic-medium-gray { background-color: #777777; }
+.bkg-polytechnic-off-white { background-color: #fdfdfd; }
+.bkg-white { background-color: #ffffff; }
+.bkg-polytechnic-yellow { background-color: #e3ae27; }
+.bkg-polytechnic-lines {background: url("/sites/all/themes/tech_15/css/images/leader-board-bkg-lines.png");}
+.bkg-polytechnic-seasonal {background: url("/sites/default/files/images/winter2.jpg");background-size: cover;
+    background-position: center center;}
+.bkg-polytechnic-techie {background: url("/sites/default/files/images/polytechnic-techie-bkg-01.jpg");}
+
+
+.text-secondary-color {color:#a3792c;}
+.text-boiler-black {  color: #000;}
+.text-old-gold {  color: #a3792c;}
+.text-campus-gold {  color: #B1810B;}
+.text-coal-gray {  color: #4D4038;}
+.text-moon-gray {  color: #BAA892;}
+.text-ever-true-blue {  color: #5B6870;}
+.text-slayter-sky-blue {  color: #7CA6C0;}
+.text-amelia-sky-blue {  color: #A3D6D7;}
+.text-land-grant-green {  color: #085C11;}
+.text-ross-ade-green {  color: #849E2A;}
+.text-celery-bog-green {  color: #C3BE0B;}
+.text-spring-fest-green {  color: #E9E45B;}
+.text-oaken-bucket-brown {  color: #6B4536;}
+.text-bell-tower-brick {  color: #C76C14;}
+.text-mackey-orange {  color: #FF9B1A;}
+.text-yellow-walk {  color: #FFD100;}
+.text-fountain-run-teal {  color: #2EAF9B;}
+.text-pappys-purple {  color: #AD1F65;}
+.text-polytechnic-dark-gray { color: #333333; }
+.text-polytechnic-light-gray { color: #eeeeee; }
+.text-polytechnic-medium-gray { color: #aaaaaa; }
+.text-polytechnic-off-white { color: #fdfdfd; }
+.text-white { color: #ffffff; }
+.text-polytechnic-yellow { color: #e3ae27; }
+#content .off-white-link a, 
+#content .off-white-link a:visited, 
+#content .off-white-link,
+.off-white-link a, 
+.off-white-link a:visited, 
+.off-white-link {color:#f9f9f9;}
+#content .off-white-link a:hover,
+.off-white-link a:hover{
+  color:#fff;
+  text-shadow: 0 0 20px rgb(0, 0, 0);
+	text-decoration:underline;
+}
+    
+.dark-gray-link a, .dark-gray-link a:visited {color:#333;}
+.dark-gray-link a:hover {color:#a3792c;}
+
+.highlight-link-white-a30 {
+    background: rgba(255,255,255,.3);
+    border: 1px solid #fff;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 7px 10px;
+    display:inline-block;
+}
+.highlight-link-white-a30:hover {
+    background: rgba(255,255,255,.7);
+    color: #333333;
+}
+
+/* Image Styles */
+.img-circle, .img-circle > a > img {
+    border-radius: 50%;
+}
+
+
+/* Mini panels get a special title class */
+.mini-panel-title {
+  margin: 0 10px;
+}
+
+/*Header blocks*/
+#block-views-site-section-title-block-2, #block-views-site-section-title-block-3 {float:right;  width:450px; padding:15px 0px 5px 0px;}
+#block-views-site-section-title-block, #block-views-f3697c76e3ec6b4bb0ed5f8398f9f86d { max-width:100%; float:left; padding-top:15px;}
+body.page-type-department-option-landing-page #block-views-site-section-title-block { max-width:450px; float:left; padding-top:15px;}
+#block-views-site-section-title-block-1 {max-width:450px; padding-top:5px;}
+#block-menu-block-6 div.clearfix:after {clear:none;}
+#block-menu-block-6 ul.clearfix:after {clear:none;}
+
+/* Degree page groups of degrees*/
+
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .views-field,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .views-field,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .views-field,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .views-field,
+.view-list-of-degrees-on-degree-page.view-display-id-block_22 .views-field,
+.view-list-of-degrees-on-degree-page.view-display-id-block_23 .views-field  {margin: 10px, 0, 0, 10px; }
+
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .views-field-field-degree-group-image,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .views-field-field-degree-group-image,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .views-field-field-degree-group-image,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .views-field-field-degree-group-image,
+.view-list-of-degrees-on-degree-page.view-display-id-block_22 .views-field-field-degree-group-image,
+.view-list-of-degrees-on-degree-page.view-display-id-block_23 .views-field-field-degree-group-image,
+.view-list-of-degrees-on-degree-page.view-display-id-block_24 .views-field-field-degree-group-image,
+.view-list-of-degrees-on-degree-page.view-display-id-block_25 .views-field-field-degree-group-image  {float:left; padding-right:10px;}
+
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .views-field-field-degree-instances-with-same, 
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .views-field-field-degree-instances-with-same, 
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .views-field-field-degree-instances-with-same, 
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .views-field-field-degree-instances-with-same, 
+.view-list-of-degrees-on-degree-page.view-display-id-block_22 .views-field-field-degree-instances-with-same, 
+.view-list-of-degrees-on-degree-page.view-display-id-block_23 .views-field-field-degree-instances-with-same {min-height:39px !important; background:url(images/location-icons/available-at-location2.png) no-repeat; margin-left:122px; padding-left:93px;}
+
+.view-list-of-degrees-on-degree-page.view-display-id-block_6 .degree-group,
+.view-list-of-degrees-on-degree-page.view-display-id-block_7 .degree-group,
+.view-list-of-degrees-on-degree-page.view-display-id-block_9 .degree-group,
+.view-list-of-degrees-on-degree-page.view-display-id-block_14 .degree-group,
+.view-list-of-degrees-on-degree-page.view-display-id-block_22 .degree-group,
+.view-list-of-degrees-on-degree-page.view-display-id-block_23 .degree-group,
+.view-list-of-degrees-on-degree-page.view-display-id-block_24 .degree-group,
+.view-list-of-degrees-on-degree-page.view-display-id-block_25 .degree-group {min-height:120px; clear:both; padding:5px; border:10px #fff; margin-bottom:15px;}
+
+
+ 
+/*List of degrees and children nodes for graduate studies page*/
+.view-id-current_student_degree_links .views-row {
+	float:left;
+	padding: 0 10px 0 10px; 
+	border-right:1px solid #ccc;
+}
+.view-id-current_student_degree_links .views-row-last {
+	border-right:none;
+	margin-bottom:15px;
+}
+.view-id-current_student_degree_links .views-row-first {
+	padding:0 10px 0 0px;
+}
+.view-id-current_student_degree_links h3 {
+	clear:both;
+}
+
+/*Department Degree Views - Table Grids*/
+.col-1 .views-field-field-image {max-width:312px;}
+.col-2 .views-field-field-image {max-width:312px;}
+.col-1 {vertical-align:top;}
+.col-2 {vertical-align:top;}
+
+/*department landing page infographic*/
+.views-field-field-info-graphic{ margin-left:-10px; min-width:240px; margin-top:20px;}
+
+/*.region-sidebar-second #block-views-14cbf74eebf9365ecbd89c89743905d8 .block-inner {margin-left:-10px; min-width:240px; margin-top:0px;}*/
+
+/* Target sidebar blocks */
+.sidebar .block {}
+.sidebar .block-inner {}
+.sidebar .block-title {}
+.sidebar .block-content {}
+
+/* Gpanel blocks */
+.gpanel .block {}
+.gpanel .block-inner {}
+.gpanel .block-title {}
+.gpanel .block-content {}
+
+/* Block wrapper for Mini Panels */
+.block-panels_mini {}
+.block-panels_mini .block-inner {}
+.block-panels_mini .block-content {}
+.block-panels_mini .mini-panel-title {
+  margin: 0 10px;
+}
+
+/* Login block - horizontal (theme setting) basic styles */
+.lb-h {
+  min-width: 320px;
+  margin-top: 1px;
+}
+.region-header .lb-h {
+  float: right;
+}
+.lb-h .block-inner,
+.lb-h .block-content {
+  background: none;
+  padding: 0;
+}
+.lb-h #user-login-form {
+  margin: 0;
+}
+.lb-h #user-login-form label {
+  line-height: 1.2
+}
+.lb-h .form-item {
+  float:left;
+  margin: 0;
+}
+.lb-h input.form-text {
+  margin:0 3px 0 0;
+  width:110px;
+}
+.lb-h #edit-actions {
+  margin: 0;
+}
+.lb-h input.form-submit {
+  position: absolute;
+  margin: 0;
+  top: 1.2em;
+}
+.lb-h .form-required,
+.lb-h .item-list {
+  display: none;
+}
+.lb-h h2 {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Reset margins and padding for the Help block .block-inner */
+#block-system-help .block-inner {
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset block ul in the dashboard */
+#dashboard .block ul {
+  margin-left: 0;
+}
+
+/* Department Contact Info Style
+.view-department-contact-info {
+	border:1px solid #CCC;
+	background-color:#eaeaea;
+	padding:10px;
+	font-size:.8em;
+	margin-bottom:10px;
+} */
+/* Department Contact Info Style */
+.social-media{
+	border:1px solid #CCC;
+	background-color:#eaeaea;
+	padding:10px;
+	font-size:.8em;
+	margin-bottom:10px;
+}
+/* Generic Sidebar Box Style */
+.sidebar-box {
+	border:1px solid #eee;
+	background-color:#f5f5f5;
+	padding:15px;
+	margin-bottom:10px;
+}
+
+.small-text {font-size:.8em;}
+.tight-lines {padding-top:3px;line-height:80% !important;}
+
+.node-degree-option.h2{display:none;}
+
+/* Apply Now button Style */
+#block-views-apply-now-button-block {
+	margin-bottom:20px;	
+}
+
+.view-department-affiliation-er {
+	margin-bottom:10px;	
+}
+
+
+
+/* generic 3 column blocks on landing pages */
+/*block sizes and padding*/
+.mc-row2-col1,
+.mc-row2-col2,
+.mc-row2-col3 {
+	padding:10px 10px 0px 10px;
+}
+
+/*paragraph text sizes*/
+.mc-row2-col1 p,
+.mc-row2-col2 p,
+.mc-row2-col3 p {
+	font-size:.8em;
+	margin:0 0 5px;
+}
+
+/*generic list styles*/
+.mc-row2-col1 ul,
+.mc-row2-col1 li,
+.mc-row2-col2 ul,
+.mc-row2-col2 li,
+.mc-row2-col3 ul,
+.mc-row2-col3 li{
+	font-size:1em; 
+	line-height:.9em;
+	padding-bottom:3px;
+	margin-left:8px;
+	list-style-position:3px;
+}
+
+/*column 1 - gold color with dark orange text*/
+.mc-row2-col1 h2 a,
+.mc-row2-col1 h2{
+	color: #703319;
+}
+.mc-row2-col1{
+	background:#ffb900;
+}
+.mc-row2-col1,
+.mc-row2-col1 a, 
+.mc-row2-col1 a link, 
+.mc-row2-col1 a visited{
+	color:#5a4100;
+}
+.mc-row2-col1 li{
+	list-style-image:url(/sites/default/files/images/prospective-student-arrow.png); 
+}
+/*column 2 - blue color with blue text*/
+.mc-row2-col2 h2 a,
+.mc-row2-col2 h2{
+	color: #fff;
+}
+.mc-row2-col2 {background:#6ba1be;}
+.mc-row2-col2,
+.mc-row2-col2 a, 
+.mc-row2-col2 a link, 
+.mc-row2-col2 a visited{
+	color:#2d4552;
+}
+.mc-row2-col2 li{
+	list-style-image:url(/sites/default/files/images/current-student-arrow.png); 
+}
+/*column 3 - salmon color with white text*/
+.mc-row2-col3{
+	background:#CE6752;
+}
+.mc-row2-col3 h2 a,
+.mc-row2-col3 h2,
+.mc-row2-col3,
+.mc-row2-col3 a, 
+.mc-row2-col3 a link, 
+.mc-row2-col3 a visited{
+	color: #fff;
+}
+.mc-row2-col3 li{
+	list-style-image:url(/sites/default/files/images/white-arrow.png); 
+}
+
+
+.audience-random-degree {
+	background-image:url(/sites/default/files/images/featured-degree.png);
+	background-repeat:no-repeat;
+	background-position:7px 9px;
+	/*padding:5px 5px 0px 5px !important;*/
+	border:none !important;
+}
+.audience-random-degree h2 {margin-top:3px;}
+.audience-random-degree .views-field {margin-left:25px;}
+
+*/
+
+
+
+/* Twitter Profile Widget*/
+
+.twtr-img {width:30px;}
+.twtr-hd , .twtr-ft{display:none;}
+
+/*Recent News with pictures and body for Landing Pages
+.view-article-feed-for-panel-pages  .views-row {min-height:130px;}
+.view-article-feed-for-panel-pages  .views-row-even {background-color:#fdf9f0;}
+.view-article-feed-for-panel-pages  .views-row-odd {background-color:#fdf9f0;}
+.view-article-feed-for-panel-pages  .views-field-field-image {clear:both;float:left; padding:5px; margin-right:5px;	}
+.view-article-feed-for-panel-pages  .views-field-title {font-weight:bold;}
+.view-article-feed-for-panel-pages  .views-field-title {margin-top:25px;}
+*/
+.view-id-calendar .views-row,
+.view-id-external_scholarship .views-row,
+.view-article-feed-for-panel-pages .views-row{
+	margin-bottom:6px;
+}
+.view-search-people. views-row{
+	margin-bottom:10px;
+}
+
+
+/* Plan of Study page grid */
+.page-type-plan-of-study table td.views-field-title {
+	width:135px;
+}
+
+.page-type-plan-of-study table td.views-field-field-course-title {
+	width:490px;	
+}
+
+/*.page-type-plan-of-study section.contextual-links-region {
+	margin-top:20px;
+	background-color:#CCC;
+}
+*/
+
+/* Total Credits on Plan of Study style */
+.page-type-plan-of-study .view-footer {
+	padding-right:22px;
+	font-weight:bold;
+	text-align:right;
+}
+
+
+iframe {
+	overflow:hidden;
+	overflow:scroll;
+}
+
+/*Course List Pages*/
+.view-list-of-courses-by-node-hierarchy .views-row {float:left;}
+.view-list-of-courses-by-node-hierarchy h3{clear:left; padding-top:10px;}
+/*@media only screen
+and (max-width : 400px){
+	.four-column{width:50% !important;}
+}
+@media only screen
+and (min-width : 401px) {
+	.four-column{width:24.99% !important;}
+}
+*/
+.view-course-page-display .cols-4 .col-1,
+.view-course-page-display .cols-4 .col-2,
+.view-course-page-display .cols-4 .col-3,
+.view-course-page-display .cols-4 .col-4 {
+	width:24.9%;
+}
+
+/*footer styles for menus*/
+#footer-wrapper ul {
+	margin:0em !important;
+	padding-bottom:10px;
+}
+
+
+#footer-wrapper .block-content ul li {
+	list-style-image:none !important;
+	list-style-type:none !important;
+	margin:0em !important;
+	padding:0em !important;
+	line-height:100% !important;
+	margin-bottom:5px !important;
+}
+
+#footer-wrapper .block-content ul li a:hover{
+	text-decoration:none !important;
+	line-height:100% !important;
+	margin-bottom:5px !important;
+}
+
+#footer-wrapper .block-content ul li a.active{
+	text-decoration:none !important;
+	line-height:100% !important;
+	margin-bottom:5px !important;
+}
+
+/* Remove group styling for degree listing on department homepages */
+
+.page-type-department-option-landing-page .degree-group,
+.section-center-for-professional-studies .degree-group, 
+.section-product-lifecycle-management .degree-group {
+	background-color:transparent !important;
+}
+
+.page-type-department-option-landing-page .degree-group a,
+.section-center-for-professional-studies .degree-group a,
+.section-product-lifecycle-management .degree-group a {
+	/*color:#8C8C8C;*/
+}
+
+.page-type-department-option-landing-page .degree-group .field-content,
+.section-center-for-professional-studies .degree-group .field-content,
+.section-product-lifecycle-management .degree-group .field-content {
+	color:#444;
+}
+
+
+.block-views ul.inline {
+	display:none !important;
+}
+
+
+/***** Camps Pages ******/
+
+/* Other Camps */
+#block-views-test-view-block-1 {
+	padding-bottom:15px;
+}
+
+/* Upcoming Camps */
+.view-list-of-diversity-camps .views-row {
+	padding-bottom:10px;
+}
+
+/***** Alumni and Friends Pages ******/
+
+/* Upcoming Events */
+.view-alumni-and-friends-upcoming-events .views-row {
+	padding-bottom:15px;
+}
+
+/***** Departments page ******/
+
+#block-menu-menu-org-units li {
+	list-style:none;
+	list-style-image:none;
+	line-height:140% !important;
+	text-decoration:none !important;
+}
+
+#block-menu-menu-org-units li a:link {
+	list-style:none;
+	list-style-image:none;
+	line-height:140% !important;
+	text-decoration:none !important;
+}
+
+/* Facilities list */
+
+.view-facilities .views-field {margin: 10px, 0, 0, 10px; }
+.view-facilities .views-field-field-facility-image
+ {float:left; padding-right:10px;}
+.view-facilities .views-field .views-field-title {min-height:39px !important; margin-left:122px; padding-left:93px;}
+
+#block-views-facilities-block-1 .views-row,
+#block-views-facilities-block-2 .views-row { 
+min-height:125px; }
+
+/* Hide 'configure' button on leaderboard */
+#block-block-6 .contextual-links-wrapper .contextual-links-trigger { display:none;}
+
+/***** Colorbox styles ******/
+
+/* Title */
+#colorbox .field-name-field-course-title {
+  font-size: 1.385em;
+  padding-bottom:10px;
+}
+
+#colorbox h2 {
+  font-size: 1.085em;
+}
+
+/* Search fields on /courses/ page */
+#edit-field-department-offering-course-target-id-1-wrapper {
+	float:left;
+}
+
+#edit-title-wrapper {
+	float:left;
+}
+
+.views-exposed-form form div,
+.views-exposed-widgets {
+	clear:right !important;
+}
+
+/* Camp Sponsors */
+#block-views-test-view-block-2 .block-content {
+	background-color:#FFF;
+	padding:25px;
+	border:1px solid #CCC;	
+}
+
+/* Research formating at research/projects/ */
+.view-research-projects .view-content .views-row {
+	padding-bottom:25px;	
+}
+
+h2.views-label-field-amount-received {
+	font-size:44px;
+}
+
+.views-field-field-amount-received p {
+	font-size:18px;
+	font-weight:bold;
+}
+
+/* Make text on featured degree on homepage smaller */
+.front #content_3columnMcWidget-column3 h2 a {
+	/*font-size:17px !important;*/
+}
+
+
+
+/* Spacing for related degrees and continuing education on degree pages */
+#block-views-related-degrees-er-block .block-title,
+#block-views-related-degrees-er-block-1 .block-title {
+	padding-bottom:5px;
+}
+
+#block-views-related-degrees-er-block .views-field-title,
+#block-views-related-degrees-er-block-1 .views-field-title,
+#block-views-related-degrees-er-block-2 .views-field-title {
+	padding-bottom:10px;
+}
+
+/* Style statewide admissions block AND style statewide location admissions>apply pages */ 
+#block-block-16 ul,
+#block-block-21 ul,
+#block-block-22 ul {
+	margin-left:20px;
+}
+
+/*Advisor listing views*/
+.degree-advisory-contacts-detail .views-row-odd,
+.degree-advisory-contacts-detail .views-row-even {
+	margin-bottom:15px;
+}
+
+.degree-advisory-contacts-detail .views-field-picture {
+	float:left;
+	max-width:120px;
+	padding-right:10px;
+}
+.degree-advisory-contacts-detail table{
+	border:1px solid #ddd;
+	margin:0px 0px 25px 0px;
+}
+.degree-advisory-contacts-detail td {
+	width:49.9%;
+	border:1px solid #ddd;
+}
+
+
+/*generic light blue striping used in sidebars and main content 3-col areas*/
+.blue-stripe {
+	background: url(images/sidebar-background.png) no-repeat;
+	padding:10px;
+	margin-bottom:20px;
+	min-height:200px;
+}
+
+/* Style Innovation Magazine Page (/innovation) */
+.section-innovation #block-views-newsroom-views-block-7 .views-row {
+	clear:both;
+	padding-bottom:10px;
+	padding-top:5px;
+	border-top: 1px solid #CCC;
+}
+
+
+/* Style Newsroom */
+.section-newsroom #block-views-newsroom-views-block-1 .views-field-field-slider-image {
+	float:left;
+	clear:both;
+	padding-right:10px;
+}
+
+.section-newsroom #block-views-newsroom-views-block-1 .views-row {
+	clear:both;
+	padding-bottom:10px;
+	padding-top:5px;
+	border-top: 1px solid #CCC;
+}
+
+.page-node-4618 .view-content {
+	margin-bottom:10px;
+}
+
+.page-node-4618 #block-views-newsroom-views-block-5 .views-row {
+	margin-bottom:10px;
+}
+
+
+.region-sidebar-second .block {
+	margin-bottom:10px;
+}
+
+.section-product-lifecycle-management .view-list-of-degrees-on-degree-page h3 {display:none;}
+
+/*Google CSE Search*/
+/* search results */
+#google-cse-results {
+	max-height: 1300px;
+	overflow: hidden;
+}
+
+/***********************************
+50th Anniversary Styling Starts Here
+***********************************/
+
+/*50th anniversary timeline stuff*/
+.view-id-50th_timeline .views-row {
+	border:1px solid #ddd;
+	margin-top:25px;
+}
+.view-id-50th_timeline .views-field-field-date {
+	font-size: 2rem;
+	padding:10px;
+	font-weight:100;
+	color:#6ba1be;
+	background-color:#e3ebee;
+}
+.view-id-50th_timeline h4 {
+	font-size: 1.3rem;
+	font-weight:600;
+	color:#ce6752;
+	padding:10px;
+}
+
+.view-id-50th_timeline .views-field-body {
+	padding:10px;
+}
+
+/*50th anniversary memory forms*/
+.node-memory-form .form-item-title {display:none;}
+.node-memory-form .vertical-tabs {display:none;}
+.node-memory-form #edit-preview {display:none;}
+
+/*50th anniversary shared memories*/
+.view-shared-memories .views-row {
+	border:1px solid #ddd;
+	margin-top:25px;
+	padding:10px;
+}
+
+/*50th anniversary shared memories*/
+
+
+
+/*Alumni Profiles CT View Styling*/
+.page-type-alumni-profile .views-field-field-headshot {
+	float:right;
+}
+
+.page-type-alumni-profile .views-field-body {
+	padding-top:20px;
+}
+
+.page-node-5469 #block-views-alumni-profile-block-1 td.views-field-title {
+	width:25%;
+}
+
+.page-node-5469 #block-views-alumni-profile-block-1 img,
+#block-views-alumni-profile-block-2 img{
+	width:25px;
+	height:25px;
+}
+
+#block-views-alumni-profile-block-2 h2 {
+	margin-bottom:20px;
+}
+
+#block-views-alumni-profile-block-8 {
+  background: #444;
+  width:100%;
+  padding:0;
+  margin-left:0px;
+  float:right;
+  color:#ffd100;
+  font-size:1.6rem;
+  font-weight:bold;
+  text-transform: uppercase;
+  text-align:center;
+}
+
+#block-views-alumni-profile-block-8 .height-container {
+  height:200px;
+}
+
+#block-views-alumni-profile-block-8 .height-container img{
+
+}
+
+#block-views-alumni-profile-block-8 img{
+  margin: 40px 40px 40px 20px;
+}
+
+#block-views-alumni-profile-block-8 .divider{
+  margin:40px auto;
+}
+
+.divider.gray{
+    height: 8px;
+    width: 50%;
+    max-width: 150px;
+    margin: 5px auto 30px;
+    background-color: #333;
+}
+
+
+#block-views-alumni-profile-block-8 .clearfix,
+#block-views-alumni-profile-block-6 .clearfix,
+#block-views-alumni-profile-block-8 .clearfix:after,
+#block-views-alumni-profile-block-6 .clearfix:after{
+  clear:none; 
+}
+
+
+/*Graduate Courses CT View Styling*/
+.page-type-graduate-courses .view-grouping-content p {
+	font-size:1rem !important;
+	font-weight:500 !important;	
+}
+
+.page-type-graduate-courses .view-grouping {
+	padding-bottom:10px;
+}
+
+
+/*Blockquotes*/
+
+.blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid #E3AE24;
+  border-right: 2px solid #E3AE24;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+.blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+.blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+
+/*Block Quote on Degree Page*/
+
+
+.page-type-degree-option .views-field-field-headshot {
+	float:left;
+	margin-right:20px;
+}
+
+
+#block-views-alumni-profile-block-3{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 10px;
+  margin: 20px 10px 20px 10px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid #E3AE24;
+  border-right: 2px solid #E3AE24;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+#block-views-alumni-profile-block-3 .views-field-field-blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #999;
+  
+  /*Positioning*/
+  float: left;
+  top:0px;
+  margin-top:-15px;
+  margin-right:10px;  
+}
+
+#block-views-alumni-profile-block-3 .views-field-title,
+#block-views-alumni-profile-block-3 .views-field-field-graduation-degree-and-year {
+	float:right;
+	clear:right;
+}
+
+#block-views-alumni-profile-block-3 .views-field-nothing {
+	clear:both;
+}
+
+#block-views-alumni-profile-block-3 .views-field-title {
+	padding-top:20px;
+}
+
+
+.#block-views-alumni-profile-block-3 .views-field-field-blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+
+
+/*Graduate Faculty ID Numbers*/
+.hide-fac-ids {
+	display:none;	
+}
+
+	/* show Graduate Faculty ID Numbers on grad directory pages*/
+.page-node-1580 .hide-fac-ids,
+.page-node-2263 .hide-fac-ids,
+.page-node-2264 .hide-fac-ids,
+.page-node-2265 .hide-fac-ids,
+.page-node-2266 .hide-fac-ids,
+.page-node-3300 .hide-fac-ids,
+.page-node-2268 .hide-fac-ids,
+.page-node-3301 .hide-fac-ids,
+.page-node-1622 .hide-fac-ids {
+	display:inherit;	
+}
+ 
+/*MS degree funding pages spacing*/
+
+.view-graduate-funding .views-row {
+	padding-bottom:10px;	
+}
+
+/*Prospective Students landing page styles*/
+
+.page-node-6566 h1 {
+	display:none;
+}
+
+.block-inner-6566 {
+	margin: 0 10px 10px 10px;
+}
+
+a .caption {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+
+}
+
+.grid-box {
+	position:relative;
+	width:100%;
+}
+
+.page-node-6566 #header-wrapper {
+	max-height:550px !important;
+}
+
+.page-node-6566 #content-wrapper {
+	height:20px !important;
+}
+
+.action-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#E3AE24;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0px;
+	display:inline-block;
+	color:#ffffff !important;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none !important;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+
+}
+.action-button:hover {
+	background-color:#cf9d1c;
+}.action-button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/*Where to Study landing page styles*/
+
+.page-node-6639 h1 {
+	display:none;
+}
+
+.block-inner-6639 {
+	margin: 0 10px 10px 10px;
+}
+
+.page-node-6639 h2 {
+	font-size:1.8em;
+	line-height:1.4em;
+}
+
+a .caption {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+
+}
+
+.grid-box {
+	position:relative;
+	width:100%;
+}
+
+.page-node-6639 #header-wrapper {
+	max-height:550px !important;
+}
+
+.page-node-6639 #content-wrapper {
+	height:20px !important;
+}
+
+
+.page-node-6639 .col-1, .page-node-6639 .col-2, .page-node-6639 .col-3 {
+	border:none !important;
+	width:32%;
+}
+
+
+.page-node-6639 .views-view-grid .views-field-title {
+	min-height:28px !important;
+}
+
+
+
+
+
+/*Current Students landing page styles*/
+
+.page-node-2712 h1 {
+	display:none;
+}
+
+
+.block-inner-2712 {
+	margin: 0 10px 10px 10px;
+}
+
+.page-node-2712 a .caption {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+
+}
+
+.page-node-2712 .advising-box-list {
+    position: absolute;
+	top: 15px;
+	left: 45%;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 37px;
+}
+
+.page-node-2712 .advising-box-list a {
+	color: #fff;	
+}
+
+.page-node-2712 .resources-box-list-1 {
+    position: absolute;
+	top: 40%;
+	left: 6%;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 26px;
+}
+
+.page-node-2712 .resources-box-list-1 a {
+	color: #fff;	
+}
+
+.page-node-2712 .resources-box-list-2 {
+    position: absolute;
+	top: 10%;
+	left: 50%;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 26px;
+}
+
+.page-node-2712 .resources-box-list-2 a {
+	color: #fff;	
+}
+
+
+.page-node-2712 .tutoring-box-list {
+    position: absolute;
+	top: 20%;
+	left: 6%;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 26px;
+}
+
+
+.page-node-2712 .tutoring-box-list .col-first {
+	width: 55%;
+	padding-bottom:12%;
+}
+
+.page-node-2712 .view-display-id-block_13 {
+	line-height: 20px;
+}
+
+.page-node-2712 .date-display-single {
+	font-size:14px;
+}
+
+.page-node-2712 .tutoring-box-list a {
+	color: #fff;	
+}
+
+.page-node-2712 #header-wrapper {
+	max-height:550px !important;
+}
+
+
+.page-node-2712 .events-box-list {
+    position: absolute;
+	top: 20%;
+	left: 33%;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 26px;
+}
+
+.page-node-2712 .events-box-list a {
+	color: #fff;	
+}
+
+.page-node-2712 .region-sidebar-second  {
+	display:none;
+}
+
+/* Global Menu Bar Search */
+
+#edit-search-block-form--2 {
+    border: 1px solid #d1d1d1;
+    color: #bebebe;
+	font-size:0.9rem;
+    width: 150px;
+    padding: 6px 15px 5px 15px !important;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+#edit-search-block-form--2:focus {
+    color: #6a6f75;
+    width: 200px;
+    }
+
+#search-block-form {
+	padding-top: 3px !important;
+}
+
+/* New Degrees Page Filtering */
+
+.explore-degrees li {
+	margin: 12px 0 20px 10px !important; 
+	padding: 0;
+	color: #000;
+	display: inline-block;
+	position:relative;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+.explore-degrees li a {
+	padding: 5px 10px 5px 10px;
+}
+
+.explore-degrees li.first {
+	margin-left: 0px !important;
+}
+
+.explore-degrees li.first:hover:after {
+	content:"";
+	border-style: none;
+	left: 0;
+	bottom: -0;
+    margin-left:0;
+	border-width: 0;
+	border-color: none;
+}
+
+.explore-degrees li.active-trail {
+	background: #2eafa4;
+	border: none;
+	color:#fff;	
+}
+
+
+.explore-degrees li:hover {
+	background: #2eafa4;
+	border: none;
+	color:#fff;	
+}
+
+.explore-degrees a:hover, .explore-degrees li a:hover {
+	color:#fff !important;	
+	text-decoration:none !important;
+}
+
+.explore-degrees li.active-trail:after, .explore-degrees li:hover:after {
+	content:"";
+	border-style: solid;
+    position: absolute;
+	left: 50%;
+	bottom: -10px;
+    margin-left:-12px;
+	border-width: 10px 12.5px 0 12.5px;
+	border-color: #2eafa4 transparent transparent transparent;
+}
+
+.explore-degrees li.first:hover {
+	background: none;
+	border: none;
+	color:#000;
+}
+
+/* Blogs */
+
+.view-Blogs .views-row {
+	border-bottom: 1px solid #ddd;
+	padding-bottom:30px;
+	margin-top: 30px;
+}
+
+.view-Blogs .views-row-1 {
+	border-top: 1px solid #ddd;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+
+.view-Blogs .views-row-1 .views-field-title {
+	padding-top:10px;
+}
+
+.view-Blogs p {
+	line-height:1.4;
+}
+
+.view-Blogs .blog-post-date {
+	float: left;
+}
+
+.view-Blogs .blog-post-content {
+	margin-left:60px;
+}
+
+.view-Blogs .post-day {
+	background: #eee;
+	border-radius: 2px 2px 0 0;
+	color: #a3792c;
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	font-weight: 400;
+	padding: 10px;
+	text-align:center
+}
+
+.view-Blogs .post-month {
+	background: #a3792c;
+	border-radius: 0 0 2px 2px;
+	box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	padding: 0 10px 2px;
+	text-align:center	
+}
+
+/* Individual Post */
+.page-type-blog-post .post-meta, 
+.page-type-blog-post .post-meta a,
+.page-type-blog-post .post-meta a.visited {
+	font-size:0.9rem;
+	font-style:italic;
+	margin-bottom:20px;
+	color:#A9A9A9 !important;
+}
+
+.page-type-blog-post .author-summary {
+	border-bottom: 1px solid #ddd;
+	padding-bottom:20px;
+	margin-top: 20px;
+	border-top: 1px solid #ddd;
+	padding-top:10px;
+	overflow:auto;
+}
+.page-type-blog-post .author-summary .author-headshot {
+	float:left;
+	padding-right:20px;
+}
+
+.page-type-blog-post .author-summary .author-summary-text {
+	font-size:0.9rem;
+}
+
+.page-type-blog-post #block-views-blog-categories-block .block-title,
+.page-type-blog-post #block-views-blogs-block-2 .block-title {
+	padding-bottom: 5px;
+}
+
+.page-type-blog-post #block-views-blogs-block-2 .view-footer {
+	font-weight:bold;
+}
+
+#block-views-blog-categories-block .views-field-name,
+#block-views-blogs-block-2 .views-field-title {
+	border-bottom:1px solid #ddd;
+	position:relative;
+}
+#block-views-blog-categories-block .views-field-name a,
+#block-views-blogs-block-2 .views-field-title a {
+	display:block;
+	height:100%;
+	padding-bottom:8px;
+	padding-top:8px;	
+}
+#block-views-blog-categories-block .views-field-name a:hover,
+#block-views-blogs-block-2 .views-field-title a:hover {
+	display:block;
+	height:100%;
+	background-color: #F5F5F5;
+	text-decoration:none;
+}
+
+
+.page-type-blog-post #block-views-blog-categories-block,
+.page-type-blog-post #block-views-blogs-block-2 {
+	padding-bottom:20px;
+}
+
+/* Hide unneeded fields for comments */
+.page-type-blog-post #edit-author--2,
+.page-type-blog-post .form-item-subject,
+.page-type-blog-post .form-type-textarea label,
+.page-type-blog-post .filter-wrapper {
+	display:none !important;
+}
+
+/* Individual News Article - /newsroom/... */
+
+/* Hide unneeded fields for comments */
+.page-type-article #edit-author--2,
+.page-type-article .form-item-subject,
+.page-type-article .form-type-textarea label,
+.page-type-article .filter-wrapper {
+	display:none !important;
+}
+
+.page-type-article .post-meta, 
+.page-type-article .post-meta a,
+.page-type-article .post-meta a.visited {
+	font-size:0.9rem;
+	font-style:italic;
+	margin-bottom:20px;
+	color:#A9A9A9 !important;
+}
+
+
+.page-type-article .links {
+	padding-top:20px;	
+}
+
+.view-article-feed-for-panel-pages td, 
+.view-article-feed-for-panel-pages th {
+	border-bottom: none;
+	margin: 0;
+	padding: 20px 20px;
+}
+
+.page-type-article .view-display-id-block_6 .views-row {
+	border-bottom: 1px solid #ddd;
+}
+
+.page-type-article .view-display-id-block_6 .views-row-1 {
+	border-top: 1px solid #ddd;
+}
+
+.page-type-article .view-display-id-block_6 .views-field-name a,
+.page-type-article .view-display-id-block_6 .views-field-title a {
+	display:block;
+	height:100%;
+	padding-bottom:8px;
+	padding-top:8px;	
+}
+.page-type-article .view-display-id-block_6 .views-field-name a:hover,
+.page-type-article .view-display-id-block_6 .views-field-title a:hover {
+	display:block;
+	height:100%;
+	background-color: #F5F5F5;
+	text-decoration:none;
+}
+
+/* Newsroom - /newsroom */
+.views-field-field-thumbnail {
+	float: left;
+	margin-right:10px
+}
+
+/* Audience Landing Page News */
+
+.view-article-feed-for-panel-pages  .article-post-date {
+	float: left;
+	background: #aaa;
+	padding:5px 10px 5px 10px;
+	min-width: 30px;
+	min-height: 40px;
+}
+
+.view-article-feed-for-panel-pages .post-day  {
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	text-align:center
+}
+
+.view-article-feed-for-panel-pages .post-month {
+	color: #FFFFFF;
+	font-size: 0.9em;
+	text-align:center	
+}
+
+.view-article-feed-for-panel-pages .views-row {
+	clear:both;
+	background-color: #eee;
+	height:50px;
+}
+
+.view-article-feed-for-panel-pages h2 {
+	margin-top:0px !important;
+}
+
+.view-article-feed-for-panel-pages .article-title {
+	display: inline-block;
+	margin-left: 10px;
+	padding-top: 16px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 80%;
+}
+.view-article-feed-for-panel-pages {
+	min-height:303px;
+}
+
+/* Add padding to columns */
+.page-type-landing-page-for-other .two-column,
+.page-type-landing-page-for-other .three-column,
+.page-type-landing-page-for-other .two-of-three-column,
+.page-type-landing-page-for-other .four-column {
+	/*padding-top:20px;*/
+}
+
+/* Override h2 styles for colorbox boxes */
+#block-views-e3cb8d3e53c31bed80d92aeeb514ff2c h2,
+#block-views-4178417432830727e8a7e49f64ab3645 h2,
+#block-views-c659551c9de5332ea9fd3a8cb1bff775 h2 {
+	padding-bottom:0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+/***************************
+****************************
+Accordian Styles - Content Section Generic
+****************************
+***************************/
+
+/*remove the block-inner left-right padding on accordian inner content*/
+#content-wrapper .ui-accordion-content .block-inner {
+	margin-left:0;
+	margin-right:0;	
+}
+
+/*set the H3 back to our theme settings*/
+#content-wrapper .ui-accordion-header {
+	margin-top:20px !important;
+}
+#content-wrapper h3.ui-accordion-header a {
+	font-size: 1.1rem;
+	font-weight:bold;
+	color:#000000;
+}
+
+#content-wrapper h3.ui-state-default,
+#content-wrapper h3.ui-accordion-header.ui-state-active{
+	background-color:#eeeeee;	
+	background-image:none;
+}
+#content-wrapper h3.ui-accordion-header.ui-state-hover {
+	background-color:#e3ae24;	
+	background-image:none;
+}
+
+#content-wrapper .ui-state-default,
+#content-wrapper .ui-state-active,
+#content-wrapper .ui-widget-content {
+	border:none;
+}
+#content-wrapper .ui-widget-content {
+	background:none;
+}
+
+/* Remove unneeded fields for form blocks */
+
+.node-form .filter-wrapper,
+.node-form .ckeditor_links {
+	display:none !important;
+}
+
+
+/*hide error messages for unauthenticaed users*/
+.role-anonymous-user .messages.error {
+	display:none;
+}
+
+/********************************
+*********************************
+Fall '15 Degree Page Blocks
+*********************************
+*********************************/
+
+/*hero view block in highlighted region*/
+#block-views-f0d81edb2c7726d57dde7b0fc7620e3e .block-inner {
+  margin:0px;
+}
+#block-views-f0d81edb2c7726d57dde7b0fc7620e3e .hero-bkg {
+	height:300px;
+	background-size:cover;
+	background-position:center center;
+}
+#block-views-f0d81edb2c7726d57dde7b0fc7620e3e .container {
+	height:300px;
+}
+
+#block-views-f0d81edb2c7726d57dde7b0fc7620e3e .degree-summary {
+	color:#171717;
+	background-color: #e3ae24;
+  display: inline-block;
+	max-width:500px;
+  padding:10px;
+	position:absolute;
+	bottom:20px;
+}
+
+
+/*what can I do where can I go block*/
+.view-id-degree_page_content_blocks.view-display-id-block_1 {
+  color: #fff;
+  background-color: #333;
+  padding: 20px 10px 40px 10px;
+  text-align: center;
+  line-height:200%;
+}
+.view-id-degree_page_content_blocks.view-display-id-block_1 .views-label{
+  color: #e3ae24;  
+}
+
+/*Degree and People Profile Quote block*/
+.student-alumni-quote .quote-bkg {
+	height:300px;
+	background-size:cover;
+	background-position:center center;
+  background: url('/sites/default/files/images/spring_bg.jpg');
+}
+
+.student-alumni-quote .container {
+	height:300px;
+}
+.student-alumni-quote .block-inner {
+  margin:0px;
+}
+.degree-student-quote {
+  background-color:rgba(255,255,255,0.8);
+	border-radius: 10px;
+  display: inline-block;
+	max-width:45%;
+  padding:20px;
+	position:absolute;
+	top:50%;
+	-webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.degree-student-quote-photo {
+  position: relative;
+  left: 60%;
+  top: 13px;
+  width: 250px;
+  border: 10px solid white;
+  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  line-height: 0;
+  -webkit-box-shadow: 0 1px 11px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 11px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 11px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.degree-student-quote .student-quote-mark { /*quote marks*/
+  float: left;
+  font-size: 700%;
+  color: #444;
+  height: 45px;
+  margin-top: -33px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+.degree-student-quote .student-end-quote-mark { /*quote marks*/
+	display:none;
+}
+.degree-student-quote .degree-student-quote:after { /*carrot for quote bubble*/
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: rgba(255, 255, 255, 0.8);
+	border-width: 30px;
+	margin-top: -30px;
+}
+.degree-student-quote .student-name {
+	text-align:right;
+	font-size:1.2rem;
+	font-weight:bold;
+	padding-top:10px;
+}
+.degree-student-quote .student-degree {
+	text-align:right;
+	font-style:italic;
+}
+
+#block-block-137 { /*infographics bar*/
+	background-color: #171717;
+	padding: 45px 0 45px 0;	
+	margin: 20px 0 20px 0;
+}
+#block-block-137 .block-inner { /*infographics bar*/
+	padding: 0 30px 0 30px;	
+}
+#block-block-141 .block-inner .first { /*squeeze first and last column to make padding for request info column*/
+  margin-right: 25px;
+}
+#block-block-141 .block-inner .last { /*squeeze first and last column to make padding for request info column*/
+	margin-left: 25px;
+}
+#block-block-141 ul { /*additional information block*/
+	margin-left:6px;
+}
+#block-block-141 ul li { /*additional information block*/
+	padding-bottom:4px;
+}
+.view-display-id-block_9 .views-row { /*advisors block*/
+	padding-bottom:4px;
+}
+.view-display-id-block_10 .views-row { /*related degrees block*/
+	/*padding-bottom:4px;*/
+}
+.ribbon-bg { /*request info ribbon*/
+  float: left;
+  width: 64px;
+  /*background: #e3ae24;*/
+  color: #171717;
+  padding: 12px 0 0;
+  position: relative;
+  z-index: 10;
+	margin-top:-40px;
+	margin-bottom:10px;
+  /*-webkit-box-shadow:0 -8px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 -8px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:0 -8px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+  background: url('/sites/default/files/images/request-info-bkg.svg');
+  background-size: 600px;
+  background-position-y: bottom;
+  background-position: center bottom;
+}
+div.ribbon-bg form { /*request info ribbon*/
+	width:260px;
+	min-width:260px;
+	margin:0 auto;
+	margin-bottom:140px;
+}
+/*request info form element sizes*/
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-first-name {
+	width:91px;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-middle-initial {
+	width:16px !important;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-last-name {
+	width:91px;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-email {
+	width:246px;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-mailing-address-1 {
+	width:246px;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-address-2 {
+	width:246px;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-city {
+	width:120px;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-state {
+	width:28px!important;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-zip {
+	width:50px!important;
+}
+div.ribbon-bg #block-webform-client-block-10182 #webform-component-zip {
+	margin-right:0px !important;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-country {
+	width:246px;
+}
+div.ribbon-bg #block-webform-client-block-10182 #edit-submitted-questions-or-comments {
+	width:260px;
+}
+
+div.ribbon-bg .form-actions { /*request info submit button*/
+	padding-left:36%;
+}
+div.ribbon-bg #edit-submit { /*request info submit button*/
+	-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+  background: #171717;
+  border: 0;
+  color: #fff;
+  padding: 8px;
+	font-weight:bold;
+	margin-bottom: 0 !important;
+  margin-right: 0 !important;
+	clear: none !important;
+  float: none !important;
+}		
+.ribbon-bg:before { /*request info ribbon*/
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -19px;
+  top: 0;
+  content: "";
+  border-left: solid 20px #a3792c;
+  border-top: solid 20px transparent;
+}
+
+
+/***********************
+  video wrapper 16x9       
+/***********************/
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  /*padding-top: 25px;*/
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+
+/*****************************
+Action Bars
+******************************/
+
+
+.action-bar { /*action bar spacing & padding*/
+  padding: 50px 0 50px 0;	
+}
+ 
+.action-bar,
+.action-bar a { /*action bar text*/
+	text-align:center;
+	text-transform:uppercase;
+	color:#222;
+	text-decoration:none;
+}
+.action-bar .line-divider { /*action bar line divider*/
+	display: block;
+  width: 50%;
+  max-width: 100px;
+  height: 4px;
+  margin: 15px auto 0;
+  background-color: #222;
+}
+
+.action-bar .line-divider.bkg-white { /*action bar line divider*/
+  background-color: #fff;
+}
+
+.action-bar .apply-tooltip { /*action bar hover instruction for applying to polytechnic*/
+    display: inline;
+    position: relative;
+}
+
+.action-bar .apply-tooltip:hover {
+    text-decoration: none;
+}
+
+.action-bar .apply-tooltip:hover:after {
+    background: #111;
+    background: rgba(0,0,0,.8);
+    border-radius: .5em;
+    bottom: 130px;
+    color: #fff;
+    content: attr(title);
+    display: block;
+    left: -140px;
+    padding: .3em 1em;
+    position: absolute;
+    text-shadow: 0 1px 0 #000;
+		width: 250px;
+		text-transform:none;
+    z-index: 98;
+}
+
+.action-bar .apply-tooltip:hover:before {
+    border: solid;
+    border-color: #111 transparent;
+    border-color: rgba(0,0,0,.8) transparent;
+    border-width: .4em .4em 0 .4em;
+    bottom: 75px;
+    content: "";
+    display: block;
+    left: 2em;
+    position: absolute;
+    z-index: 99;
+}	
+	
+
+
+
+/*Format degree promo image for degrees that didn't convert to fall 2015 degree redesign*/
+.view-degree-body-and-header-image img {
+	width:748px;
+	padding-bottom:20px;
+}
+	
+
+
+/*Hide old degree content for devoloping new content*/
+#block-views-851d35c7b649ff6fba65bf7431a2321e {
+	padding-top:30px;
+}
+
+
+/********************************
+*********************************
+Fall '15 Department Landing Page Blocks
+*********************************
+*********************************/
+
+
+/*Hide Old Department content for website hero (CIT) */
+
+
+/*Department Upcoming Events and Icons */
+.calendar-day-icon .calendar-month { /*calendar month text*/
+  font-size: 1rem;
+}
+.calendar-day-icon .calendar-day { /*calendar date*/
+  font-size: 2.7rem;
+  margin-top: 2rem;
+  font-weight: 400;
+	z-index: -99999;
+}
+.calendar-day-icon .fa-3x {
+    font-size: 4.5rem;
+}
+.calendar-day-icon .fa-calendar-o { 
+  color: #aaaaaa;
+}
+
+/*Department intro block */
+#block-block-147 {
+	padding:20px 0;
+}
+
+/*Department news */
+.department-news-and-events .featured-image {
+  max-height:275px;
+  overflow: hidden;
+}
+.department-news-and-events .featured-image-caption {
+    padding: 10px 0;
+    font-size: .85rem;
+    font-style: italic;
+}
+.clear-both {
+  clear:both;
+}
+/*Department events */
+.department-news-and-events .view-display-id-block_4 .views-row-first {
+  clear:both;
+}
+.calendar-day-icon .views-row {
+	padding:30px 0;
+}
+.calendar-day-icon span.fa-3x {
+	float:left;
+}
+.calendar-day-icon .event-title {
+	float:left;
+	width:54%;
+	margin-top:5%;
+	padding-left:10px;
+}
+.calendar-day-icon .event-title p {
+  font-size:.85rem;
+}
+
+/*Department photo collage */
+#block-block-148 {
+	max-width:100%;
+	overflow:hidden;
+}
+#block-block-148 .block-inner {
+  position: relative;
+  width: 2082px;
+  left: 51%;
+  transform: translate(-50%,0%);
+	-ms-transform: translate(-50%,0%);
+	-webkit-transform: translate(-50%,0%);
+	padding-top:5px;
+}
+
+/* audience boxes*/
+.at-audience-block {
+  background:url("/sites/default/files/images/clouds-bkg.jpg");
+  background-position:center center;
+  background-size: cover;
+}
+.audience {
+  margin: 10px;
+  padding:20px;
+  position:relative;
+}
+.audience-name, .audience-name a {
+  color:#f9f9f9;
+  font-size:1.6rem;
+  font-weight:700;
+}
+.box-content {
+  
+}
+.audience icon {
+  float:right;
+}
+.audience .line {
+  display: block;
+  width: 70px;
+  height: 8px;
+}
+.audience .audience-icon {
+	float:right;
+}
+.audience .degree-list a {
+	color: #ffd100;
+}
+
+.audience .degree-grad-list h3 {
+  color: #fff;
+  font-style: italic;
+}
+
+/* AT Specific audience boxes*/
+.at-audience-block .audience .audience-name {
+	position:absolute;
+	bottom:20px;
+  padding-right: 20px;
+}
+.at-audience-block .audience .audience-icon {
+	float:right;
+	margin-top:30px;
+	padding-right: 10px;
+}
+.at-audience-block .audience {
+  height:100px;
+}
+.at-audience-block .audience .line {
+	margin-bottom:10px;
+}
+
+/*Calendar Pages link color */
+.view-id-calendar .month-view a,
+.view-id-calendar .month-view a:visited,
+.view-id-calendar .month-view a:hover {
+	color:#000 !important;
+}
+
+/* TST Specific audience boxes*/
+.tst-audience-block .three-column .audience .audience-name {
+	position:absolute;
+	bottom:20px;
+  padding-right: 20px;
+}
+.tst-audience-block .three-column .audience .audience-name a {
+	font-size: 1.2rem;
+}
+.tst-audience-block .three-column .audience .audience-icon {
+	float:right;
+	margin-top:30px;
+	padding-right: 10px;
+}
+.tst-audience-block .three-column .audience {
+  height:80px;
+}
+.tst-audience-block .three-column .audience .line {
+	margin-bottom:10px;
+}
+
+/* Hide datetime field on events content type (replicated in views) per Matt, 6/8/16 */
+
+.page-type-event div.field-type-datetime {
+	display:none;
+}
+
+#block-views-335e6b5998bc2d16698f3ebe646920e2 {
+  margin-bottom:0px;
+}
+
+/* Rounded corners */
+.rounded-corners {
+	border-radius:10px;
+}

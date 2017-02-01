@@ -1,0 +1,603 @@
+
+
+/*  BASIC SETTINGS */
+/*  BASIC SETTINGS */
+/*  BASIC SETTINGS */
+.section-engineering-denieds .alt-headline {
+	font-family: 'Oxygen', sans-serif; 
+	font-weight:bold;
+	font-size:10px;
+}
+
+
+.section-engineering-denieds .super-size {
+	font-size:4em;
+}
+
+.section-engineering-denieds .big {
+	font-size:2.1em;
+}
+
+
+	/*page setup*/
+.section-engineering-denieds .container {
+	width:100%;
+	margin: 0 auto;
+}
+	/*hide white space at the bottom of page*/
+.section-engineering-denieds #article-5189 {
+	display:none;	
+}
+
+.section-engineering-denieds #background {
+	background-image:url('images/prospective-student-bg.jpg');
+	background-repeat:no-repeat;
+background-position: top center;	
+}
+.section-engineering-denieds .body { 
+	max-width:960px; 	
+}
+
+.section-engineering-denieds .block-inner {
+	margin:0;
+}
+
+.section-engineering-denieds .section-1-banner {
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   margin-bottom:-5px;
+}
+
+.section-engineering-denieds h2 { 
+   position: absolute; 
+   top: 50%; 
+   left: 3%; 
+   width: 97%;
+   color:#FFF; 
+}
+
+#white-text {
+	color:#FFF;
+}
+
+
+/*  SECTIONS  */
+/*  SECTIONS  */
+/*  SECTIONS  */
+
+.section-engineering-denieds .section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.section-engineering-denieds .header-background {
+	background-image:url('images/header-background.jpg');
+	background-repeat:no-repeat;
+background-position: top center;	
+}
+
+
+.section-engineering-denieds .col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.section-engineering-denieds .group:before,
+.section-engineering-denieds .group:after {
+	content:"";
+	display:table;
+}
+.section-engineering-denieds .group:after {
+	clear:both;
+}
+
+/* logo section */
+.section-engineering-denieds .logo-background {
+	background-image:none;
+	background-color:#E3AE24;
+}
+
+.section-engineering-denieds #logo img {
+	display:block;
+	margin:0 auto;
+}
+
+/* header section */
+.section-engineering-denieds .job-title-slideshow-wrapper { 
+   position: absolute; 
+   top: 80%; 
+   left: 22.5%; 
+   width: 77.5%;
+   color:#FFF; 
+}
+
+.section-engineering-denieds .job-title-slideshow-wrapper .job-title-slideshow-static {
+	float:left;
+	clear:both;
+	border-top:10px solid #FFF;
+	margin-top:5px;
+	padding-right:5px;
+	
+}
+
+.section-engineering-denieds .job-title-slideshow-wrapper .job-title-slideshow-dynamic {
+	float:left;
+	width:400px;
+	padding-left:15px;
+	margin-top:15px;
+}
+
+
+/* stats section */
+.section-engineering-denieds .span_4_of_4 {
+	width: 23%;
+}
+.section-engineering-denieds .span_3_of_4 {
+	width: 23%;
+}
+.section-engineering-denieds .span_2_of_4 {
+	width: 23%;
+}
+.section-engineering-denieds .span_1_of_4 {
+	width: 23%;
+}
+.section-engineering-denieds #stats {
+	background-color:#06050d;
+	padding-top:30px;
+}
+.section-engineering-denieds .stats-background {
+	background-image:none;
+	background-color:#06050d;
+}
+
+/* companies section  */
+.section-engineering-denieds .span_3_of_3 {
+	width: 32%;
+}
+.section-engineering-denieds .span_2_of_3 {
+	width: 32%;
+}
+.section-engineering-denieds .span_1_of_3 {
+	width: 30%;
+}
+
+.section-engineering-denieds .companies-background {
+	background-image:none;
+	background-color:#373737;
+}
+
+.section-engineering-denieds #companies {
+	padding-top:30px;
+}
+
+
+
+/* world section  */
+.section-engineering-denieds .span1_3_of_3 {
+	width: 25%;
+}
+.section-engineering-denieds .span1_3_of_3 #bottom{
+	position:absolute; 
+	bottom:-420px;
+}
+.section-engineering-denieds .span1_2_of_3 {
+	width: 18%;
+}
+.section-engineering-denieds .span1_1_of_3 {
+	width: 42%;
+}
+.section-engineering-denieds .world-background {
+	background-image:url('images/world-bg.jpg');
+	background-repeat:no-repeat;
+	background-position: bottom center;	
+	min-height:600px;
+	background-color:#06050d;
+}
+
+.section-engineering-denieds #world-text { 
+   position: relative;
+   color:#FFF;
+   margin-top:90px;
+   left: 3%; 
+   width: 97%;
+   line-height:0.8;
+}
+
+.section-engineering-denieds .world-words {
+	font-size:15px;
+	margin-left:13px;
+	margin-top:12px;
+}
+
+/* degrees section  */
+.section-engineering-denieds .span2_3_of_3 {
+	width: 33%;
+}
+.section-engineering-denieds .span2_2_of_3 {
+	width: 29%;
+}
+.section-engineering-denieds .span2_1_of_3 {
+	width: 29%;
+}
+
+.section-engineering-denieds .degrees-background {
+	background-image:url('images/degrees-background.png');
+	background-repeat:no-repeat;
+	background-position: bottom center;	
+	background-color:#373737;
+}
+.section-engineering-denieds #degree-text { 
+   position: relative;
+   color:#FFF;
+   margin-top:30px;
+   left: 3%; 
+   width: 97%;
+   line-height:0.8;
+}
+.section-engineering-denieds ul {
+   list-style-type:none;
+   color:#FFF;
+   left: 3%; 
+   line-height:1.8;
+   font-size:12px;
+}
+
+.section-engineering-denieds a:link, .section-engineering-denieds a:active, .section-engineering-denieds a:visited {
+   color:#b0d2d8 !important;
+}
+
+.section-engineering-denieds h4 {
+   color:#FFF;
+   margin-left:20px; 
+   margin-top:20px;
+}
+
+/* Polytech section  */
+.section-engineering-denieds .poly-background {
+	background-image:none;
+	background-color:#000000;
+}
+
+.section-engineering-denieds #poly-text { 
+   position: relative;
+   color:#FFF;
+   margin-top:30px;
+   margin-bottom:30px;
+   left: 3%; 
+   width: 97%;
+   line-height:0.8;
+}
+
+.section-engineering-denieds .poly-words {
+	margin-left:30px;
+}
+
+.section-engineering-denieds .poly-video {
+	margin-bottom:20px;
+	margin-left:30px;	
+}
+
+iframe {
+	overflow:hidden;
+}
+
+/* change section  */
+.section-engineering-denieds .change-background {
+	background-image:none;
+	background-color:#86b1b9;
+}
+
+.section-engineering-denieds .change img {
+	display:block;
+	margin:0 auto;
+}
+
+
+/* END OF SECTIONS  */
+/* BEGIN RESPONSIVE  */
+
+@media only screen
+and (min-width : 0px)
+and (max-width : 560px) {
+	
+.section-engineering-denieds .col { 
+		margin: 1% 0 1% 0%;
+	}
+	
+.section-engineering-denieds .super-size {
+	font-size:1.5em !important;
+	line-height:1.1em !important;
+}
+
+.section-engineering-denieds #companies p, .section-engineering-denieds .gain p, .section-engineering-denieds #poly p {
+	margin-right:10px;
+}
+
+/* header section */
+.section-engineering-denieds .job-title-slideshow-wrapper {
+	display:none;
+}
+
+/* stats section  */
+.section-engineering-denieds .span_1_of_4 {
+		width: 100%;
+	}
+.section-engineering-denieds .span_2_of_4 {
+		width: 100%;
+	}
+.section-engineering-denieds .span_3_of_4 {
+		width: 100%;
+	}
+.section-engineering-denieds .span_4_of_4 {
+		width: 100%;
+	}
+.section-engineering-denieds .span_1_of_4 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_2_of_4 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_3_of_4 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_4_of_4 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+	
+			
+/* companies section  */
+.section-engineering-denieds .span_3_of_3 {
+		width: 100% !important;
+}
+.section-engineering-denieds .span_2_of_3 {
+		width: 100% !important;
+}
+.section-engineering-denieds .span_1_of_3 {
+		width: 100% !important;
+		text-align:center;
+}
+.section-engineering-denieds .span_3_of_3 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_2_of_3 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_1_of_3 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+
+
+/* degrees section  */
+.section-engineering-denieds .span2_3_of_3 {
+		width: 100%;
+}
+.section-engineering-denieds .span2_2_of_3 {
+		width: 100%;
+}
+.section-engineering-denieds .span2_1_of_3 {
+		width: 100%;
+}
+
+.section-engineering-denieds .degrees-background {
+	background-image:none;
+}
+
+.section-engineering-denieds .degrees-background li {
+	line-height:1.1;
+	padding-top:5px;
+}
+		
+		
+/* world section  */
+.section-engineering-denieds .span1_3_of_3 {
+		width: 100% !important;
+}
+.section-engineering-denieds .span1_3_of_3 #bottom{
+	display:none !important;
+}
+.section-engineering-denieds .span1_2_of_3 {
+		width: 100% !important;
+}
+.section-engineering-denieds .span1_1_of_3 {
+		width: 100% !important;
+}
+
+.section-engineering-denieds .world-words {
+	font-size:12px;
+	margin-left:13px;
+	margin-top:12px;
+}
+
+/* poly section  */
+.section-engineering-denieds .poly-video {
+	display:none;
+}
+
+.section-engineering-denieds .poly-words {
+	margin-left:10px;
+}
+
+.section-engineering-denieds #poly {
+	padding-bottom:30px;	
+}
+
+              /* makes company section taller for logos  
+.section-engineering-denieds .gain {
+	margin-top:160px !important;	
+}*/
+
+		
+}
+
+
+@media only screen
+and (min-width : 561px)
+and (max-width : 800px) {
+	
+.section-engineering-denieds .col { 
+		margin: 1% 0 1% 0%;
+	}
+	
+.section-engineering-denieds .super-size {
+	font-size:1.8em !important;
+	line-height:1.1em !important;
+}
+
+.section-engineering-denieds #companies p, .section-engineering-denieds .gain p, .section-engineering-denieds #poly p {
+	margin-right:10px;
+}
+
+.section-engineering-denieds #white-text {
+	padding-left:12px;
+}
+
+/* header section */
+.section-engineering-denieds .job-title-slideshow-wrapper {
+	display:none;
+}
+
+/* stats section  */
+.section-engineering-denieds .span_1_of_4 {
+		width: 50%;
+	}
+.section-engineering-denieds .span_2_of_4 {
+		width: 50%;
+	}
+.section-engineering-denieds .span_3_of_4 {
+		width: 50%;
+	}
+.section-engineering-denieds .span_4_of_4 {
+		width: 50%;
+	}
+.section-engineering-denieds .span_1_of_4 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_2_of_4 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_3_of_4 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_4_of_4 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+	
+			
+/* companies section  */
+.section-engineering-denieds .span_3_of_3 {
+		width: 50% ;
+}
+.section-engineering-denieds .span_2_of_3 {
+		width: 50%;
+}
+.section-engineering-denieds .span_1_of_3 {
+		width: 100%;
+		text-align:center;
+}
+.section-engineering-denieds .span_3_of_3 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_2_of_3 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+.section-engineering-denieds .span_1_of_3 img {
+		display:block;
+ 	    margin:auto;
+		align:center;	
+	}
+
+
+/* degrees section  */
+.section-engineering-denieds .span2_3_of_3 {
+		width: 30%;
+}
+.section-engineering-denieds .span2_2_of_3 {
+		width: 30%;
+}
+.section-engineering-denieds .span2_1_of_3 {
+		width: 30%;
+}
+
+.section-engineering-denieds .degrees-background {
+	background-image:none;
+}
+		
+.section-engineering-denieds .degrees-background ul {
+	
+}
+
+.section-engineering-denieds .degrees-background li {
+}
+		
+.section-engineering-denieds .degrees-background li {
+	line-height:1.1;
+	padding-top:5px;
+}
+		
+/* world section  */
+.section-engineering-denieds .span1_3_of_3 {
+		width: 100% !important;
+}
+.section-engineering-denieds .span1_3_of_3 #bottom{
+	display:none !important;
+}
+.section-engineering-denieds .span1_2_of_3 {
+		width: 100% !important;
+}
+.section-engineering-denieds .span1_1_of_3 {
+		width: 100% !important;
+}
+
+.section-engineering-denieds .world-words {
+	font-size:12px;
+	margin-left:13px;
+	margin-top:12px;
+}
+
+.section-engineering-denieds #world-text { 
+   margin-top:200px;
+}
+
+/* poly section  */
+.section-engineering-denieds .poly-video {
+	display:none;
+}
+
+.section-engineering-denieds .poly-words {
+	margin-left:10px;
+}
+
+.section-engineering-denieds #poly {
+	padding-bottom:30px;	
+}
+
+		
+}

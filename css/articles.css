@@ -1,0 +1,540 @@
+/* Articles (nodes) */
+.article {
+  margin-bottom: 20px;
+}
+
+.field-type-image img {
+	float:right;
+	margin-left:20px;
+}
+ 
+.article > header {}
+
+/* Title */
+.article-title {}
+.article-title a:link,
+.article-title a:visited,
+.article-title a:active {}
+
+.article-title a:hover,
+.article-title a:focus {}
+
+/* User Picture */
+.article .user-picture {}
+.article .user-picture img {}
+
+/* Submitted */
+.article .submitted {}
+.article .submitted  a {}
+.article .submitted  a:hover {}
+.article .submitted  p.author-datetime {}
+.article .submitted  time {}
+
+/* Links */
+.article nav {}
+.article ul.links {}
+.article ul.links li {}
+.article ul.links li a {}
+.article ul.links li.node_read_more a {}
+.article ul.links li.comment_add a {}
+.article ul.links li.comment_comments a {}
+.article ul.links li.comment_new_comments a {}
+.article ul.links li.blog_usernames_blog a {}
+.article ul.links li.print_html a {}
+.article ul.links li.print_email a {}
+.article ul.links li.print_pdf a {}
+
+/* UL link first and last classes */
+.article ul.links li.first {}
+.article ul.links li.last  {}
+
+/* Workflow states */
+.article-add    {}
+.article-edit   {}
+.article-delete {}
+.article-preview  {}
+.article-sticky   {}
+.article-promoted {}
+
+/* Status */
+.article-unpublished {}
+
+/* Theme the teaser */
+.article-teaser {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------
+This CSS document sets Block positioning and sizing only.
+
+HTML elements and regions are a separate file!
+-------------------------------------------------------------*/
+
+
+.block {
+  margin-bottom: 0px;
+}
+#admin-menu {
+  margin: 0 0px;
+}
+.block-inner {} /* set block background styles on .block-inner */
+.block-title {}
+.block-content {}
+
+/* Mini panels get a special title class */
+.mini-panel-title {
+  margin: 0 10px;
+}
+
+/*Header blocks*/
+#block-views-site-section-title-block-2, #block-views-site-section-title-block-3 {float:right;  width:450px; padding:15px 0px 5px 0px;}
+#block-views-site-section-title-block, #block-views-f3697c76e3ec6b4bb0ed5f8398f9f86d { max-width:100%; float:left; padding-top:15px;}
+body.page-type-department-option-landing-page #block-views-site-section-title-block { max-width:450px; float:left; padding-top:15px;}
+#block-views-site-section-title-block-1 {max-width:450px; padding-top:5px;}
+#block-menu-block-6 div.clearfix:after {clear:none;}
+#block-menu-block-6 ul.clearfix:after {clear:none;}
+
+/* Degree page groups of degrees 
+
+.view-list-of-degrees-on-degree-page .views-field {margin: 10px, 0, 0, 10px; }
+.view-list-of-degrees-on-degree-page .views-field-field-degree-group-image {float:left; padding-right:10px;}
+.page-node-14 .view-list-of-degrees-on-degree-page .views-field-field-degree-instances-with-same {min-height:39px !important; background:url(images/location-icons/available-at-location.png) no-repeat; margin-left:122px; padding-left:93px;}
+.view-list-of-degrees-on-degree-page .views-field-field-degree-instances-with-same {min-height:39px !important; background:url(images/location-icons/available-at-location2.png) no-repeat; margin-left:122px; padding-left:93px;}
+.view-list-of-degrees-on-degree-page .degree-group {min-height:120px; clear:both; padding:5px; border:10px #fff; margin-bottom:15px;}
+*/
+
+/*Department Degree Views - Table Grids*/
+.col-1 .views-field-field-image {max-width:312px;}
+.col-2 .views-field-field-image {max-width:312px;}
+.col-1 {vertical-align:top;}
+.col-2 {vertical-align:top;}
+
+/*department landing page infographic*/
+.views-field-field-info-graphic{ margin-left:-10px; min-width:240px; margin-top:20px;}
+
+/*.region-sidebar-second #block-views-14cbf74eebf9365ecbd89c89743905d8 .block-inner {margin-left:-10px; min-width:240px; margin-top:0px;}*/
+
+/* Target sidebar blocks */
+.sidebar .block {}
+.sidebar .block-inner {}
+.sidebar .block-title {}
+.sidebar .block-content {}
+
+/* Gpanel blocks */
+.gpanel .block {}
+.gpanel .block-inner {}
+.gpanel .block-title {}
+.gpanel .block-content {}
+
+/* Block wrapper for Mini Panels */
+.block-panels_mini {}
+.block-panels_mini .block-inner {}
+.block-panels_mini .block-content {}
+.block-panels_mini .mini-panel-title {
+  margin: 0 10px;
+}
+
+/* Login block - horizontal (theme setting) basic styles */
+.lb-h {
+  min-width: 320px;
+  margin-top: 1px;
+}
+.region-header .lb-h {
+  float: right;
+}
+.lb-h .block-inner,
+.lb-h .block-content {
+  background: none;
+  padding: 0;
+}
+.lb-h #user-login-form {
+  margin: 0;
+}
+.lb-h #user-login-form label {
+  line-height: 1.2
+}
+.lb-h .form-item {
+  float:left;
+  margin: 0;
+}
+.lb-h input.form-text {
+  margin:0 3px 0 0;
+  width:110px;
+}
+.lb-h #edit-actions {
+  margin: 0;
+}
+.lb-h input.form-submit {
+  position: absolute;
+  margin: 0;
+  top: 1.2em;
+}
+.lb-h .form-required,
+.lb-h .item-list {
+  display: none;
+}
+.lb-h h2 {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Reset margins and padding for the Help block .block-inner */
+#block-system-help .block-inner {
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset block ul in the dashboard */
+#dashboard .block ul {
+  margin-left: 0;
+}
+
+
+
+.small-text {font-size:.8em;}
+.tight-lines {padding-top:3px;line-height:80% !important;}
+
+.node-degree-option.h2{display:none;}
+
+
+/*paragraph text sizes*/
+.mc-row2-col1 p,
+.mc-row2-col2 p,
+.mc-row2-col3 p {
+	font-size:.8em;
+	margin:0 0 5px;
+}
+
+/*generic list styles*/
+.mc-row2-col1 ul,
+.mc-row2-col1 li,
+.mc-row2-col2 ul,
+.mc-row2-col2 li,
+.mc-row2-col3 ul,
+.mc-row2-col3 li{
+	font-size:1.1em; 
+	line-height:.9em;
+	padding-bottom:3px;
+	margin-left:8px;
+	list-style-position:3px;
+}
+
+/*column 1 - gold color with dark orange text*/
+.mc-row2-col1 h2 a,
+.mc-row2-col1 h2{
+	color: #703319;
+}
+.mc-row2-col1{
+	background:#ffb900;
+}
+.mc-row2-col1,
+.mc-row2-col1 a, 
+.mc-row2-col1 a link, 
+.mc-row2-col1 a visited{
+	color:#5a4100;
+}
+.mc-row2-col1 li{
+	list-style-image:url(/sites/default/files/images/prospective-student-arrow.png); 
+}
+/*column 2 - blue color with blue text*/
+.mc-row2-col2 h2 a,
+.mc-row2-col2 h2{
+	color: #fff;
+}
+.mc-row2-col2 {background:#6ba1be;}
+.mc-row2-col2,
+.mc-row2-col2 a, 
+.mc-row2-col2 a link, 
+.mc-row2-col2 a visited{
+	color:#2d4552;
+}
+.mc-row2-col2 li{
+	list-style-image:url(/sites/default/files/images/current-student-arrow.png); 
+}
+/*column 3 - salmon color with white text*/
+.mc-row2-col3{
+	background:#CE6752;
+}
+.mc-row2-col3 h2 a,
+.mc-row2-col3 h2,
+.mc-row2-col3,
+.mc-row2-col3 a, 
+.mc-row2-col3 a link, 
+.mc-row2-col3 a visited{
+	color: #fff;
+}
+.mc-row2-col3 li{
+	list-style-image:url(/sites/default/files/images/white-arrow.png); 
+}
+
+
+.audience-random-degree {
+	background-image:url(/sites/default/files/images/featured-degree.png);
+	background-repeat:no-repeat;
+	background-position:7px 9px;
+	/*padding:5px 5px 0px 5px !important;*/
+	border:none !important;
+}
+.audience-random-degree h2 {margin-top:3px;}
+.audience-random-degree .views-field {margin-left:25px;}
+
+*/
+
+
+
+/* Twitter Profile Widget*/
+
+.twtr-img {width:30px;}
+.twtr-hd , .twtr-ft{display:none;}
+
+/*Recent News with pictures and body for Landing Pages
+.view-article-feed-for-panel-pages  .views-row {min-height:130px;}
+.view-article-feed-for-panel-pages  .views-row-even {background-color:#fdf9f0;}
+.view-article-feed-for-panel-pages  .views-row-odd {background-color:#fdf9f0;}
+.view-article-feed-for-panel-pages  .views-field-field-image {clear:both;float:left; padding:5px; margin-right:5px;	}
+.view-article-feed-for-panel-pages  .views-field-title {font-weight:bold;}
+.view-article-feed-for-panel-pages  .views-field-title {margin-top:25px;}
+*/
+.view-id-calendar .views-row,
+.view-id-external_scholarship .views-row,
+.view-article-feed-for-panel-pages .views-row,
+.view-search-people.views-row{
+	margin-bottom:6px;
+}
+
+
+/* Plan of Study page grid */
+.page-type-plan-of-study table td.views-field-title {
+	width:135px;
+}
+
+.page-type-plan-of-study table td.views-field-field-course-title {
+	width:490px;	
+}
+
+/*.page-type-plan-of-study section.contextual-links-region {
+	margin-top:20px;
+	background-color:#CCC;
+}
+*/
+
+/* Total Credits on Plan of Study style */
+.page-type-plan-of-study .view-footer {
+	padding-right:22px;
+	font-weight:bold;
+	text-align:right;
+}
+
+
+iframe {
+	overflow:hidden;
+}
+
+/*Course List Pages*/
+.view-list-of-courses-by-node-hierarchy .views-row {float:left;}
+.view-list-of-courses-by-node-hierarchy h3{clear:left; padding-top:10px;}
+/*@media only screen
+and (max-width : 400px){
+	.four-column{width:50% !important;}
+}
+@media only screen
+and (min-width : 401px) {
+	.four-column{width:24.99% !important;}
+}
+*/
+.view-course-page-display .cols-4 .col-1,
+.view-course-page-display .cols-4 .col-2,
+.view-course-page-display .cols-4 .col-3,
+.view-course-page-display .cols-4 .col-4 {
+	width:24.9%;
+}
+
+/*footer styles for menus*/
+#footer-wrapper ul {
+	margin:0em !important;
+	padding-bottom:10px;
+}
+
+
+#footer-wrapper .block-content ul li {
+	list-style-image:none !important;
+	list-style-type:none !important;
+	margin:0em !important;
+	padding:0em !important;
+	line-height:100% !important;
+	margin-bottom:5px !important;
+}
+
+#footer-wrapper .block-content ul li a:hover{
+	text-decoration:none !important;
+	line-height:100% !important;
+	margin-bottom:5px !important;
+}
+
+#footer-wrapper .block-content ul li a.active{
+	text-decoration:none !important;
+	line-height:100% !important;
+	margin-bottom:5px !important;
+}
+
+/* Remove group styling for degree listing on department homepages */
+
+.page-type-department-option-landing-page .degree-group,
+.section-center-for-professional-studies .degree-group {
+	background-color:transparent !important;
+}
+
+.page-type-department-option-landing-page .degree-group a,
+.section-center-for-professional-studies .degree-group a {
+	/*color:#8C8C8C;*/
+}
+
+.page-type-department-option-landing-page .degree-group .field-content,
+.section-center-for-professional-studies .degree-group .field-content {
+	color:#444;
+}
+
+
+.block-views ul.inline {
+	display:none !important;
+}
+
+/* Other Camps */
+#block-views-test-view-block-1 {
+	padding-bottom:15px;
+}
+
+/* Facilities list */
+
+.view-facilities .views-field {margin: 10px, 0, 0, 10px; }
+.view-facilities .views-field-field-facility-image
+ {float:left; padding-right:10px;}
+.view-facilities .views-field .views-field-title {min-height:39px !important; margin-left:122px; padding-left:93px;}
+
+#block-views-facilities-block-1 .views-row,
+#block-views-facilities-block-2 .views-row { 
+min-height:125px; }
+
+/* Hide 'configure' button on leaderboard */
+#block-block-6 .contextual-links-wrapper .contextual-links-trigger { display:none;}
+
+/***** Colorbox styles ******/
+
+/* Title */
+#colorbox .field-name-field-course-title {
+  font-size: 1.385em;
+  padding-bottom:10px;
+}
+
+#colorbox h2 {
+  font-size: 1.085em;
+}
+
+/* Search fields on /courses/ page */
+#edit-field-department-offering-course-target-id-1-wrapper {
+	float:left;
+}
+
+#edit-title-wrapper {
+	float:left;
+}
+
+.views-exposed-form form div,
+.views-exposed-widgets {
+	clear:right !important;
+}
+
+/* Camp Sponsors */
+#block-views-test-view-block-2 .block-content {
+	background-color:#FFF;
+	padding:25px;
+	border:1px solid #CCC;	
+}
+
+/* Research formating at research/projects/ */
+.view-research-projects .view-content .views-row {
+	padding-bottom:25px;	
+}
+
+h2.views-label-field-amount-received {
+	font-size:44px;
+}
+
+.views-field-field-amount-received p {
+	font-size:18px;
+	font-weight:bold;
+}
+
+/* Make text on featured degree on homepage smaller 
+.front #content_3columnMcWidget-column3 h2 a {
+	font-size:17px !important;
+}*/
+
+/* Spacing for related degrees and continuing education on degree pages */
+#block-views-related-degrees-er-block .block-title,
+#block-views-related-degrees-er-block-1 .block-title {
+	padding-bottom:5px;
+}
+
+#block-views-related-degrees-er-block .views-field-title,
+#block-views-related-degrees-er-block-1 .views-field-title {
+	padding-bottom:10px;
+}
+
+/* Style statewide admissions block AND style statewide location admissions>apply pages */ 
+#block-block-16 ul,
+#block-block-21 ul,
+#block-block-22 ul {
+	margin-left:20px;
+}
+
+.degree-advisory-contacts-detail .views-row-odd,
+.degree-advisory-contacts-detail .views-row-even {
+	margin-bottom:15px;
+}
+/*generic light blue striping used in sidebars and main content 3-col areas*/
+.blue-stripe {
+	background: url(images/sidebar-background.png) no-repeat;
+	padding:10px;
+	margin-bottom:20px;
+	min-height:200px;
+}
+
+/* Style Newsroom */
+.section-newsroom #block-views-newsroom-views-block-1 .views-field-field-slider-image {
+	float:left;
+	clear:both;
+	padding-right:10px;
+}
+
+.section-newsroom #block-views-newsroom-views-block-1 .views-row {
+	clear:both;
+	padding-bottom:10px;
+	padding-top:5px;
+	border-top: 1px solid #CCC;
+}

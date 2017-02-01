@@ -1,0 +1,86 @@
+/*
+Views Slideshows formatting 
+formats all full width views - slideshows on the cot site
+created by mbosma 3/6/2012
+*/
+
+/* control buttons slideshows*/
+
+.views-slideshow-controls-text-previous{
+    background-image: url("images/slider-previous2.png");
+    background-repeat:no-repeat;
+    z-index: 99 !important;
+    position:absolute;
+    left:15px;
+    top:100px;
+    width:50px;
+    max-width:50px;
+    height:50px;
+    max-height:50px;
+    overflow:hidden;
+    text-indent:50px; 
+	opacity:1;
+}
+.views-slideshow-controls-text-previous a {display:none;}
+
+/*fix height on dept pages*/
+.section-departments .views-slideshow-controls-text-previous{
+    top:75px;
+}
+
+.views-slideshow-controls-text-next{
+    background-image: url("images/slider-next2.png");
+    background-repeat:no-repeat;
+    z-index: 99 !important;
+    position:absolute;
+    right:15px;
+    top:100px;
+    width:50px;
+    max-width:50px;
+    height:50px;
+    max-height:50px;
+    overflow:hidden;
+    text-indent:50px; 
+	opacity:1;
+}
+
+/*fix height on dept pages*/
+.section-departments .views-slideshow-controls-text-next{
+    top:75px;
+}
+
+.views-slideshow-controls-text-next a {display:none;}
+.views-slideshow-controls-text-pause{
+    /*remove the pause button*/
+	display: none;
+}
+
+
+/*get a horizontal scrollbar on resize unless this bit is in there - wraps the entire slideshow including pager - this example has a views result counter as pager underneath*/
+.skin-default {
+width:100%;
+/*overflow:hidden;
+position:relative;*/
+height:auto !important;
+}
+
+#views_slideshow_cycle_main_featured_slideshow_home-block,
+.views-slideshow-cycle-main-frame,
+.views-slideshow-cycle-main-frame-row {
+   positon: relative !important;
+   width: 100% !important;
+   height: 165 px; 
+   margin-bottom:16px;
+}
+
+#header-wrapper {
+	/*background-color:#405375;*/
+	/*height:311px;*/
+	/*background: url("/sites/all/themes/tech_15/css/images/header-bkg2.jpg") repeat;
+	height:311px;*/
+}
+
+#block-views-slideshow-home-block-3 {
+    max-height: 300px;
+}
+    

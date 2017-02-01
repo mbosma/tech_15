@@ -1,0 +1,703 @@
+/**
+ * Adaptivetheme takes a pretty heavy handed approach to form styling,
+ * this is so you can have decent looking forms without having to do a
+ * lot of work. The CSS is included in full, including all positioning,
+ * so you can change anything you want.
+ */
+form {
+  margin: 0 0;
+  padding: 0;
+}
+
+.page-type-webform form div {
+	clear:both;
+}
+
+.form-item label {
+  font-weight: 400;
+}
+
+.form-item div label {
+  font-weight: 400;
+}
+
+input {
+  margin: 0;
+  max-width: 100%;
+}
+
+input.text,
+input.title,
+textarea,
+select {
+  border: 1px solid #ccc;
+  margin: 0;
+}
+
+
+/* Focus styles for accessibility and usabiltiy. */
+.form-text:focus,
+.form-checkbox:focus,
+.form-radio:focus,
+.form-select:focus {
+  border: 1px solid #fc0;
+  background: #F0F0F0;
+}
+textarea:focus {
+  border: 1px solid #fc0;
+}
+
+/* Inputs and textarea */
+input.text,
+input.title {
+  padding: .5em;
+}
+input.form-text,
+textarea {
+  border: 1px solid #ccc;
+  height: auto;
+  padding: 6px;
+}
+textarea,
+input {
+  font: 1em normal Arial, Helvetica, sans-serif;
+}
+
+form div .form-text,
+form div textarea {
+  font: 1em normal Arial, Helvetica, sans-serif;
+}
+
+div.resizable-textarea textarea {
+  margin-top: 0;
+}
+
+/* Misc */
+.form-item,
+.form-action {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.exposed-filters .form-item {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.form-item textarea.error {
+  padding: 2px;
+}
+.form-item .description,
+fieldset .description,
+.fieldset-layout-settings dd {
+  font-size: 0.846em;
+}
+
+/* Required, mark */
+span.form-required,
+span.marker {}
+
+
+/* Fieldsets */
+fieldset {
+  background: transparent;
+  border: 1px solid #dadada;
+  margin: 10px 0;
+  padding: 10px;
+}
+fieldset fieldset:last-child {
+  margin-bottom: 0;
+}
+.form-type-radio .description,
+.form-type-checkbox .description {
+  margin-left: 0;
+}
+*:first-child+html fieldset {
+  background-color: transparent;
+  background-position: 0 10px;
+  padding: 0 10px 10px;
+}
+*:first-child+html fieldset > .description,
+*:first-child+html fieldset .fieldset-wrapper .description {
+  padding-top: 10px;
+}
+
+fieldset legend {
+  display: block;
+  font-weight: 400;
+  padding: 0 10px 0 0;
+}
+
+
+*:first-child+html fieldset legend,
+*:first-child+html fieldset.collapsed legend {
+  display: inline;
+}
+html.js fieldset.collapsed {
+  background: transparent;
+  padding-top: 5px;
+}
+/* Form descriptions */
+.description {}
+
+/* Search */
+#search-block-form {padding-top:5px;}
+#search-block-form > div {}
+#search-block-form { margin-right:15px;}
+#edit-search-block-form-1-wrapper {}
+#search-block-form label {}
+#search-block-form input {padding:0px;}
+.form-submit {
+  cursor: pointer;
+  padding: 4px 17px;
+  margin-bottom: 1em;
+  margin-right: 1em; /* LTR */
+  color: #5a5a5a;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.077em;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  border: 1px solid #e4e4e4;
+  border-bottom: 1px solid #b4b4b4;
+  border-left-color: #d2d2d2;
+  border-right-color: #d2d2d2;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  clear:both;
+  float:left;
+  
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fdfdfd 0%, #dddddd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #fdfdfd 0%,#dddddd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #fdfdfd 0%,#dddddd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.form-submit:hover {
+  background: #f7f7f7; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f7f7f7 0%, #ededed 50%, #e2e2e2 51%, #f7f7f7 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f7f7f7 0%,#ededed 50%,#e2e2e2 51%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f7f7f7 0%,#ededed 50%,#e2e2e2 51%,#f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: #000000;
+}
+#search-block-form .form-actions {display:none;}
+.new-issue a {
+  cursor: pointer;
+  padding: 4px 17px;
+  margin-bottom: 1em;
+  margin-right: 1em; /* LTR */
+  color: #5a5a5a;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.077em;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  border: 1px solid #e4e4e4;
+  border-bottom: 1px solid #b4b4b4;
+  border-left-color: #d2d2d2;
+  border-right-color: #d2d2d2;
+  background: url(images/buttons.png) 0 0 repeat-x;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.new-issue a:hover {
+  cursor: pointer;
+  padding: 4px 17px;
+  margin-bottom: 1em;
+  margin-right: 1em; /* LTR */
+  color: #F4D073;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.077em;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  border: 1px solid #e4e4e4;
+  border-bottom: 1px solid #b4b4b4;
+  border-left-color: #d2d2d2;
+  border-right-color: #d2d2d2;
+  background: url(images/buttons.png) 0 0 repeat-x;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration:none;
+}
+
+.views-submit-button {
+	margin-top:-5px;
+}
+
+.views-exposed-form #edit-title-wrapper {
+	padding-right:.2em;
+}
+
+#search-block-form .form-text {}
+
+/* Advanced search form */
+fieldset#edit-advanced fieldset {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+fieldset#edit-advanced fieldset .fieldset-legend {
+  background: none;
+  padding-left: 1em;
+}
+.advanced-search-submit {
+  clear: both;
+}
+.search-advanced .criterion {
+  float: none;
+  margin: 0 5px;
+}
+#edit-keywords-fieldset .form-item:first-child {
+  margin-top: 5px;
+}
+#search-form {
+  margin: 10px 0;
+}
+#search-form > div {}
+#search-form .container-inline {}
+#search-form label {}
+#search-form input {}
+#search-form .form-item {}
+#search-form .form-submit {}
+
+/* User login */
+#user-login-form ul {
+  margin: 0;
+  padding: 0;
+}
+#user-login-form li.openid-link,
+#user-login-form li.user-link {
+  text-align: center;
+}
+#user-login ul {
+  margin: 0 0 5px;
+}
+#user-login ul li {
+  margin: 0;
+}
+#user-login-form .item-list li {
+  list-style: none;
+  margin: 0;
+}
+#user-login-form li.openid-link,
+#user-login li.openid-link {
+  background: none;
+}
+
+/* hide lable class - mostly deprecated but could be present in an upgraded theme */
+.hide-label label {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  background: none;
+}
+
+/* Admin filters, could be redundant, need to test. */
+#user-admin-filter ul li,
+#article-admin-filter ul li {
+  list-style: none;
+}
+#article-admin-filter ul {
+  padding: .5em 0;
+}
+#edit-operation-wrapper select {
+  margin: .5em;
+}
+
+/* Tips overrides */
+.field-type-text-long fieldset {
+  padding: 10px 0;
+}
+.field-type-text-long fieldset .form-item {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+fieldset .filter-help {
+  padding: 0 15px 5px;
+}
+.filter-guidelines {
+  font-size: .923em;
+  margin: 0;
+  padding: 5px 18px 10px;
+}
+.tips {
+  font-size: 0.857em;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+/* Special case modules */
+#devel-switch-user-form {
+  margin-bottom: 0;
+}
+
+/*********** DEFAULT WEBFORM FIELDS ON NEW LINE ***********/
+
+.webform-component {
+	clear:both;
+	float:left;
+}
+
+/** Default styling for city, state, zip same line **/
+#webform-component-city
+{
+	display: block;
+	float: left;
+	margin-right:10px;
+	clear:left;
+	
+}
+#webform-component-state,
+#webform-component-state-text, 
+#webform-component-zip, 
+#webform-component-zip-code 
+{
+	display: block;
+	float: left;
+	margin-right:10px;
+	clear:none;
+}
+
+/* add default padding to all webform drop down field selects*/
+.form-select{
+	padding:7px;
+}
+.webform-client-form .form-select{
+	padding:6px;
+}
+
+
+/* Make the state drop down have some padding to match the height of other elements */
+#webform-component-state .form-select {
+	padding:5px 5px 5px 0px;
+}
+
+/* ABC CAMP REGISTRATION FORM */
+
+.page-node-744 #webform-component-first-name,
+.page-node-744 #webform-component-middle,
+.page-node-744 #webform-component-last-name,
+.page-node-744 #webform-component-sat-scores,
+.page-node-744 #webform-component-sat-scores--math,
+.page-node-744 #webform-component-sat-scores--writing,
+.page-node-744 #webform-component-sat-scores--reading,
+.page-node-744 #webform-component-sat-scores--combined,
+.page-node-744 #webform-component-act-scores,
+.page-node-744 #webform-component-act-scores--math,
+.page-node-744 #webform-component-act-scores--english,
+.page-node-744 #webform-component-act-scores--science,
+.page-node-744 #webform-component-act-scores--reading,
+.page-node-744 #webform-component-act-scores--composite
+{
+	display: block;
+	float: left;
+	margin-right:10px;
+	clear:none;
+}
+
+.page-node-744 .form-type-radio
+{
+	display: block;
+	float: left;
+	margin-right:20px;
+	clear:none;
+}
+
+
+/* FRESHMAN SCHOLARSHIP APPLICATION FORM */
+
+.page-node-344 #webform-component-first-name,
+.page-node-344 #webform-component-middle-initial,
+.page-node-344 #webform-component-city,
+.page-node-344 #webform-component-state,
+.page-node-344 #webform-component-sat-scores--math-sat,
+.page-node-344 #webform-component-sat-scores--writing-sat,
+.page-node-344 #webform-component-sat-scores--reading-sat,
+.page-node-344 #webform-component-sat-scores--combined-sat,
+.page-node-344 #webform-component-act-scores2--math-act,
+.page-node-344 #webform-component-act-scores2--english-act,
+.page-node-344 #webform-component-act-scores2--science-act,
+.page-node-344 #webform-component-act-scores2--reading-act,
+.page-node-344 #webform-component-act-scores2--reading-act,
+.page-node-344 #webform-component-act-scores2--composite-act
+{
+	display: block;
+	float: left;
+	margin-right:10px;
+	clear:none;
+	
+}
+
+.page-node-344 #webform-component-last-name,
+.page-node-344 #webform-component-zip
+{
+	display: block;
+	float: left;
+	margin-right:10px;
+	clear:right;
+	
+}
+
+.page-node-344 #webform-component-country,
+.page-node-344 #webform-component-history,
+.page-node-344 #webform-component-are-you-a-united-states-citizen-or-legal-resident,
+.page-node-344 #webform-component-gender,
+.page-node-344 #webform-component-ethnicity,
+.page-node-344 #webform-component-select-one-or-more-races,
+.page-node-344 #webform-component-major,
+.page-node-344 #webform-component-location,
+.page-node-344 #webform-component-email,
+.page-node-344 #webform-component-purdue-id,
+.page-node-344 #webform-component-no-purdue-id,
+.page-node-344 #webform-component-fafsa,
+.page-node-344 #webform-component-highschool-gpa,
+.page-node-344 #webform-component-sat-scores,
+.page-node-344 #webform-component-act-scores,
+.page-node-344 #webform-component-act-scores2,
+.page-node-344 #webform-component-question1,
+.page-node-344 #webform-component-question2,
+.page-node-344 #webform-component-question3,
+.page-node-344 #webform-component-question4,
+.page-node-344 #webform-component-agree,
+.page-node-344 #webform-client-form-344 .form-submit
+{
+	display: block;
+	float: left;
+	margin-right:10px;
+	clear:both;
+	
+}
+
+.page-node-344 #webform-component-address,
+.page-node-344 #webform-component-address-2
+{
+	display: block;
+	float: left;
+	margin-right:10px;
+	clear:left;
+	
+}
+
+/* Alumni PTAA Nomination Form */
+.page-node-5293 #webform-component-graduation-year,
+.page-node-5293 #webform-component-department-major,
+.page-node-5293 #webform-component-home-address,
+.page-node-5293 #webform-component-business-address,
+.page-node-5293 #webform-component-company,
+.page-node-5293 #webform-component-if-you-are-nominating-someone-for-the-board-please-provide--phone-number {
+	clear:none !important;
+}
+
+.page-node-5293 #webform-component-name,
+.page-node-5293 #webform-component-graduation-year,
+.page-node-5293 #webform-component-home-phone,
+.page-node-5293 #webform-component-business-phone,
+.page-node-5293 #webform-component-job-title,
+.page-node-5293 #webform-component-if-you-are-nominating-someone-for-the-board-please-provide--your-name {
+	margin-right:20px;
+}
+
+.page-node-5293 #webform-component-if-you-are-nominating-someone-for-the-board-please-provide {
+	clear:both;
+}
+
+
+/* Alumni Award Nomination Form - Internal*/
+
+#block-webform-client-block-6086 h2.block-title {
+	font-size:2em;
+
+}
+
+#block-webform-client-block-6086 #webform-component-name,
+#block-webform-client-block-6086 #webform-component-spouses-name,
+#block-webform-client-block-6086 #webform-component-name-nominator,
+#block-webform-client-block-6086 #webform-component-phone-nominator {
+	clear:left !important;	
+}
+
+#block-webform-client-block-6086 #webform-component-title,
+#block-webform-client-block-6086 #webform-component-phone,
+#block-webform-client-block-6086 #webform-component-fax,
+#block-webform-client-block-6086 #webform-component-email,
+#block-webform-client-block-6086 #webform-component-home-phone,
+#block-webform-client-block-6086 #webform-component-title-nominator,
+#block-webform-client-block-6086 #webform-component-fax-nominator,
+#block-webform-client-block-6086 #webform-component-email-nominator {
+	clear:none !important;	
+}
+
+#block-webform-client-block-6086 #webform-component-name,
+#block-webform-client-block-6086 #webform-component-phone,
+#block-webform-client-block-6086 #webform-component-fax,
+#block-webform-client-block-6086 #webform-component-spouses-name,
+#block-webform-client-block-6086 #webform-component-name-nominator,
+#block-webform-client-block-6086 #webform-component-phone-nominator,
+#block-webform-client-block-6086 #webform-component-fax-nominator {
+	margin-right:16px;
+}
+
+
+/* Alumni Award Nomination Form - Public*/
+
+#block-webform-client-block-6269 h2.block-title {
+	font-size:2em;
+
+}
+
+#block-webform-client-block-6269 #webform-component-name,
+#block-webform-client-block-6269 #webform-component-spouses-name,
+#block-webform-client-block-6269 #webform-component-name-nominator,
+#block-webform-client-block-6269 #webform-component-phone-nominator {
+	clear:left !important;	
+}
+
+#block-webform-client-block-6269 #webform-component-title,
+#block-webform-client-block-6269 #webform-component-phone,
+#block-webform-client-block-6269 #webform-component-fax,
+#block-webform-client-block-6269 #webform-component-email,
+#block-webform-client-block-6269 #webform-component-home-phone,
+#block-webform-client-block-6269 #webform-component-title-nominator,
+#block-webform-client-block-6269 #webform-component-fax-nominator,
+#block-webform-client-block-6269 #webform-component-email-nominator {
+	clear:none !important;	
+}
+
+#block-webform-client-block-6269 #webform-component-name,
+#block-webform-client-block-6269 #webform-component-phone,
+#block-webform-client-block-6269 #webform-component-fax,
+#block-webform-client-block-6269 #webform-component-spouses-name,
+#block-webform-client-block-6269 #webform-component-name-nominator,
+#block-webform-client-block-6269 #webform-component-phone-nominator,
+#block-webform-client-block-6269 #webform-component-fax-nominator {
+	margin-right:16px;
+}
+
+
+/* Visit the college page */
+
+#webform-client-form-6327 #webform-component-first-name,
+#webform-client-form-6327 #webform-component-last-name,
+#webform-client-form-6327 #webform-component-middle-initial{
+  float:left;
+	clear:none !important;	
+}
+
+#webform-client-form-6327 #webform-component-first-name,
+#webform-client-form-6327 #webform-component-middle-initial,
+#webform-client-form-6327 #webform-component-last-name,
+#webform-client-form-6327 #webform-component-address
+{
+	margin-right:16px;	
+}
+
+
+
+/* Request info page */
+
+#webform-client-form-6436 #webform-component-city,
+#webform-client-form-6436 #webform-component-state,
+#webform-client-form-6436 #webform-component-zip-code {
+	clear:none !important;	
+}
+
+#webform-client-form-6436 #webform-component-city,
+#webform-client-form-6436 #webform-component-state {
+	margin-right:16px;	
+}
+
+/* ProSTAR contact page */
+
+#webform-client-form-6617 #webform-component-first-name,
+#webform-client-form-6617 #webform-component-last-name,
+#webform-client-form-6617 #webform-component-email,
+#webform-client-form-6617 #webform-component-phone {
+	clear:none !important;	
+}
+
+#webform-client-form-6617 #webform-component-first-name,
+#webform-client-form-6617 #webform-component-email {
+	margin-right:16px;	
+}
+
+
+/* College Degree Inquiry Forms*/
+#block-webform-client-block-10182{
+min-width: 300px;
+}
+#block-webform-client-block-10182 #webform-component-first-name,
+#block-webform-client-block-10182 #webform-component-middle-initial,
+#block-webform-client-block-10182 #webform-component-last-name,
+#block-webform-client-block-10182 #webform-component-ill-be-a {
+	clear:none !important;
+}
+#block-webform-client-block-10182 #webform-component-first-name,
+#block-webform-client-block-10182 #webform-component-middle-initial,
+#block-webform-client-block-10182 #webform-component-enroll-date {
+	padding-right:10px;
+}
+#block-webform-client-block-10182 #webform-component-middle-initial #edit-submitted-middle-initial {
+	width:20px;
+}
+#block-webform-client-block-10182 #webform-component-state #edit-submitted-state {
+	width:28px;
+}
+
+#block-webform-client-block-10182 .form-item-submitted-date-of-birth-month,
+#block-webform-client-block-10182 .form-item-submitted-date-of-birth-day {
+	padding-right:11px;
+}
+
+#block-webform-client-block-10182 .form-item, 
+#block-webform-client-block-10182 .form-action {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#block-webform-client-block-10182 {
+	font-weight:normal !important;
+}
+#block-webform-client-block-10182 #edit-actions {
+	clear:both;
+}
+
+/* hide visit checkbox on all AT majors and grad degrees */
+
+.page-node-328 #webform-component-visit,
+.page-node-9565 #webform-component-visit,
+.page-node-9597 #webform-component-visit,
+.page-node-9631 #webform-component-visit,
+.page-node-321 #webform-component-visit,
+.page-node-393 #webform-component-visit,
+.page-node-9675 #webform-component-visit,
+.page-node-522 #webform-component-visit,
+.page-node-357 #webform-component-visit,
+.page-node-714 #webform-component-visit,
+.page-node-718 #webform-component-visit,
+.page-node-6662 #webform-component-visit,
+.page-node-1317 #webform-component-visit,
+.page-node-730 #webform-component-visit {
+  display:none;
+}
+
+/* Dean's scholarship webform accept form */
+
+.page-node-10315 #webform-component-first-name,
+.page-node-10315 #webform-component-middle-initial,
+.page-node-10315 #webform-component-last-name
+{
+	display: block;
+	float: left;
+	margin-right:10px;
+	clear:none;
+}
+
+
+/*End Webform Customizations*/
+
+/*removes all working spinner graphics on all auto look-up submit form fields */
+.form-autocomplete {
+background:#ffffff !important;}
+
+
+#edit-submit-search-people .form-submit {
+	margin-top:5px !important;
+}

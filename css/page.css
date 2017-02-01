@@ -1,0 +1,481 @@
+/* Page */
+body {
+	background-color:#fdfdfd;
+}
+
+/*Hide H1 tags on landing page content types */
+body.page-type-department-option-landing-page h1,
+body.page-type-degree-option.section-degrees h1,
+body.page-type-landing-page h1,
+body.page-type-center-landing-page h1,
+body.page-type-landing-page .article-landing-page,
+body.page-user #page-title,
+body.page-type-landing-page-for-other h1
+ {
+  display:none;
+}
+body.page-type-degree-option h1.article-title {
+	display:block;
+}
+
+/*Hide H1 tags on section landing pages with sub content*/
+.page-node-2 h1, /*Office-of-Marketing-Communications*/
+.page-node-13 h1, /*about*/
+.page-node-14 h1, /*degrees*/
+.page-node-340 h1, /*departments*/
+.page-node-339 h1, /*statewide-locations*/
+.page-node-576 #page-title, /*courses*/
+.page-node-679 h1, /*Newsroom*/
+.page-node-708 h1, /*centers*/
+.page-node-739 h1, /*camps*/
+.page-node-740 h1, /*Homepage (front)*/
+.page-node-782 h1, /*facilities*/
+.page-node-1024 h1, /*office-of-dean*/
+.page-node-1079 h1, /*research/research-grants*/
+.page-node-1312 h1, /*marcomm-service-queue*/
+.page-node-1533 h1, /*research*/
+.page-node-2041 h1, /*Diversity*/
+.page-node-3898 h1, /*Academic Affairs*/
+.page-node-4149 h1, /*office-of-advancement*/
+.page-node-4729 h1, /*recruiters-and-partners*/
+.page-node-5429 h1, /*employment-opportunities*/
+.page-node-5469 h1, /*Alumni Profile*/
+.page-node-9280 h1, /*degrees/a-z*/
+.page-node-9266 h1, /*degrees/department*/
+.page-node-9272 h1, /*degrees/location*/
+.page-node-9267 h1, /*degrees/subject-areas*/
+.page-node-9340 h1, /*about/office-of-dean/blog*/
+.page-node-10315 h1, /*yield scholarship Accept page*/
+.page-node-10316 h1, /*yield scholarship Confirm page*/
+.page-node-10553 h1, /*brand guide*/
+.page-node-11498 h1, /*Globalization design your global experience page with graphic title*/
+.page-node-10666 h1 /*US News STEM Solutions Conference*/
+{
+  height: 0;
+  position: relative;
+  overflow: hidden;
+  bottom: 1000px;
+}
+
+/* Header */
+#page > header {}
+#logo {
+  margin: 0px;
+}
+#page > header > hgroup {
+  margin: 0 10px;
+}
+#site-name {}
+#site-name a    {}
+#site-name a:visited {}
+#site-name a:hover   {}
+#site-name a:focus   {}
+#site-name a:active  {}
+#site-slogan {}
+
+/* Header & footer Styles */
+#leaderboard-wrapper {
+	background-color:#000000;
+}
+
+/* -- Global menu styling for tech15--*/
+#global-menu-bar {
+	background-color:#e3ae24;
+	line-height:0;
+	padding:4px 0px;
+}
+
+
+#global-menu-bar.a {height:100%;}
+
+
+/* 3rd column of regions now in footer!! */
+.region-footer {
+	padding:20px 0px;
+	text-align:left;
+	font-size:.8rem;
+}
+
+.region-footer, .region-footer a, .region-footer a:visited, .region-footer a:link{
+	color:#eeeeee;
+	text-decoration:none;
+}
+.region-footer a:hover{
+	color:#e3ae24;
+	text-decoration:none;
+}
+.region-footer img {
+	margin:0 0px 10px 0px;
+}
+.region-footer .social-icons img {
+	margin:0 7px 10px 7px;
+}
+.region-footer .tright {
+	border-right:solid 1px #e3ae24;
+	padding-right:10px;
+}
+.region-footer .tleft {
+	border-left:solid 1px #e3ae24;
+	padding-left:10px;
+}
+
+#footer-wrapper {
+	background-color:#171717;
+}
+
+#bottom {
+	background-color:#3b3b3b;
+	color:#ccc;
+	font-size:.8rem;
+	padding:20px 0px;
+}
+#bottom a:link, 
+#bottom a:visited, 
+#bottom a:hover {
+	color:#ccc;
+	text-decoration:underline;
+}
+
+
+
+#main-content {
+	padding-bottom:20px;
+}
+
+
+#header-wrapper, #shadow2 {
+  background-color: #f5f5f5;
+  background-image:none; 
+}
+
+#header-wrapper {
+  height:auto;
+  overflow:hidden;
+  border-bottom:1px solid #eee;
+}
+
+#header-wrapper p, #header-wrapper #block-views-site-section-title-block-2 a {
+	color:#666;
+}
+
+/*hide header wrapper on first level pages where it looks funny: diversity, alumni and friends, academic affairs, etc.*/
+.page-node-3898 #header-wrapper,
+.page-node-1529 #header-wrapper,
+.page-node-2041 #header-wrapper,
+.page-node-13 #header-wrapper,
+.page-node-679 #header-wrapper,
+.page-node-708 #header-wrapper,
+.page-node-782 #header-wrapper,
+.page-node-1533 #header-wrapper,
+.page-node-339 #header-wrapper,
+.page-node-340 #header-wrapper,
+.page-node-1312 #header-wrapper,
+.page-node-3019 #header-wrapper,
+.page-node-1392 #header-wrapper,
+.page-node-739 #header-wrapper {
+	display:none;
+}
+  
+nav ul.menu li a:hover, nav ul.menu li a:focus, nav ul.menu li a:active, nav ul.menu li.active-trail a, #nav-wrapper  {
+  border-color:#f4d073;}
+
+#shadow2 {
+    height:8px;
+	display:none;
+}
+
+
+
+body {
+	/*background-color:#405375;*/
+	
+}
+
+
+
+#leaderboard-logo{
+    float:left;
+    width:164px;
+    line-height: 0;
+}
+
+
+/* Regions */
+.region-leaderboard {
+    float:left;
+    line-height:0px;
+}
+
+
+.region-leaderboardtopmenu ul,
+.region-leaderboardtopmenu li,
+.region-leaderboardtopmenu a {
+   margin:5px 0px 7px 10px;
+   display:inline;
+   
+}
+
+.region-leaderboardtopmenu{
+    float:right;
+}
+.region-global-menu-bar.right {
+	float:right;
+}
+.region-leaderboardsearchmenu{
+    float:right;
+}
+.region-leaderboardbottommenu{
+	padding-top:5px;
+    clear:right;
+    float:right;
+}
+.region-header {height:auto;}
+.region-secondary-content {}
+.region-highlighted {}
+.region-content-aside {}
+.region-tertiary-content {}
+.region-footer {}
+
+/* Sidebars */
+.sidebar {}
+.region-sidebar-first {}
+.region-sidebar-second {
+	margin-top:20px;
+	
+	}
+
+/* Footer - the main page footer only */
+#page > footer {}
+
+/* Feed icons */
+#feed-icons {}
+#feed-icons .feed-icon {}
+#feed-icons .feed-icon img {}
+#feed-icons a.feed-icon {}
+
+/* Search results list. */
+.search-results {}
+.search-results .search-result {}
+.search-results .title {}
+.search-results .search-snippet-info {}
+.search-results p {}
+.search-results .search-snippet {}
+.search-results .search-info {}
+
+span.search-info-type {}
+span.search-info-user {}
+span.search-info-date {}
+span.search-info-comment {}
+span.search-info-upload  {}
+
+/* Aggregator */
+.feed-item {}
+.feed-item header {}
+.feed-item-title {}
+.feed-item-meta {}
+.feed-item .content {}
+.feed-item footer {}
+.feed-source {}
+.feed-description {}
+
+/* Maintenance page */
+.maintenance-page #skip-link {
+  position: absolute;
+  top: -99em;
+}
+.maintenance-page footer {
+  margin: 10px 0 0;
+}
+.maintenance-page footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* Prevent overflowing content */
+header[role=banner],
+.content-inner,
+.nav,
+.region-sidebar-first,
+.region-sidebar-second,
+.region-secondary-content,
+.region-tertiary-content,
+.region-footer {
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+/***********************************************************/
+/***********************************************************/
+/* ADMINISTRATION STYLING - hide fields for node add*/
+/***********************************************************/
+/***********************************************************/
+
+
+/* Hide Edit button on Newsroom for Authenticated user */
+.page-node-679.role-authenticated-user #tasks {
+	display:none;
+}
+
+/* Show Edit button on Newsroom for Website Hero user */
+.page-node-679.role-Website-Hero #tasks {
+	display:inherit !important;
+}
+
+/* Hide fields on Issue content type for Authenticated user */
+.page-node-1319.role-authenticated-user #content h2,
+.page-node-1319.role-authenticated-user #edit-workbench-access,
+.page-node-1319.role-authenticated-user #edit-field-status,
+.page-node-1319.role-authenticated-user #edit-field-priority,
+.page-node-1319.role-authenticated-user .vertical-tabs,
+.page-node-1319.role-authenticated-user .filter-wrapper,
+.page-node-1319.role-authenticated-user .ckeditor_links ,
+.page-node-1319.role-authenticated-user #edit-field-assigned-to,
+.page-node-1319.role-authenticated-user #edit-field-issue-collaborators,
+.page-node-1319.role-authenticated-user #edit-field-internal-notes,
+.page-node-1319.role-authenticated-user #edit-field-client,
+.page-node-1319.role-authenticated-user .description,
+.page-node-1319.role-authenticated-user #edit-field-estimated-time-spent {
+	display:none !important;
+}
+
+/* Hide fields on Issue content type for Authenticated user on brand guide assistance page */
+.page-node-10556.role-authenticated-user #content h2,
+.page-node-10556.role-authenticated-user #edit-workbench-access,
+.page-node-10556.role-authenticated-user #edit-field-status,
+.page-node-10556.role-authenticated-user #edit-field-priority,
+.page-node-10556.role-authenticated-user .vertical-tabs,
+.page-node-10556.role-authenticated-user .filter-wrapper,
+.page-node-10556.role-authenticated-user .ckeditor_links ,
+.page-node-10556.role-authenticated-user #edit-field-assigned-to,
+.page-node-10556.role-authenticated-user #edit-field-issue-collaborators,
+.page-node-10556.role-authenticated-user #edit-field-internal-notes,
+.page-node-10556.role-authenticated-user #edit-field-client,
+.page-node-10556.role-authenticated-user .description,
+.page-node-10556.role-authenticated-user #edit-field-estimated-time-spent {
+	display:none !important;
+}
+
+/* Hide text format settings on comments on Issue content type */
+.page-type-issue .filter-wrapper {
+	display:none;	
+}
+
+/* Show fields on Issue content type for Issue Editor */
+.page-node-1319.role-Issue-Editor #edit-field-status,
+.page-node-1319.role-Issue-Editor #edit-field-priority,
+.page-node-1319.role-Issue-Editor #edit-field-assigned-to,
+.page-node-1319.role-Issue-Editor #edit-field-issue-collaborators,
+.page-node-1319.role-Issue-Editor #edit-field-client,
+.page-node-1319.role-Issue-Editor #edit-field-internal-notes,
+.page-node-1319.role-Issue-Editor #edit-field-estimated-time-spent {
+	display:inherit !important;
+}
+
+/* Show Admin fields on Individual Issue for Issue Editors */
+.page-type-issue.role-Issue-Editor #block-views-issue-queue-block-5 {
+	background-color:#FFFFCC;
+	padding:10px;
+}
+
+
+#comments {
+	padding:5px;
+}
+
+/* Hide fields for report news add form */
+.page-node-736 #content .block-title,
+.page-node-736 .field-name-field-tags,
+.page-node-736 .filter-wrapper,
+.page-node-736 .field-name-field-slider-image,
+.page-node-736 .field-name-field-slider-image-no-link,
+.page-node-736 .field-name-field-category-sitewide-news,
+.page-node-736 .field-name-field-department-reference,
+.page-node-736 .field-name-field-location-reference,
+.page-node-736 .field-name-field-category-center,
+.page-node-736 .field-name-field-category-other,
+.page-node-736 .field-name-field-user,
+.page-node-736 .vertical-tabs,
+.page-node-736 .field-name-field-featured-image,
+.page-node-736 .field-name-field-thumbnail {
+	display:none;
+
+}
+
+/* Hide fields for report event add form */
+.page-node-4651 .vertical-tabs {
+	display:none;
+
+}
+
+/* Style add new comment button on issue queue */
+.page-type-issue nav.clearfix {
+	display: none;
+}
+
+.page-type-issue nav.clearfix a {
+	color:#FFF;
+}
+
+/* Style comments display */
+
+#comments {
+	float:left;
+	width:100%;
+}
+
+#comments .user-picture {
+	float:left;
+	width:18%;
+	padding:10px;
+}
+
+#comments .user-picture img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#comments .content {
+	float:left;
+	width:75%;
+	padding-top:10px;
+}
+
+#comments .submitted {
+	font-size:.8em;
+}
+
+#comments ul.links {
+	clear:both;
+	margin-right:20px;
+}
+
+/*Hides create new child links for non-admin users who have access to view children pages*/
+.newchild {display:none; clear:both;}
+.role-Website-Hero .newchild, 
+.role-Super-Editor .newchild {display:inherit;}
+
+
+/*hide page skin for colorbox on MS in TLI BIRS page for course links*/
+.page-node-6518 #colorbox #leaderboard-wrapper,
+.page-node-6518 #colorbox #header-wrapper,
+.page-node-6518 #colorbox #footer-wrapper,
+.page-node-6518 #colorbox #quickset-mobile_accordion_menu { 
+	display:none !important;
+}
+
+/*Newsletter page styling*/
+body.page-type-newsletter .container {max-width:480px;}
+
+/*Homepage temporary styling*/
+.header-3col h2 {
+	font-size:1rem !important;
+	padding-top:0px !important;
+	margin:0;
+}
+
+.header-3col li a {
+	font-size:0.9rem !important;
+	text-transform:none !important;
+}
+	
