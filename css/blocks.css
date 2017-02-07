@@ -7,6 +7,9 @@ HTML elements and regions are a separate file!
 .block-inner-inner {
 	padding:0 10px;
 }
+.block-inner-wide {
+	padding:0 20px;
+}
 .full-width-container #block-system-main > div:first-child {
   margin:0;
 }
@@ -58,6 +61,9 @@ General margin and padding classes for block IDs
 .margin-bottom-large {
   margin-bottom: 40px;
 }
+.margin-left-small {
+  margin-left: 10px;
+}
 
 .padding-top-none {
   padding-top: 10px;
@@ -83,6 +89,7 @@ General margin and padding classes for block IDs
 .padding-bottom-large {
   padding-bottom: 40px;
 }
+
 
 
 .padding-small {
@@ -174,6 +181,11 @@ Boxes and Text colors
 .dark-gray-link a, .dark-gray-link a:visited {color:#333;}
 .dark-gray-link a:hover {color:#a3792c;}
 
+a.dark-gray-link, a.dark-gray-link:visited {color:#333;}
+a.dark-gray-link:hover {color:#a3792c;}
+
+
+/*indline buttons*/
 .highlight-link-white-a30 {
     background: rgba(255,255,255,.3);
     border: 1px solid #fff;
@@ -186,6 +198,20 @@ Boxes and Text colors
     background: rgba(255,255,255,.7);
     color: #333333;
 }
+
+.highlight-link-black-a10 {
+    background: rgba(0,0,0,.1);
+    border: 1px solid #cccccc;
+    color: #000000;
+    margin: 10px 0;
+    padding: 7px 10px;
+    display:inline-block;
+}
+.highlight-link-black-a10:hover {
+    background: rgba(0,0,0,.7);
+    color: #ffffff;
+}
+
 
 /* Image Styles */
 .img-circle, .img-circle > a > img {
