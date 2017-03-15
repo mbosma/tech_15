@@ -80,9 +80,8 @@ body.page-type-degree-option h1.article-title {
 
 /* -- Global menu styling for tech15--*/
 #global-menu-bar {
-	background-color:#e3ae24;
+	background-color:#98700d;
 	line-height:0;
-	padding:4px 0px;
 }
 
 
@@ -101,7 +100,7 @@ body.page-type-degree-option h1.article-title {
 	text-decoration:none;
 }
 .region-footer a:hover{
-	color:#e3ae24;
+	color:#c2972e;
 	text-decoration:none;
 }
 .region-footer img {
@@ -111,11 +110,11 @@ body.page-type-degree-option h1.article-title {
 	margin:0 7px 10px 7px;
 }
 .region-footer .tright {
-	border-right:solid 1px #e3ae24;
+	border-right:solid 1px #c2972e;
 	padding-right:10px;
 }
 .region-footer .tleft {
-	border-left:solid 1px #e3ae24;
+	border-left:solid 1px #c2972e;
 	padding-left:10px;
 }
 

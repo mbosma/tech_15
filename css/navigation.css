@@ -1,13 +1,13 @@
 /* CSS for major navigation elements such as menus, pager, superfish etc */
 
 a {text-decoration: none;}
-a:link    {color:#a3792c;}
-a:visited {color:#a3792c;}
+a:link    {color:#98700d;}
+a:visited {color:#98700d;}
 a:hover   {text-decoration:underline;}
 a:active  {}
 a.active  {}
-a:link    {color:#a3792c;}
-a:visited {color:#a3792c;}
+a:link    {color:#98700d;}
+a:visited {color:#98700d;}
 
 /**.field-items ul li {
 	margin-left:20px;
@@ -43,7 +43,7 @@ a:focus {}
 .region-global-menu-bar a:visited,
 .region-global-menu-bar a:link,
 .region-global-menu-bar {
-    color:#f9f9f9;
+    color:#ffffff;
 }
 .region-global-menu-bar #superfish-4 a:visited,
 .region-global-menu-bar #superfish-4 a:link,

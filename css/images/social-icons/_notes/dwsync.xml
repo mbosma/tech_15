@@ -5,7 +5,6 @@
 <file name="instagram.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635864728811" remote="130673638700000000" Dst="1" />
 <file name="linkedin.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635865098832" remote="130673638700000000" Dst="1" />
 <file name="rss.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635868049001" remote="130673638700000000" Dst="1" />
-<file name="Thumbs.db" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635868679037" remote="130673638700000000" Dst="1" />
 <file name="twitter.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635869279071" remote="130673638700000000" Dst="1" />
 <file name="youtube.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635869439080" remote="130673638700000000" Dst="1" />
 <file name="facebook.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653604225026" remote="130609731610000000" Dst="1" />
@@ -13,7 +12,6 @@
 <file name="instagram.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653604435038" remote="130609731610000000" Dst="1" />
 <file name="linkedin.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653604515043" remote="130609731610000000" Dst="1" />
 <file name="rss.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653604625049" remote="130609731610000000" Dst="1" />
-<file name="Thumbs.db" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653604775058" remote="130609731610000000" Dst="1" />
 <file name="twitter.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653604865063" remote="130609731610000000" Dst="1" />
 <file name="youtube.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653604995070" remote="130609731610000000" Dst="1" />
 <file name="facebook.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635864408793" remote="130754793410000000" Dst="2" />
@@ -21,7 +19,6 @@
 <file name="instagram.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635864728811" remote="130754793420000000" Dst="2" />
 <file name="linkedin.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635865098832" remote="130754793420000000" Dst="2" />
 <file name="rss.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635868049001" remote="130754793420000000" Dst="2" />
-<file name="Thumbs.db" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635868679037" remote="130754793420000000" Dst="2" />
 <file name="twitter.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635869279071" remote="130754793420000000" Dst="2" />
 <file name="youtube.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635869439080" remote="130754793420000000" Dst="2" />
 <file name="facebook.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635864408793" remote="130755064640000000" Dst="2" />
@@ -29,7 +26,7 @@
 <file name="instagram.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635864728811" remote="130755064640000000" Dst="2" />
 <file name="linkedin.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635865098832" remote="130755064640000000" Dst="2" />
 <file name="rss.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635868049001" remote="130755064640000000" Dst="2" />
-<file name="Thumbs.db" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635868679037" remote="130755064640000000" Dst="2" />
 <file name="twitter.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635869279071" remote="130755064640000000" Dst="2" />
 <file name="youtube.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635869439080" remote="130755064640000000" Dst="2" />
+<file name="Thumbs.db" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130755100640000000" remote="130755100640000000" Dst="1" />
 </dwsync>

@@ -11,7 +11,6 @@
 <file name="page-bkg-2.png" server="O:/public_html/" local="129799178990000000" remote="129799178990000000" Dst="-1" />
 <file name="header-bkg2.jpg" server="O:/public_html/" local="129787961830000000" remote="129787961830000000" Dst="-1" />
 <file name="slider-next.png" server="O:/public_html/" local="129773507350000000" remote="129773507350000000" Dst="-1" />
-<file name="Thumbs.db" server="O:/public_html/" local="129895201600000000" remote="129895201600000000" Dst="-1" />
 <file name="sidebar-background.png" server="O:/public_html/" local="129889915230000000" remote="129889915230000000" Dst="-1" />
 <file name="leader-board-bkg-lines.png" server="O:/public_html/" local="129866621380000000" remote="129866621380000000" Dst="-1" />
 <file name="default_profile.jpg" server="O:/public_html/" local="129947843170000000" remote="129947843170000000" Dst="-1" />
@@ -53,7 +52,6 @@
 <file name="small-arrow.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635862658693" remote="130673638700000000" Dst="1" />
 <file name="snow.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635862908707" remote="130673638700000000" Dst="1" />
 <file name="tech-wordmark.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635869719096" remote="130673638700000000" Dst="1" />
-<file name="Thumbs.db" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635869939109" remote="130673638700000000" Dst="1" />
 <file name="degrees-background.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635817276097" remote="130673638680000000" Dst="1" />
 <file name="header-background.jpg" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635832306957" remote="130673638680000000" Dst="1" />
 <file name="header-banner.jpg" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130673635835197122" remote="130673638680000000" Dst="1" />
@@ -92,7 +90,6 @@
 <file name="small-arrow.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653603895008" remote="130609731610000000" Dst="1" />
 <file name="snow.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653604045016" remote="130609731610000000" Dst="1" />
 <file name="tech-wordmark.png" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653605325089" remote="130609731610000000" Dst="1" />
-<file name="Thumbs.db" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653605535101" remote="130609731610000000" Dst="1" />
 <file name="world-bg.jpg" server="ldvwebcot01.www.purdue.edu//var/www/html/root/cot/" local="130609653605815117" remote="130609731610000000" Dst="1" />
 <file name="gray-bkg-lines.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130680691507448491" remote="130680691350000000" Dst="1" />
 <file name="gray-bkg-lines-hover.png" server="lpvwebcot01.itap.purdue.edu//var/www/html/root/cot/" local="130680696518085083" remote="130680696320000000" Dst="1" />
@@ -134,7 +131,6 @@
 <file name="small-arrow.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635862658693" remote="130754793430000000" Dst="2" />
 <file name="snow.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635862908707" remote="130754793430000000" Dst="2" />
 <file name="tech-wordmark.png" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635869719096" remote="130754793430000000" Dst="2" />
-<file name="Thumbs.db" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635869939109" remote="130754793430000000" Dst="2" />
 <file name="world-bg.jpg" server="ldvwebcot02.www.purdue.edu//var/www/html/root/cot/" local="130673635870399135" remote="130754793430000000" Dst="2" />
 <file name="apply-now.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635815646004" remote="130755064610000000" Dst="2" />
 <file name="available-at-location2.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635816096029" remote="130755064610000000" Dst="2" />
@@ -166,12 +162,12 @@
 <file name="search-icon.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635860848589" remote="130755064640000000" Dst="2" />
 <file name="sidebar-background.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635860958595" remote="130755064640000000" Dst="2" />
 <file name="slider-next.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635861958653" remote="130755064640000000" Dst="2" />
-<file name="slider-next2.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="131249914469657508" remote="131249912850000000" Dst="1" />
+<file name="slider-next2.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="131249912850000000" remote="131249912850000000" Dst="1" />
 <file name="slider-previous.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635862408678" remote="130755064640000000" Dst="2" />
-<file name="slider-previous2.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="131249918985065774" remote="131249916560000000" Dst="1" />
+<file name="slider-previous2.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="131249916560000000" remote="131249916560000000" Dst="1" />
 <file name="small-arrow.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635862658693" remote="130755064640000000" Dst="2" />
 <file name="snow.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635862908707" remote="130755064640000000" Dst="2" />
 <file name="tech-wordmark.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635869719096" remote="130755064640000000" Dst="2" />
-<file name="Thumbs.db" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635869939109" remote="130755064640000000" Dst="2" />
 <file name="world-bg.jpg" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635870399135" remote="130755064640000000" Dst="2" />
+<file name="Thumbs.db" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130755100640000000" remote="130755100640000000" Dst="1" />
 </dwsync>

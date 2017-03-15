@@ -78,10 +78,10 @@
 <file name="node--restricted-access-basic-page.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130874905840000000" remote="130874905840000000" Dst="2" />
 <file name="node.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635879679666" remote="130755064650000000" Dst="2" />
 <file name="page-pre2014.06.25.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635886210040" remote="130755064650000000" Dst="2" />
-<file name="page.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="131251772980348239" remote="131251770380000000" Dst="1" />
+<file name="page.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="131251770380000000" remote="131251770380000000" Dst="1" />
 <file name="screenshot.png" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635888160151" remote="130755064650000000" Dst="2" />
 <file name="search-result.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635889170209" remote="130755064650000000" Dst="2" />
-<file name="tech_15.info" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="131159337093132548" remote="131159336610000000" Dst="2" />
+<file name="tech_15.info" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="131159372610000000" remote="131159372610000000" Dst="1" />
 <file name="template.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130729812143977217" remote="130755064650000000" Dst="2" />
 <file name="theme-settings.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635889790244" remote="130755064650000000" Dst="2" />
 <file name="user-profile--user-full-name.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635889940253" remote="130755064650000000" Dst="2" />
@@ -89,5 +89,5 @@
 <file name="views-view-unformatted--admissions-pages-for-statewide-student-services.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635890180267" remote="130755064650000000" Dst="2" />
 <file name="views-view-unformatted--degree-advisory-contacts.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635890630293" remote="130755064650000000" Dst="2" />
 <file name="views-view-unformatted--research-interests-from-directory.tpl.php" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130673635890790302" remote="130755064650000000" Dst="2" />
-<file name="README.txt" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130755064650000000" remote="130755064650000000" Dst="2" />
+<file name="README.txt" server="lpvwebcot02.itap.purdue.edu//var/www/html/root/cot/" local="130755100650000000" remote="130755100650000000" Dst="1" />
 </dwsync>

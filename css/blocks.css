@@ -165,6 +165,7 @@ Boxes and Text colors
 .text-polytechnic-off-white { color: #fdfdfd; }
 .text-white { color: #ffffff; }
 .text-polytechnic-yellow { color: #e3ae27; }
+.text-bronze { color: #98700d; }
 #content .off-white-link a, 
 #content .off-white-link a:visited, 
 #content .off-white-link,
@@ -184,6 +185,11 @@ Boxes and Text colors
 a.dark-gray-link, a.dark-gray-link:visited {color:#333;}
 a.dark-gray-link:hover {color:#a3792c;}
 
+.light-gray-link a, .light-gray-link a:visited {color:#bbb;}
+.light-gray-link a:hover {color:#fff;}
+
+a.light-gray-link, a.light-gray-link:visited {color:#bbb;}
+a.light-gray-link:hover {color:#fff;}
 
 /*indline buttons*/
 .highlight-link-white-a30 {
@@ -1344,10 +1350,10 @@ a .caption {
 
 #edit-search-block-form--2 {
     border: 1px solid #d1d1d1;
-    color: #bebebe;
+    color: #6c6c6c;
 	font-size:0.9rem;
     width: 150px;
-    padding: 6px 15px 5px 15px !important;
+    padding: 4px 15px 4px 15px !important;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -1366,7 +1372,7 @@ a .caption {
     }
 
 #search-block-form {
-	padding-top: 3px !important;
+	padding-top: 4px !important;
 }
 
 /* New Degrees Page Filtering */

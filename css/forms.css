@@ -642,8 +642,10 @@ min-width: 300px;
 	width:28px;
 }
 
+#block-webform-client-block-10182 .form-item-submitted-date-of-birth-year,
 #block-webform-client-block-10182 .form-item-submitted-date-of-birth-month,
 #block-webform-client-block-10182 .form-item-submitted-date-of-birth-day {
+	float:left;
 	padding-right:11px;
 }
 
