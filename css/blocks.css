@@ -13,6 +13,10 @@ HTML elements and regions are a separate file!
 .full-width-container #block-system-main > div:first-child {
   margin:0;
 }
+.narrow p, .narrow h2, .narrow ul {
+  padding-left: 15%;
+  padding-right: 15%;
+}
 .block {
   margin-bottom: 0px;
 }
